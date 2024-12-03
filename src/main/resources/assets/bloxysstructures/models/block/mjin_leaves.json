@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bloxysstructures:block/mjin_leaves",
+    "particle": "bloxysstructures:block/mjin_leaves"
+  }
+}

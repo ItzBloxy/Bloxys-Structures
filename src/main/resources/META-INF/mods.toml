@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="bloxysstructures"
+version="1.16.0"
+displayName="BloxysStructures"
+displayURL="https://mcreator.net"
+credits="Created using mod maker MCreator - https://mcreator.net/about - Thank you to (ItsJustKen on PlanetMinecraft) for the permission to use the Cowlin Textures"
+authors="BloxyMath"
+description="Adds more Structures to Minecraft"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.bloxysstructures]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bloxysstructures:block/loreo_log_top",
+    "up": "bloxysstructures:block/loreo_log_top",
+    "north": "bloxysstructures:block/loreo_log_side",
+    "east": "bloxysstructures:block/loreo_log_side",
+    "south": "bloxysstructures:block/loreo_log_side",
+    "west": "bloxysstructures:block/loreo_log_side",
+    "particle": "bloxysstructures:block/loreo_log_top"
+  },
+  "render_type": "solid"
+}

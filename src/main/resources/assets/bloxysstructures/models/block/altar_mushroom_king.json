@@ -1,0 +1,12 @@
+{
+  "parent": "bloxysstructures:custom/altar_base",
+  "textures": {
+    "all": "bloxysstructures:block/princedarknessaltarblock",
+    "particle": "bloxysstructures:block/princedarknessaltarblock",
+    "1": "bloxysstructures:block/altararmorsidetx",
+    "2": "bloxysstructures:block/altararmortoptx",
+    "3": "bloxysstructures:block/mushroomkingaltaranimate",
+    "4": "bloxysstructures:block/purplemushroomblock"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "bloxysstructures:mjin_log",
+    "bloxysstructures:xiza_log",
+    "bloxysstructures:loreo_log",
+    "bloxysstructures:loreo_wood",
+    "bloxysstructures:mjin_wood",
+    "bloxysstructures:xiza_wood",
+    "bloxysstructures:verdant_wood",
+    "bloxysstructures:verdant_log"
+  ]
+}

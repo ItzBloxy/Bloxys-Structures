@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "mjin_button",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "bloxysstructures:mjin_planks"
+    }
+  ],
+  "result": {
+    "id": "bloxysstructures:mjin_button",
+    "count": 1
+  }
+}

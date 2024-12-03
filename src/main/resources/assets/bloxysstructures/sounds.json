@@ -1,0 +1,20 @@
+{
+  "shockwave": {
+    "subtitle": "subtitles.shockwave",
+    "sounds": [
+      {
+        "name": "bloxysstructures:401628__studiomandragore__explosion-pas",
+        "stream": false
+      }
+    ]
+  },
+  "cowlinlaser": {
+    "subtitle": "subtitles.cowlinlaser",
+    "sounds": [
+      {
+        "name": "bloxysstructures:lasersfx",
+        "stream": false
+      }
+    ]
+  }
+}

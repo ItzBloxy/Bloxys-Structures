@@ -1,0 +1,69 @@
+{
+  "_fv": 69,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "upgraded_bloxys_scythe",
+    "customModelName": "bloxyscythev2:default",
+    "blockingModelName": "Normal blocking",
+    "name": "Bloxy's Scythe",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:BloxysStructures"
+      }
+    ],
+    "efficiency": 6.0,
+    "attackSpeed": 1.8,
+    "enchantability": 22,
+    "damageVsEntity": 8.0,
+    "usageCount": 4062,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Blocks.CRYING_OBSIDIAN"
+      },
+      {
+        "value": "Blocks.OBSIDIAN"
+      },
+      {
+        "value": "Items.ENDER_PEARL"
+      },
+      {
+        "value": "Items.ENDER_EYE"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "DIAMOND",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "BloxysScytheRightclicked"
+    },
+    "onItemInInventoryTick": {
+      "name": "BloxysScytheToolInInventoryTick"
+    }
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "_fv": 69,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "Bloxy",
+    "mobLabel": "Bloxy",
+    "mobModelName": "Modelbloxy",
+    "mobModelTexture": "bloxytx.png",
+    "transparentModelCondition": {
+      "fixedValue": false
+    },
+    "isShakingCondition": {
+      "fixedValue": false
+    },
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
+    "modelLayers": [
+      {
+        "model": "Modelscythe1",
+        "texture": "bloxytx.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "BloxyScythe1DisplayCondition"
+        }
+      },
+      {
+        "model": "Modelscythe2",
+        "texture": "bloxytx.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "BloxyScythe2DisplayCondition"
+        }
+      },
+      {
+        "model": "Default",
+        "texture": "bloxytx_e.png",
+        "disableHurtOverlay": false,
+        "glow": true,
+        "condition": {
+          "name": "BloxyGlowDisplayCondition"
+        }
+      }
+    ],
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -10087537,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -12186270,
+      "falpha": 0.0
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:BloxysStructures"
+      }
+    ],
+    "isBoss": true,
+    "bossBarColor": "PURPLE",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 4,
+    "attackKnockback": 1.0,
+    "knockbackResistance": 0.75,
+    "movementSpeed": 0.23,
+    "stepHeight": 4.6,
+    "armorBaseValue": 2.0,
+    "trackingRange": 64,
+    "followRange": 64,
+    "health": 350,
+    "xpAmount": 16,
+    "waterMob": false,
+    "breatheUnderwater": {
+      "fixedValue": true
+    },
+    "pushedByFluids": {
+      "fixedValue": false
+    },
+    "flyingMob": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": true,
+    "immuneToArrows": false,
+    "immuneToFallDamage": true,
+    "immuneToCactus": true,
+    "immuneToDrowning": false,
+    "immuneToLightning": true,
+    "immuneToPotions": true,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": ""
+    },
+    "hurtSound": {
+      "value": "entity.generic.hurt"
+    },
+    "deathSound": {
+      "value": "entity.generic.death"
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "entityDataEntries": [
+      {
+        "name": "scythehand",
+        "type": "logic",
+        "value": false
+      },
+      {
+        "name": "scytheback",
+        "type": "logic",
+        "value": true
+      },
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "cooldown",
+        "type": "integer",
+        "value": 0
+      },
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "phase",
+        "type": "integer",
+        "value": 0
+      },
+      {
+        "name": "glowing",
+        "type": "logic",
+        "value": true
+      },
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "attack",
+        "type": "integer",
+        "value": 0
+      },
+      {
+        "name": "spawncoords",
+        "type": "string",
+        "value": ""
+      }
+    ],
+    "whenMobDies": {
+      "name": "BloxyEntityDies"
+    },
+    "whenMobIsHurt": {
+      "name": "BloxyEntityIsHurt"
+    },
+    "onMobTickUpdate": {
+      "name": "BloxyOnEntityTickUpdate"
+    },
+    "onInitialSpawn": {
+      "name": "BloxyOnInitialEntitySpawn"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_with_range\"><field name=\"range\">2</field><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"doors_break\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": false,
+    "tameable": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 20,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 4,
+    "maxNumberOfMobsPerGroup": 4,
+    "restrictionBiomes": [],
+    "spawnInDungeons": false,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ]
+  }
+}

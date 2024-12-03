@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "loreo_fence_gate",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "bloxysstructures:loreo_planks"
+    }
+  },
+  "result": {
+    "id": "bloxysstructures:loreo_fence_gate",
+    "count": 1
+  }
+}

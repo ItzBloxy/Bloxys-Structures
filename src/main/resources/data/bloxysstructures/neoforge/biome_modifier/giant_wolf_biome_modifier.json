@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "bloxysstructures:adventure_realm_plains",
+  "spawners": {
+    "type": "bloxysstructures:giant_wolf",
+    "weight": 20,
+    "minCount": 2,
+    "maxCount": 3
+  }
+}

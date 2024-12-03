@@ -1,0 +1,23 @@
+{
+  "_fv": 69,
+  "_type": "particle",
+  "definition": {
+    "texture": "adventurerealmambientparticle",
+    "animate": true,
+    "frameDuration": 5,
+    "width": 0.1,
+    "height": 0.1,
+    "scale": {
+      "fixedValue": 0.4
+    },
+    "speedFactor": 1.5,
+    "gravity": 0.1,
+    "maxAge": 10,
+    "maxAgeDiff": 5,
+    "angularVelocity": 0.0,
+    "angularAcceleration": 0.0,
+    "canCollide": false,
+    "alwaysShow": false,
+    "renderType": "OPAQUE"
+  }
+}

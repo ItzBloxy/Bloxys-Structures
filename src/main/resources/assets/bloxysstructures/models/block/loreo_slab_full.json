@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "bloxysstructures:block/loreo_planks",
+    "bottom": "bloxysstructures:block/loreo_planks",
+    "top": "bloxysstructures:block/loreo_planks",
+    "side": "bloxysstructures:block/loreo_planks"
+  },
+  "render_type": "solid"
+}

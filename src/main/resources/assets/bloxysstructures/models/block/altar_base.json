@@ -1,0 +1,12 @@
+{
+  "parent": "bloxysstructures:custom/altar_base",
+  "textures": {
+    "all": "bloxysstructures:block/cobblestone",
+    "particle": "bloxysstructures:block/cobblestone",
+    "1": "bloxysstructures:block/altararmorsidetx",
+    "2": "bloxysstructures:block/altararmortoptx",
+    "3": "bloxysstructures:block/cobblestone",
+    "4": "bloxysstructures:block/cobblestone"
+  },
+  "render_type": "cutout"
+}

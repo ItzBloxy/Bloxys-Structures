@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "bloxysstructures:block/xiza_planks",
+    "bottom": "bloxysstructures:block/xiza_planks",
+    "top": "bloxysstructures:block/xiza_planks",
+    "side": "bloxysstructures:block/xiza_planks"
+  },
+  "render_type": "solid"
+}

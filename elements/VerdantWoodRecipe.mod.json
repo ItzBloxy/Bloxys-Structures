@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:VerdantLog"
+      },
+      {
+        "value": "CUSTOM:VerdantLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:VerdantLog"
+      },
+      {
+        "value": "CUSTOM:VerdantLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:VerdantWood"
+    },
+    "name": "verdant_wood_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_fv": 69,
+  "_type": "structure",
+  "definition": {
+    "structure": "illagercastle9",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.GRASS"
+      }
+    ],
+    "spacing": 5,
+    "separation": 2,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:AdventureRealmPlains"
+      }
+    ],
+    "terrainAdaptation": "beard_box",
+    "generationStep": "UNDERGROUND_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

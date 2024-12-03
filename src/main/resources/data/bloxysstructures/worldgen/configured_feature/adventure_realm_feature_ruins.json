@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "bloxysstructures:structure_feature",
+          "config": {
+            "structure": "bloxysstructures:stonegiant1",
+            "random_rotation": true,
+            "ignored_blocks": "minecraft:air"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "bloxysstructures:structure_feature",
+          "config": {
+            "structure": "bloxysstructures:stonegiant2",
+            "random_rotation": true,
+            "ignored_blocks": "minecraft:air"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "bloxysstructures:structure_feature",
+          "config": {
+            "structure": "bloxysstructures:stoneswordmonument",
+            "random_rotation": true,
+            "ignored_blocks": "minecraft:air",
+            "offset": [
+              0,
+              -3,
+              0
+            ]
+          }
+        },
+        "placement": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 25,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "bloxysstructures:underground1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 35,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "bloxysstructures:underground2",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 35,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "bloxysstructures:underground3",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 35,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "bloxysstructures:underground4",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 35,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "bloxysstructures:underground5",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

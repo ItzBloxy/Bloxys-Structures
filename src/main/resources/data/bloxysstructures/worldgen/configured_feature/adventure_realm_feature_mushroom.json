@@ -1,0 +1,127 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "bloxysstructures:structure_feature",
+          "config": {
+            "structure": "bloxysstructures:bigmushroomblue",
+            "ignored_blocks": "minecraft:air"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "bloxysstructures:structure_feature",
+          "config": {
+            "structure": "bloxysstructures:bigmushroomgreen",
+            "ignored_blocks": "minecraft:air"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "bloxysstructures:structure_feature",
+          "config": {
+            "structure": "bloxysstructures:bigmushroompurple",
+            "ignored_blocks": "minecraft:air"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "bloxysstructures:structure_feature",
+          "config": {
+            "structure": "bloxysstructures:bigmushroomyellow",
+            "ignored_blocks": "minecraft:air"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "bloxysstructures:structure_feature",
+          "config": {
+            "structure": "bloxysstructures:mediummushroomblue",
+            "ignored_blocks": "minecraft:air"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "bloxysstructures:structure_feature",
+          "config": {
+            "structure": "bloxysstructures:mediummushroomgreen",
+            "ignored_blocks": "minecraft:air"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "bloxysstructures:structure_feature",
+          "config": {
+            "structure": "bloxysstructures:mediummushroompurple",
+            "ignored_blocks": "minecraft:air"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "bloxysstructures:structure_feature",
+          "config": {
+            "structure": "bloxysstructures:mediummushroomyellow",
+            "ignored_blocks": "minecraft:air"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "bloxysstructures:structure_feature",
+          "config": {
+            "structure": "bloxysstructures:smallmushroomblue",
+            "ignored_blocks": "minecraft:air"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "bloxysstructures:structure_feature",
+          "config": {
+            "structure": "bloxysstructures:smallmushroomgreen",
+            "ignored_blocks": "minecraft:air"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "bloxysstructures:structure_feature",
+          "config": {
+            "structure": "bloxysstructures:smallmushroompurple",
+            "ignored_blocks": "minecraft:air"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "bloxysstructures:structure_feature",
+          "config": {
+            "structure": "bloxysstructures:smallmushroomyellow",
+            "ignored_blocks": "minecraft:air"
+          }
+        },
+        "placement": []
+      }
+    ]
+  }
+}

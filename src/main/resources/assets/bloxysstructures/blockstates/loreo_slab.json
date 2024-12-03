@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "bloxysstructures:block/loreo_slab"
+    },
+    "type=top": {
+      "model": "bloxysstructures:block/loreo_slab_top"
+    },
+    "type=double": {
+      "model": "bloxysstructures:block/loreo_slab_full"
+    }
+  }
+}

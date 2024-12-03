@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "bloxysstructures:tower_spawner",
+    "bloxysstructures:altar_bloxy",
+    "bloxysstructures:altar_mushroom_king",
+    "bloxysstructures:altar_prince_of_darkness",
+    "bloxysstructures:altar_inferno_hydra",
+    "bloxysstructures:altar_base"
+  ]
+}

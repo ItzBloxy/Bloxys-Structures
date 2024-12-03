@@ -1,0 +1,12 @@
+{
+  "parent": "bloxysstructures:custom/altar_base",
+  "textures": {
+    "all": "bloxysstructures:block/bloxyaltarblocktx",
+    "particle": "bloxysstructures:block/bloxyaltarblocktx",
+    "1": "bloxysstructures:block/altararmorsidetx",
+    "2": "bloxysstructures:block/altararmortoptx",
+    "3": "bloxysstructures:block/bloxyaltaranimatetx",
+    "4": "bloxysstructures:block/bloxyaltarblocktx"
+  },
+  "render_type": "cutout"
+}

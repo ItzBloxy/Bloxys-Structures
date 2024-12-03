@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "loreo_stairs",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LoreoPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LoreoPlanks"
+      },
+      {
+        "value": "CUSTOM:LoreoPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LoreoPlanks"
+      },
+      {
+        "value": "CUSTOM:LoreoPlanks"
+      },
+      {
+        "value": "CUSTOM:LoreoPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LoreoStairs"
+    },
+    "name": "loreo_stairs_recipe_1",
+    "namespace": "mod"
+  }
+}

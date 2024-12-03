@@ -1,0 +1,129 @@
+{
+  "_fv": 69,
+  "_type": "biome",
+  "definition": {
+    "name": "Adventure Realm Plains",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "underwaterBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "grassColor": {
+      "value": -16731648,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -16738048,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -16740097,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -16741659,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "CUSTOM:AdventureRealmAmbientParticle"
+    },
+    "particlesProbability": 0.33,
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "spawnBiome": false,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "genHumidity": {
+      "min": -0.4,
+      "max": 0.6
+    },
+    "genContinentalness": {
+      "min": 0.3,
+      "max": 1.0
+    },
+    "genErosion": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genWeirdness": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "treesPerChunk": 0,
+    "vanillaTreeType": "Default",
+    "treeType": 0,
+    "minHeight": 7,
+    "treeStem": {
+      "value": ""
+    },
+    "treeBranch": {
+      "value": ""
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "defaultFeatures": [
+      "Ores",
+      "ForestGrass",
+      "ForestFlowers",
+      "AmethystGeodes",
+      "ReedsAndPumpkins"
+    ],
+    "spawnStronghold": false,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntitySniffer"
+        },
+        "minGroup": 2,
+        "maxGroup": 3,
+        "weight": 64,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}

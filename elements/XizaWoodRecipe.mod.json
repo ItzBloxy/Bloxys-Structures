@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:XizaLog"
+      },
+      {
+        "value": "CUSTOM:XizaLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:XizaLog"
+      },
+      {
+        "value": "CUSTOM:XizaLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:XizaWood"
+    },
+    "name": "xiza_wood_recipe",
+    "namespace": "mod"
+  }
+}

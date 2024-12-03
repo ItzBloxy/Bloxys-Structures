@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "bloxysstructures:block/adventure_realm_portal_ew"
+    },
+    "axis=x": {
+      "model": "bloxysstructures:block/adventure_realm_portal_ns"
+    }
+  }
+}

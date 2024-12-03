@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "bloxysstructures:block/verdant_planks",
+    "bottom": "bloxysstructures:block/verdant_planks",
+    "top": "bloxysstructures:block/verdant_planks",
+    "side": "bloxysstructures:block/verdant_planks"
+  },
+  "render_type": "solid"
+}

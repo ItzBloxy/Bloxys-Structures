@@ -1,0 +1,62 @@
+{
+  "_fv": 69,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Shield",
+    "renderType": 1,
+    "blockingRenderType": 1,
+    "texture": "shieldofinferno",
+    "customModelName": "shield_of_inferno2:default",
+    "blockingModelName": "shield_of_inferno_blocking:default",
+    "name": "Shield Of Inferno",
+    "specialInformation": {
+      "fixedValue": [
+        "- Sets attacking Entities on Fire when blocking"
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:BloxysStructures"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 8,
+    "damageVsEntity": 4.0,
+    "usageCount": 756,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.NETHERITE_SCRAP"
+      },
+      {
+        "value": "Items.EMERALD"
+      },
+      {
+        "value": "Items.LAVA_BUCKET"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "STONE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

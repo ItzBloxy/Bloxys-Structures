@@ -1,0 +1,38 @@
+{
+  "name": "bloxysstructures:ruined_adventure_realm_portal",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "bloxysstructures:ruinedadventurerealmportal",
+        "projection": "rigid",
+        "processors": {
+          "processors": [
+            {
+              "processor_type": "minecraft:block_ignore",
+              "blocks": [
+                {
+                  "Name": "minecraft:structure_block"
+                },
+                {
+                  "Name": "minecraft:structure_void"
+                },
+                {
+                  "Name": "minecraft:air"
+                },
+                {
+                  "Name": "minecraft:void_air"
+                },
+                {
+                  "Name": "minecraft:cave_air"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

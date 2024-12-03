@@ -1,0 +1,15 @@
+{
+  "parent": "bloxysstructures:custom/shield_of_inferno2",
+  "textures": {
+    "4": "bloxysstructures:block/shieldofinferno",
+    "particle": "bloxysstructures:item/shieldofinferno"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "bloxysstructures:item/shield_of_inferno_0"
+    }
+  ]
+}

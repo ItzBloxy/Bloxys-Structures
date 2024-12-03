@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bloxysstructures:block/verdant_log_top",
+    "up": "bloxysstructures:block/verdant_log_top",
+    "north": "bloxysstructures:block/verdant_log_side",
+    "east": "bloxysstructures:block/verdant_log_side",
+    "south": "bloxysstructures:block/verdant_log_side",
+    "west": "bloxysstructures:block/verdant_log_side",
+    "particle": "bloxysstructures:block/verdant_log_top"
+  },
+  "render_type": "solid"
+}

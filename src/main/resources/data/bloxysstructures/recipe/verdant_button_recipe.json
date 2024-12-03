@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "bloxysstructures:verdant_planks"
+    }
+  ],
+  "result": {
+    "id": "bloxysstructures:verdant_button",
+    "count": 1
+  }
+}

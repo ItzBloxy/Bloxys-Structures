@@ -1,0 +1,7 @@
+{
+  "parent": "bloxysstructures:custom/bloxyscythev2",
+  "textures": {
+    "2": "bloxysstructures:block/upgraded_bloxys_scythe",
+    "particle": "bloxysstructures:item/upgraded_bloxys_scythe"
+  }
+}

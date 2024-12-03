@@ -1,0 +1,27 @@
+{
+  "_fv": 69,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "Items.FIRE_CHARGE"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.blaze.shoot"
+    },
+    "igniteFire": false,
+    "power": 1.0,
+    "damage": 4.0,
+    "knockback": 1,
+    "entityModel": "Modelquantummagicorb",
+    "customModelTexture": "quantum_mage.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsPlayer": {
+      "name": "QuantamMagicOrbProjectileHitsPlayer"
+    },
+    "onFlyingTick": {
+      "name": "QuantamMagicOrbWhileProjectileFlyingTick"
+    }
+  }
+}

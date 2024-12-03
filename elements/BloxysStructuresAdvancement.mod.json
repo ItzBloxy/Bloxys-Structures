@@ -1,0 +1,62 @@
+{
+  "_fv": 69,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Bloxy's Structures",
+    "achievementDescription": "Thank you for playing Bloxy's Structures",
+    "achievementIcon": {
+      "value": "CUSTOM:AdventureRealm"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": false,
+    "announceToChat": false,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "MjinPlanksRecipe",
+      "MjinStairsRecipe1",
+      "MjinSlabRecipe",
+      "MjinButtonRecipe",
+      "MjinFenceRecipe2",
+      "MjinFenceGateRecipe1",
+      "MjinPressurePlateRecipe2",
+      "MjinWoodRecipe",
+      "LoreoWoodRecipe1",
+      "LoreoPlanksRecipe",
+      "LoreoStairsRecipe1",
+      "LoreoSlabRecipe1",
+      "LoreoFenceRecipe",
+      "LoreoFenceGateRecipe",
+      "LoreoPressurePlateRecipe",
+      "XizaWoodRecipe",
+      "XizaPlanksLogRecipe",
+      "XizaPlanksWoodRecipe",
+      "XizaStairsRecipe",
+      "XizaSlabRecipe",
+      "XizaFenceRecipe",
+      "XizaFenceGateRecipe",
+      "XizaPressurePlateRecipe",
+      "XizaButtonRecipe",
+      "XizaStickRecipe",
+      "VerdantWoodRecipe",
+      "VerdantPlanksLogRecipe",
+      "VerdantPlanksWoodRecipe",
+      "VerdantStairsRecipe",
+      "VerdantSlabRecipe",
+      "VerdantFenceRecipe",
+      "VerdantFenceGateRecipe",
+      "VerdantPressurePlateRecipe",
+      "VerdantButtonRecipe",
+      "VerdantStickRecipe",
+      "FlintAndDiamondRecipe"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"tick\" x=\"60\" y=\"207\"/><block deletable=\"false\" type=\"advancement_trigger\" x=\"40\" y=\"80\"><next><block type=\"custom_trigger\" x=\"274\" y=\"257\"/></next></block></xml>"
+  }
+}

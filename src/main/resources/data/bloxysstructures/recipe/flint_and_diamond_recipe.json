@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:flint"
+    }
+  ],
+  "result": {
+    "id": "bloxysstructures:adventure_realm",
+    "count": 1
+  }
+}

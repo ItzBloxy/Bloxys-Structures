@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "bloxysstructures:block/loreo_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "bloxysstructures:block/loreo_log"
+    },
+    "axis=z": {
+      "model": "bloxysstructures:block/loreo_log",
+      "x": 90
+    }
+  }
+}

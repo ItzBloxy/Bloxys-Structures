@@ -1,0 +1,20 @@
+{
+  "structures": [
+    {
+      "structure": "bloxysstructures:illager_castle_big",
+      "weight": 10
+    },
+    {
+      "structure": "bloxysstructures:battletower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1826629767,
+    "frequency": 1,
+    "spread_type": "triangular",
+    "spacing": 7,
+    "separation": 5
+  }
+}

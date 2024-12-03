@@ -1,0 +1,8 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "particle": "bloxysstructures:block/xiza_planks",
+    "texture": "bloxysstructures:block/xiza_planks"
+  },
+  "render_type": "solid"
+}

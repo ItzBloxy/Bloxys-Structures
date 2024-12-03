@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "structure",
+  "definition": {
+    "structure": "ruinedadventurerealmportal",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      },
+      {
+        "value": "Blocks.STRUCTURE_VOID"
+      },
+      {
+        "value": "Blocks.AIR"
+      },
+      {
+        "value": "Blocks.VOID_AIR"
+      },
+      {
+        "value": "Blocks.CAVE_AIR"
+      }
+    ],
+    "spacing": 128,
+    "separation": 100,
+    "restrictionBiomes": [
+      {
+        "value": "plains"
+      },
+      {
+        "value": "mutated_plains"
+      },
+      {
+        "value": "meadow"
+      }
+    ],
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "RAW_GENERATION",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

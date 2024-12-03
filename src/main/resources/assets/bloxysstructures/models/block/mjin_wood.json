@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bloxysstructures:block/mjin_log_side",
+    "up": "bloxysstructures:block/mjin_log_side",
+    "north": "bloxysstructures:block/mjin_log_side",
+    "east": "bloxysstructures:block/mjin_log_side",
+    "south": "bloxysstructures:block/mjin_log_side",
+    "west": "bloxysstructures:block/mjin_log_side",
+    "particle": "bloxysstructures:block/mjin_log_side"
+  },
+  "render_type": "solid"
+}

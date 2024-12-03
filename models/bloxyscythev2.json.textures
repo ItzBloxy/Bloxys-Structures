@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "upgraded_bloxys_scythe"
+      },
+      "name": "default"
+    }
+  }
+}

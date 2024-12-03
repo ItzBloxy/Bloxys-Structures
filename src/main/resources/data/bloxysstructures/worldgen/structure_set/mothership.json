@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "bloxysstructures:mothership",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 69420,
+    "frequency": 1,
+    "spread_type": "linear",
+    "spacing": 96,
+    "separation": 80
+  }
+}

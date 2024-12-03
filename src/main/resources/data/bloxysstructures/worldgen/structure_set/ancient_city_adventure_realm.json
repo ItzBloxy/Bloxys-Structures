@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "bloxysstructures:ancient_city_adventure_realm",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 811549322,
+    "frequency": 0.5,
+    "spacing": 48,
+    "separation": 32
+  }
+}

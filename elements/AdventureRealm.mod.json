@@ -1,0 +1,51 @@
+{
+  "_fv": 69,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:AdventureRealmPlains"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.STONE#0"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": true,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "portalFrame": {
+      "value": "Blocks.COAL_BLOCK"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 2,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "enableIgniter": true,
+    "igniterName": "Flint and Diamond",
+    "igniterRarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": [
+        "- Used to light the Adventure Realm Portal"
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:BloxysStructures"
+      }
+    ],
+    "texture": "flintanddiamond",
+    "portalTexture": "adventurerealmportal",
+    "enablePortal": true
+  }
+}

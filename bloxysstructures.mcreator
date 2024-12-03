@@ -1,0 +1,4907 @@
+{
+  "mod_elements": [
+    {
+      "name": "IllagerCastleBig",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "illager_castle_big",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/worldgen/structure_set/illager_castle_big.json",
+          "src/main/resources/data/bloxysstructures/worldgen/structure/illager_castle_big.json",
+          "src/main/resources/data/bloxysstructures/worldgen/template_pool/illager_castle_big.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Structures"
+    },
+    {
+      "name": "AdventureRealm",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "adventure_realm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/world/teleporter/AdventureRealmTeleporter.java",
+          "src/main/java/net/mcreator/bloxysstructures/block/AdventureRealmPortalBlock.java",
+          "src/main/java/net/mcreator/bloxysstructures/item/AdventureRealmItem.java",
+          "src/main/resources/data/bloxysstructures/dimension/adventure_realm.json",
+          "src/main/resources/data/bloxysstructures/dimension_type/adventure_realm.json",
+          "src/main/resources/assets/bloxysstructures/models/block/adventure_realm_portal_ew.json",
+          "src/main/resources/assets/bloxysstructures/models/block/adventure_realm_portal_ns.json",
+          "src/main/java/net/mcreator/bloxysstructures/world/dimension/AdventureRealmDimension.java",
+          "src/main/resources/assets/bloxysstructures/models/item/adventure_realm.json",
+          "src/main/java/net/mcreator/bloxysstructures/world/teleporter/AdventureRealmPortalShape.java",
+          "src/main/resources/assets/bloxysstructures/blockstates/adventure_realm_portal.json"
+        ]
+      },
+      "path": "~/Adventure Realm"
+    },
+    {
+      "name": "AdventureRealmPlains",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adventure_realm_plains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/worldgen/biome/adventure_realm_plains.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Plains"
+    },
+    {
+      "name": "AdventureRealmAmbientParticle",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adventure_realm_ambient_particle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/client/particle/AdventureRealmAmbientParticleParticle.java",
+          "src/main/resources/assets/bloxysstructures/particles/adventure_realm_ambient_particle.json"
+        ]
+      },
+      "path": "~/Adventure Realm"
+    },
+    {
+      "name": "MjinLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mjin_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/blockstates/mjin_log.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/MjinLogBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/item/mjin_log.json",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_log.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/mjin_log.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Mjin Forest"
+    },
+    {
+      "name": "BloxysStructures",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloxys_structures",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "MjinPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mjin_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/block/MjinPlanksBlock.java",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/mjin_planks.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/mjin_planks.json",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_planks.json",
+          "src/main/resources/assets/bloxysstructures/models/item/mjin_planks.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Mjin Forest"
+    },
+    {
+      "name": "MjinPlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mjin_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/mjin_planks_recipe.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Mjin Forest"
+    },
+    {
+      "name": "MjinStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mjin_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_stairs.json",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_stairs_inner.json",
+          "src/main/resources/assets/bloxysstructures/models/item/mjin_stairs.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/mjin_stairs.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/mjin_stairs.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/MjinStairsBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_stairs_outer.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Mjin Forest"
+    },
+    {
+      "name": "MjinSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mjin_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/models/item/mjin_slab.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/mjin_slab.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/mjin_slab.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/MjinSlabBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_slab_full.json",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_slab_top.json",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_slab.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Mjin Forest"
+    },
+    {
+      "name": "MjinButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mjin_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/mjin_button.json",
+          "src/main/resources/assets/bloxysstructures/models/item/mjin_button.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/mjin_button.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/MjinButtonBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_button_inventory.json",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_button_pressed.json",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_button.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Mjin Forest"
+    },
+    {
+      "name": "MjinFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mjin_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/blockstates/mjin_fence.json",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_fence_inventory.json",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_fence_post.json",
+          "src/main/resources/assets/bloxysstructures/models/item/mjin_fence.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/mjin_fence.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/MjinFenceBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_fence.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Mjin Forest"
+    },
+    {
+      "name": "MjinFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mjin_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/blockstates/mjin_fence_gate.json",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_fence_gate_open.json",
+          "src/main/resources/assets/bloxysstructures/models/item/mjin_fence_gate.json",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_fence_gate_wall.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/MjinFenceGateBlock.java",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/mjin_fence_gate.json",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_fence_gate.json",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_fence_gate_wall_open.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Mjin Forest"
+    },
+    {
+      "name": "MjinPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mjin_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_pressure_plate_down.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/mjin_pressure_plate.json",
+          "src/main/resources/assets/bloxysstructures/models/item/mjin_pressure_plate.json",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_pressure_plate.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/mjin_pressure_plate.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/MjinPressurePlateBlock.java"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Mjin Forest"
+    },
+    {
+      "name": "MjinStairsRecipe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mjin_stairs_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/mjin_stairs_recipe_1.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Mjin Forest"
+    },
+    {
+      "name": "MjinSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mjin_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/mjin_slab_recipe.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Mjin Forest"
+    },
+    {
+      "name": "MjinButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mjin_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/mjin_button_recipe.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Mjin Forest"
+    },
+    {
+      "name": "MjinFenceRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mjin_fence_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/mjin_fence_recipe_2.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Mjin Forest"
+    },
+    {
+      "name": "MjinFenceGateRecipe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mjin_fence_gate_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/mjin_fence_gate_recipe_1.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Mjin Forest"
+    },
+    {
+      "name": "MjinPressurePlateRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mjin_pressure_plate_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/mjin_pressure_plate_recipe_2.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Mjin Forest"
+    },
+    {
+      "name": "BloxysStructuresAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloxys_structures_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/advancement/bloxys_structures_advancement.json"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "PlayerJoinWorldProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_join_world_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/PlayerJoinWorldProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "AdventureRealmFeatureOakTree",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adventure_realm_feature_oak_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/worldgen/configured_feature/adventure_realm_feature_oak_tree.json",
+          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/adventure_realm_feature_oak_tree_biome_modifier.json",
+          "src/main/resources/data/bloxysstructures/worldgen/placed_feature/adventure_realm_feature_oak_tree.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Plains"
+    },
+    {
+      "name": "AdventureRealmFeatureMjinTree",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adventure_realm_feature_mjin_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/worldgen/placed_feature/adventure_realm_feature_mjin_tree.json",
+          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/adventure_realm_feature_mjin_tree_biome_modifier.json",
+          "src/main/resources/data/bloxysstructures/worldgen/configured_feature/adventure_realm_feature_mjin_tree.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Plains"
+    },
+    {
+      "name": "MjinLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mjin_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/blockstates/mjin_leaves.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/MjinLeavesBlock.java",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/mjin_leaves.json",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_leaves.json",
+          "src/main/resources/assets/bloxysstructures/models/item/mjin_leaves.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Mjin Forest"
+    },
+    {
+      "name": "LoreoWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loreo_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/models/item/loreo_wood.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/loreo_wood.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/LoreoWoodBlock.java",
+          "src/main/resources/assets/bloxysstructures/blockstates/loreo_wood.json",
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_wood.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Loreo"
+    },
+    {
+      "name": "LoreoLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loreo_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/block/LoreoLogBlock.java",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/loreo_log.json",
+          "src/main/resources/assets/bloxysstructures/models/item/loreo_log.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/loreo_log.json",
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_log.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Loreo"
+    },
+    {
+      "name": "LoreoPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loreo_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_planks.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/LoreoPlanksBlock.java",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/loreo_planks.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/loreo_planks.json",
+          "src/main/resources/assets/bloxysstructures/models/item/loreo_planks.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Loreo"
+    },
+    {
+      "name": "LoreoLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loreo_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/loreo_leaves.json",
+          "src/main/resources/assets/bloxysstructures/models/item/loreo_leaves.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/loreo_leaves.json",
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_leaves.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/LoreoLeavesBlock.java"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Loreo"
+    },
+    {
+      "name": "LoreoStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loreo_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/models/item/loreo_stairs.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/loreo_stairs.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/loreo_stairs.json",
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_stairs_inner.json",
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_stairs.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/LoreoStairsBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_stairs_outer.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Loreo"
+    },
+    {
+      "name": "LoreoSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loreo_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/loreo_slab.json",
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_slab_top.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/LoreoSlabBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/item/loreo_slab.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/loreo_slab.json",
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_slab_full.json",
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_slab.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Loreo"
+    },
+    {
+      "name": "LoreoFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loreo_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/models/item/loreo_fence.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/loreo_fence.json",
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_fence.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/LoreoFenceBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_fence_inventory.json",
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_fence_post.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/loreo_fence.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Loreo"
+    },
+    {
+      "name": "LoreoFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loreo_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_fence_gate.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/loreo_fence_gate.json",
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_fence_gate_wall.json",
+          "src/main/resources/assets/bloxysstructures/models/item/loreo_fence_gate.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/LoreoFenceGateBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_fence_gate_open.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/loreo_fence_gate.json",
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_fence_gate_wall_open.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Loreo"
+    },
+    {
+      "name": "LoreoPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loreo_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/models/item/loreo_pressure_plate.json",
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_pressure_plate.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/LoreoPressurePlateBlock.java",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/loreo_pressure_plate.json",
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_pressure_plate_down.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/loreo_pressure_plate.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Loreo"
+    },
+    {
+      "name": "LoreoButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loreo_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/loreo_button.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/loreo_button.json",
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_button.json",
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_button_inventory.json",
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_button_pressed.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/LoreoButtonBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/item/loreo_button.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Loreo"
+    },
+    {
+      "name": "MjinWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mjin_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/block/MjinWoodBlock.java",
+          "src/main/resources/assets/bloxysstructures/blockstates/mjin_wood.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/mjin_wood.json",
+          "src/main/resources/assets/bloxysstructures/models/item/mjin_wood.json",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_wood.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Mjin Forest"
+    },
+    {
+      "name": "MjinWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mjin_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/mjin_wood_recipe.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Mjin Forest"
+    },
+    {
+      "name": "LoreoWoodRecipe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loreo_wood_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/loreo_wood_recipe_1.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Loreo"
+    },
+    {
+      "name": "LoreoPlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loreo_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/loreo_planks_recipe.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Loreo"
+    },
+    {
+      "name": "LoreoStairsRecipe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loreo_stairs_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/loreo_stairs_recipe_1.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Loreo"
+    },
+    {
+      "name": "LoreoSlabRecipe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loreo_slab_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/loreo_slab_recipe_1.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Loreo"
+    },
+    {
+      "name": "LoreoFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loreo_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/loreo_fence_recipe.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Loreo"
+    },
+    {
+      "name": "LoreoFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loreo_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/loreo_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Loreo"
+    },
+    {
+      "name": "LoreoPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loreo_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/loreo_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Loreo"
+    },
+    {
+      "name": "AdventureRealmFeatureLoreoTree",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adventure_realm_feature_loreo_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/adventure_realm_feature_loreo_tree_biome_modifier.json",
+          "src/main/resources/data/bloxysstructures/worldgen/configured_feature/adventure_realm_feature_loreo_tree.json",
+          "src/main/resources/data/bloxysstructures/worldgen/placed_feature/adventure_realm_feature_loreo_tree.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Plains"
+    },
+    {
+      "name": "XizaWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xiza_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_wood.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/XizaWoodBlock.java",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/xiza_wood.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/xiza_wood.json",
+          "src/main/resources/assets/bloxysstructures/models/item/xiza_wood.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Xiza"
+    },
+    {
+      "name": "XizaLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xiza_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/blockstates/xiza_log.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/XizaLogBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/item/xiza_log.json",
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_log.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/xiza_log.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Xiza"
+    },
+    {
+      "name": "XizaPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xiza_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/block/XizaPlanksBlock.java",
+          "src/main/resources/assets/bloxysstructures/blockstates/xiza_planks.json",
+          "src/main/resources/assets/bloxysstructures/models/item/xiza_planks.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/xiza_planks.json",
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_planks.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Xiza"
+    },
+    {
+      "name": "XizaLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xiza_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/block/XizaLeavesBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/item/xiza_leaves.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/xiza_leaves.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/xiza_leaves.json",
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_leaves.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Xiza"
+    },
+    {
+      "name": "XizaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xiza_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_stairs_outer.json",
+          "src/main/resources/assets/bloxysstructures/models/item/xiza_stairs.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/xiza_stairs.json",
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_stairs_inner.json",
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_stairs.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/XizaStairsBlock.java",
+          "src/main/resources/assets/bloxysstructures/blockstates/xiza_stairs.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Xiza"
+    },
+    {
+      "name": "XizaSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xiza_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/models/item/xiza_slab.json",
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_slab.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/xiza_slab.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/XizaSlabBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_slab_top.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/xiza_slab.json",
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_slab_full.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Xiza"
+    },
+    {
+      "name": "XizaFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xiza_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/models/item/xiza_fence.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/xiza_fence.json",
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_fence_post.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/XizaFenceBlock.java",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/xiza_fence.json",
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_fence_inventory.json",
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_fence.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Xiza"
+    },
+    {
+      "name": "XizaFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xiza_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_fence_gate.json",
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_fence_gate_wall.json",
+          "src/main/resources/assets/bloxysstructures/models/item/xiza_fence_gate.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/XizaFenceGateBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_fence_gate_wall_open.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/xiza_fence_gate.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/xiza_fence_gate.json",
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_fence_gate_open.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Xiza"
+    },
+    {
+      "name": "XizaPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xiza_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_pressure_plate.json",
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_pressure_plate_down.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/xiza_pressure_plate.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/XizaPressurePlateBlock.java",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/xiza_pressure_plate.json",
+          "src/main/resources/assets/bloxysstructures/models/item/xiza_pressure_plate.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Xiza"
+    },
+    {
+      "name": "XizaButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xiza_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_button_pressed.json",
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_button.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/xiza_button.json",
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_button_inventory.json",
+          "src/main/resources/assets/bloxysstructures/models/item/xiza_button.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/xiza_button.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/XizaButtonBlock.java"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Xiza"
+    },
+    {
+      "name": "XizaWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xiza_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/xiza_wood_recipe.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Xiza"
+    },
+    {
+      "name": "XizaPlanksLogRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xiza_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/xiza_planks_log_recipe.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Xiza"
+    },
+    {
+      "name": "XizaPlanksWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xiza_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/xiza_planks_wood_recipe.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Xiza"
+    },
+    {
+      "name": "XizaStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xiza_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/xiza_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Xiza"
+    },
+    {
+      "name": "XizaSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xiza_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/xiza_slab_recipe.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Xiza"
+    },
+    {
+      "name": "XizaFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xiza_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/xiza_fence_recipe.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Xiza"
+    },
+    {
+      "name": "XizaFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xiza_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/xiza_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Xiza"
+    },
+    {
+      "name": "XizaPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xiza_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/xiza_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Xiza"
+    },
+    {
+      "name": "XizaButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xiza_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/xiza_button_recipe.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Xiza"
+    },
+    {
+      "name": "XizaStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xiza_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/xiza_stick_recipe.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Xiza"
+    },
+    {
+      "name": "AdventureRealmFeatureXizaTree",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adventure_realm_feature_xiza_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/adventure_realm_feature_xiza_tree_biome_modifier.json",
+          "src/main/resources/data/bloxysstructures/worldgen/placed_feature/adventure_realm_feature_xiza_tree.json",
+          "src/main/resources/data/bloxysstructures/worldgen/configured_feature/adventure_realm_feature_xiza_tree.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Plains"
+    },
+    {
+      "name": "VerdantWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdant_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/block/VerdantWoodBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/item/verdant_wood.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/verdant_wood.json",
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_wood.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_wood.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Verdant"
+    },
+    {
+      "name": "VerdantLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdant_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/block/VerdantLogBlock.java",
+          "src/main/resources/assets/bloxysstructures/blockstates/verdant_log.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_log.json",
+          "src/main/resources/assets/bloxysstructures/models/item/verdant_log.json",
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_log.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Verdant"
+    },
+    {
+      "name": "VerdantPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdant_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_planks.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/VerdantPlanksBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/item/verdant_planks.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/verdant_planks.json",
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_planks.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Verdant"
+    },
+    {
+      "name": "VerdantLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdant_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/block/VerdantLeavesBlock.java",
+          "src/main/resources/assets/bloxysstructures/blockstates/verdant_leaves.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_leaves.json",
+          "src/main/resources/assets/bloxysstructures/models/item/verdant_leaves.json",
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_leaves.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Verdant"
+    },
+    {
+      "name": "VerdantStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdant_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/models/item/verdant_stairs.json",
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_stairs.json",
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_stairs_outer.json",
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_stairs_inner.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/verdant_stairs.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/VerdantStairsBlock.java",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_stairs.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Verdant"
+    },
+    {
+      "name": "VerdantSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdant_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/block/VerdantSlabBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_slab_top.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_slab.json",
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_slab.json",
+          "src/main/resources/assets/bloxysstructures/models/item/verdant_slab.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/verdant_slab.json",
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_slab_full.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Verdant"
+    },
+    {
+      "name": "VerdantFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdant_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/blockstates/verdant_fence.json",
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_fence_post.json",
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_fence_inventory.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_fence.json",
+          "src/main/resources/assets/bloxysstructures/models/item/verdant_fence.json",
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_fence.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/VerdantFenceBlock.java"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Verdant"
+    },
+    {
+      "name": "VerdantFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdant_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_fence_gate.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/VerdantFenceGateBlock.java",
+          "src/main/resources/assets/bloxysstructures/blockstates/verdant_fence_gate.json",
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_fence_gate_open.json",
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_fence_gate_wall_open.json",
+          "src/main/resources/assets/bloxysstructures/models/item/verdant_fence_gate.json",
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_fence_gate_wall.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_fence_gate.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Verdant"
+    },
+    {
+      "name": "VerdantPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdant_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_pressure_plate.json",
+          "src/main/resources/assets/bloxysstructures/models/item/verdant_pressure_plate.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_pressure_plate.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/VerdantPressurePlateBlock.java",
+          "src/main/resources/assets/bloxysstructures/blockstates/verdant_pressure_plate.json",
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_pressure_plate_down.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Verdant"
+    },
+    {
+      "name": "VerdantButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdant_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_button_pressed.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/verdant_button.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_button.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/VerdantButtonBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_button.json",
+          "src/main/resources/assets/bloxysstructures/models/item/verdant_button.json",
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_button_inventory.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Verdant"
+    },
+    {
+      "name": "VerdantWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdant_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/verdant_wood_recipe.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Verdant"
+    },
+    {
+      "name": "VerdantPlanksLogRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdant_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/verdant_planks_log_recipe.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Verdant"
+    },
+    {
+      "name": "VerdantPlanksWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdant_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/verdant_planks_wood_recipe.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Verdant"
+    },
+    {
+      "name": "VerdantStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdant_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/verdant_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Verdant"
+    },
+    {
+      "name": "VerdantSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdant_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/verdant_slab_recipe.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Verdant"
+    },
+    {
+      "name": "VerdantFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdant_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/verdant_fence_recipe.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Verdant"
+    },
+    {
+      "name": "VerdantFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdant_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/verdant_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Verdant"
+    },
+    {
+      "name": "VerdantPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdant_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/verdant_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Verdant"
+    },
+    {
+      "name": "VerdantButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdant_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/verdant_button_recipe.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Verdant"
+    },
+    {
+      "name": "VerdantStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdant_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/verdant_stick_recipe.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Verdant"
+    },
+    {
+      "name": "AdventureRealmFeatureVerdantTree",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adventure_realm_feature_verdant_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/adventure_realm_feature_verdant_tree_biome_modifier.json",
+          "src/main/resources/data/bloxysstructures/worldgen/configured_feature/adventure_realm_feature_verdant_tree.json",
+          "src/main/resources/data/bloxysstructures/worldgen/placed_feature/adventure_realm_feature_verdant_tree.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Plains"
+    },
+    {
+      "name": "FlintAndDiamondRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flint_and_diamond_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/recipe/flint_and_diamond_recipe.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Items"
+    },
+    {
+      "name": "GiantCow",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_cow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/entity/GiantCowEntity.java",
+          "src/main/java/net/mcreator/bloxysstructures/client/renderer/GiantCowRenderer.java",
+          "src/main/resources/assets/bloxysstructures/models/item/giant_cow_spawn_egg.json",
+          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/giant_cow_biome_modifier.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Entities"
+    },
+    {
+      "name": "GiantPig",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_pig",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/models/item/giant_pig_spawn_egg.json",
+          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/giant_pig_biome_modifier.json",
+          "src/main/java/net/mcreator/bloxysstructures/entity/GiantPigEntity.java",
+          "src/main/java/net/mcreator/bloxysstructures/client/renderer/GiantPigRenderer.java"
+        ]
+      },
+      "path": "~/Adventure Realm/Entities"
+    },
+    {
+      "name": "GiantWolf",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_wolf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/client/renderer/GiantWolfRenderer.java",
+          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/giant_wolf_biome_modifier.json",
+          "src/main/java/net/mcreator/bloxysstructures/entity/GiantWolfEntity.java",
+          "src/main/resources/assets/bloxysstructures/models/item/giant_wolf_spawn_egg.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "GiantWolfArmor",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_wolf_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/models/item/giant_wolf_armor.json",
+          "src/main/java/net/mcreator/bloxysstructures/item/GiantWolfArmorItem.java"
+        ]
+      },
+      "path": "~/Adventure Realm/Items"
+    },
+    {
+      "name": "GiantWolfOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_wolf_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/GiantWolfOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "GiantWolfDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_wolf_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/GiantWolfDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "GiantWolfRightClickedOnEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_wolf_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/GiantWolfRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "IsGiantWolfSitting",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_giant_wolf_sitting",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/IsGiantWolfSittingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "GiantWolfHealth40",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_wolf_health_40",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/GiantWolfHealth40Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "GiantWolfHealth30",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_wolf_health_30",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/GiantWolfHealth30Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "GiantWolfHealth20",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_wolf_health_20",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/GiantWolfHealth20Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "GiantWolfHealth10",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_wolf_health_10",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/GiantWolfHealth10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "GiantWolfMainModelDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_wolf_main_model_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/GiantWolfMainModelDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "GiantWolfSitModelDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_wolf_sit_model_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/GiantWolfSitModelDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "GiantWolfSitArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_wolf_sit_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/GiantWolfSitArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "AdventureRealmFloatingIslands",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adventure_realm_floating_islands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/adventure_realm_floating_islands_biome_modifier.json",
+          "src/main/resources/data/bloxysstructures/worldgen/configured_feature/adventure_realm_floating_islands.json",
+          "src/main/resources/data/bloxysstructures/worldgen/placed_feature/adventure_realm_floating_islands.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/Adventure Realm/Biomes/Plains"
+    },
+    {
+      "name": "RuinedAdventureRealmPortal",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruined_adventure_realm_portal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/worldgen/template_pool/ruined_adventure_realm_portal.json",
+          "src/main/resources/data/bloxysstructures/worldgen/structure/ruined_adventure_realm_portal.json",
+          "src/main/resources/data/bloxysstructures/worldgen/structure_set/ruined_adventure_realm_portal.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Structures"
+    },
+    {
+      "name": "AdventureRealmGolem",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adventure_realm_golem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/client/renderer/AdventureRealmGolemRenderer.java",
+          "src/main/java/net/mcreator/bloxysstructures/entity/AdventureRealmGolemEntity.java",
+          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/adventure_realm_golem_biome_modifier.json",
+          "src/main/resources/assets/bloxysstructures/models/item/adventure_realm_golem_spawn_egg.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Entities"
+    },
+    {
+      "name": "Cowlin",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cowlin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/client/renderer/CowlinRenderer.java",
+          "src/main/resources/assets/bloxysstructures/models/item/cowlin_spawn_egg.json",
+          "src/main/java/net/mcreator/bloxysstructures/entity/CowlinEntity.java"
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Cowlin"
+    },
+    {
+      "name": "CowlinBrute",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cowlin_brute",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/client/renderer/CowlinBruteRenderer.java",
+          "src/main/resources/assets/bloxysstructures/models/item/cowlin_brute_spawn_egg.json",
+          "src/main/java/net/mcreator/bloxysstructures/entity/CowlinBruteEntity.java"
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Cowlin"
+    },
+    {
+      "name": "WhenOpenChestAngerCowlin",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "when_open_chest_anger_cowlin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/WhenOpenChestAngerCowlinProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Cowlin"
+    },
+    {
+      "name": "AdventureRealmGolemOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adventure_realm_golem_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/AdventureRealmGolemOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities"
+    },
+    {
+      "name": "AdventureRealmGolemModelVisualScale",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adventure_realm_golem_model_visual_scale",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/AdventureRealmGolemModelVisualScaleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities"
+    },
+    {
+      "name": "InfernoHydra",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "inferno_hydra",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/client/renderer/InfernoHydraRenderer.java",
+          "src/main/java/net/mcreator/bloxysstructures/entity/InfernoHydraEntity.java",
+          "src/main/resources/assets/bloxysstructures/models/item/inferno_hydra_spawn_egg.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/InfernoLeviathan"
+    },
+    {
+      "name": "InfernoHydraOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inferno_hydra_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/InfernoHydraOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/InfernoLeviathan"
+    },
+    {
+      "name": "ShieldOfInferno",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shield_of_inferno",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/models/item/shield_of_inferno.json",
+          "src/main/resources/assets/bloxysstructures/models/item/shield_of_inferno_0.json",
+          "src/main/java/net/mcreator/bloxysstructures/item/ShieldOfInfernoItem.java"
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/InfernoLeviathan"
+    },
+    {
+      "name": "InfernoShieldFireAttackingEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inferno_shield_fire_attacking_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/InfernoShieldFireAttackingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/InfernoLeviathan"
+    },
+    {
+      "name": "InfernoHydraEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inferno_hydra_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/InfernoHydraEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/InfernoLeviathan"
+    },
+    {
+      "name": "AltarBase",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altar_base",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/altar_base.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/altar_base.json",
+          "src/main/resources/assets/bloxysstructures/models/block/altar_base.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/AltarBaseBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/item/altar_base.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Altars"
+    },
+    {
+      "name": "AltarInfernoHydra",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altar_inferno_hydra",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/blockstates/altar_inferno_hydra.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/altar_inferno_hydra.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/AltarInfernoHydraBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/block/altar_inferno_hydra.json",
+          "src/main/resources/assets/bloxysstructures/models/item/altar_inferno_hydra.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Altars"
+    },
+    {
+      "name": "AltarInfernoHydraOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altar_inferno_hydra_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/AltarInfernoHydraOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Altars"
+    },
+    {
+      "name": "PrinceOfDarkness",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prince_of_darkness",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/entity/PrinceOfDarknessEntity.java",
+          "src/main/java/net/mcreator/bloxysstructures/client/renderer/PrinceOfDarknessRenderer.java",
+          "src/main/resources/assets/bloxysstructures/models/item/prince_of_darkness_spawn_egg.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Prince of Darkness"
+    },
+    {
+      "name": "PrinceOfDarknessOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prince_of_darkness_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/PrinceOfDarknessOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Prince of Darkness"
+    },
+    {
+      "name": "DarknessArmRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkness_arm_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/DarknessArmRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Prince of Darkness"
+    },
+    {
+      "name": "DarknessArm",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkness_arm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/item/DarknessArmItem.java",
+          "src/main/resources/assets/bloxysstructures/models/item/darkness_arm.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Prince of Darkness"
+    },
+    {
+      "name": "PrinceOfDarknessEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prince_of_darkness_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/PrinceOfDarknessEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Prince of Darkness"
+    },
+    {
+      "name": "AltarPrinceOfDarkness",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altar_prince_of_darkness",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/models/item/altar_prince_of_darkness.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/altar_prince_of_darkness.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/altar_prince_of_darkness.json",
+          "src/main/resources/assets/bloxysstructures/models/block/altar_prince_of_darkness.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/AltarPrinceOfDarknessBlock.java"
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Altars"
+    },
+    {
+      "name": "AltarInfernoHydraClientDisplayRandomTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altar_inferno_hydra_client_display_random_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/AltarInfernoHydraClientDisplayRandomTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Altars"
+    },
+    {
+      "name": "AltarPrinceOfDarknessOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altar_prince_of_darkness_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/AltarPrinceOfDarknessOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Altars"
+    },
+    {
+      "name": "AdventureRealmFeatureRuins",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adventure_realm_feature_ruins",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/adventure_realm_feature_ruins_biome_modifier.json",
+          "src/main/resources/data/bloxysstructures/worldgen/placed_feature/adventure_realm_feature_ruins.json",
+          "src/main/resources/data/bloxysstructures/worldgen/configured_feature/adventure_realm_feature_ruins.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/Adventure Realm/Biomes/Plains"
+    },
+    {
+      "name": "BlueMushroomBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_mushroom_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/blockstates/blue_mushroom_block.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/blue_mushroom_block.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/BlueMushroomBlockBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/item/blue_mushroom_block.json",
+          "src/main/resources/assets/bloxysstructures/models/block/blue_mushroom_block.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Mushroom/Blocks"
+    },
+    {
+      "name": "GreenMushroomBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_mushroom_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/green_mushroom_block.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/green_mushroom_block.json",
+          "src/main/resources/assets/bloxysstructures/models/item/green_mushroom_block.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/GreenMushroomBlockBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/block/green_mushroom_block.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Mushroom/Blocks"
+    },
+    {
+      "name": "GreenMushroomBlockEntityWalksOnTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_mushroom_block_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/GreenMushroomBlockEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Mushroom/Blocks"
+    },
+    {
+      "name": "YellowMushroomBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_mushroom_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/models/block/yellow_mushroom_block.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/yellow_mushroom_block.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/YellowMushroomBlockBlock.java",
+          "src/main/resources/assets/bloxysstructures/blockstates/yellow_mushroom_block.json",
+          "src/main/resources/assets/bloxysstructures/models/item/yellow_mushroom_block.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Mushroom/Blocks"
+    },
+    {
+      "name": "PurpleMushroomBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_mushroom_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/block/PurpleMushroomBlockBlock.java",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/purple_mushroom_block.json",
+          "src/main/resources/assets/bloxysstructures/models/item/purple_mushroom_block.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/purple_mushroom_block.json",
+          "src/main/resources/assets/bloxysstructures/models/block/purple_mushroom_block.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Mushroom/Blocks"
+    },
+    {
+      "name": "PurpleMushroomBlockEntityWalksOnTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_mushroom_block_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/PurpleMushroomBlockEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Mushroom/Blocks"
+    },
+    {
+      "name": "AdventureRealmFeatureMushroom",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adventure_realm_feature_mushroom",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/worldgen/placed_feature/adventure_realm_feature_mushroom.json",
+          "src/main/resources/data/bloxysstructures/worldgen/configured_feature/adventure_realm_feature_mushroom.json",
+          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/adventure_realm_feature_mushroom_biome_modifier.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/Adventure Realm/Biomes/Mushroom/Structures"
+    },
+    {
+      "name": "WhiteGiantWolfArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_giant_wolf_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/WhiteGiantWolfArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "BlackGiantWolfArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_giant_wolf_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/BlackGiantWolfArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "BlueGiantWolfArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_giant_wolf_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/BlueGiantWolfArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "BrownGiantWolfArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_giant_wolf_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/BrownGiantWolfArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "CyanGiantWolfArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_giant_wolf_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/CyanGiantWolfArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "GrayGiantWolfArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_giant_wolf_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/GrayGiantWolfArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "GreenGiantWolfArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_giant_wolf_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/GreenGiantWolfArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "LightGrayGiantWolfArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_giant_wolf_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/LightGrayGiantWolfArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "LimeGiantWolfArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_giant_wolf_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/LimeGiantWolfArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "MagentaGiantWolfArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_giant_wolf_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/MagentaGiantWolfArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "OrangeGiantWolfArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_giant_wolf_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/OrangeGiantWolfArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "PinkGiantWolfArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_giant_wolf_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/PinkGiantWolfArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "PurpleGiantWolfArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_giant_wolf_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/PurpleGiantWolfArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "RedGiantWolfArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_giant_wolf_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/RedGiantWolfArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "YellowGiantWolfArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_giant_wolf_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/YellowGiantWolfArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "WhiteGiantWolfSitArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_giant_wolf_sit_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/WhiteGiantWolfSitArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "BlackGiantWolfSitArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_giant_wolf_sit_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/BlackGiantWolfSitArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "BlueGiantWolfSitArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_giant_wolf_sit_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/BlueGiantWolfSitArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "BrownGiantWolfSitArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_giant_wolf_sit_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/BrownGiantWolfSitArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "CyanGiantWolfSitArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_giant_wolf_sit_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/CyanGiantWolfSitArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "GrayGiantWolfSitArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_giant_wolf_sit_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/GrayGiantWolfSitArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "GreenGiantWolfSitArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_giant_wolf_sit_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/GreenGiantWolfSitArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "LightWhiteGiantWolfSitArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_white_giant_wolf_sit_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/LightWhiteGiantWolfSitArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "LimeGiantWolfSitArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_giant_wolf_sit_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/LimeGiantWolfSitArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "MagentaGiantWolfDisplaySitArmorCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_giant_wolf_display_sit_armor_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/MagentaGiantWolfDisplaySitArmorConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "OrangeGiantWolfSitArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_giant_wolf_sit_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/OrangeGiantWolfSitArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "PinkGiantWolfSitArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_giant_wolf_sit_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/PinkGiantWolfSitArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "PurpleGiantWolfSitArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_giant_wolf_sit_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/PurpleGiantWolfSitArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "RedGiantWolfSitArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_giant_wolf_sit_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/RedGiantWolfSitArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "YellowGiantWolfSitArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_giant_wolf_sit_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/YellowGiantWolfSitArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "LightBlueGiantWolfSitArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_giant_wolf_sit_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/LightBlueGiantWolfSitArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "LightBlueGiantWolfArmorDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_giant_wolf_armor_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/LightBlueGiantWolfArmorDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantWolf"
+    },
+    {
+      "name": "AdventureRealmLoottable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adventure_realm_loottable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/loot_table/chests/adventure_realm_loottable.json"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "AdventureRealmCaveFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adventure_realm_cave_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/adventure_realm_cave_feature_biome_modifier.json",
+          "src/main/resources/data/bloxysstructures/worldgen/configured_feature/adventure_realm_cave_feature.json",
+          "src/main/resources/data/bloxysstructures/worldgen/placed_feature/adventure_realm_cave_feature.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Plains"
+    },
+    {
+      "name": "AltarMushroomKing",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altar_mushroom_king",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/altar_mushroom_king.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/AltarMushroomKingBlock.java",
+          "src/main/resources/assets/bloxysstructures/blockstates/altar_mushroom_king.json",
+          "src/main/resources/assets/bloxysstructures/models/item/altar_mushroom_king.json",
+          "src/main/resources/assets/bloxysstructures/models/block/altar_mushroom_king.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Altars"
+    },
+    {
+      "name": "AltarMushroomKingOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altar_mushroom_king_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/AltarMushroomKingOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Altars"
+    },
+    {
+      "name": "MushroomKing",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_king",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/client/renderer/MushroomKingRenderer.java",
+          "src/main/java/net/mcreator/bloxysstructures/entity/MushroomKingEntity.java",
+          "src/main/resources/assets/bloxysstructures/models/item/mushroom_king_spawn_egg.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Mushroom King"
+    },
+    {
+      "name": "GiantCowEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_cow_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/GiantCowEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities"
+    },
+    {
+      "name": "GiantPigEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_pig_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/GiantPigEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities"
+    },
+    {
+      "name": "AdventureRealmGolemEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adventure_realm_golem_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/AdventureRealmGolemEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities"
+    },
+    {
+      "name": "PurplePoisonOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_poison_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/client/screens/PurplePoisonOverlayOverlay.java"
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Mushroom King"
+    },
+    {
+      "name": "PurplePoison",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_poison",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/potion/PurplePoisonMobEffect.java"
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Mushroom King"
+    },
+    {
+      "name": "PurplePoisonOverlayDisplayOverlayIngame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_poison_overlay_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/PurplePoisonOverlayDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Mushroom King"
+    },
+    {
+      "name": "PurplePoisonDamage",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_poison_damage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/damage_type/purple_poison_damage.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Mushroom King"
+    },
+    {
+      "name": "PurplePoisonEffectStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_poison_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/PurplePoisonEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Mushroom King"
+    },
+    {
+      "name": "MushroomKingOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_king_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/MushroomKingOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Mushroom King"
+    },
+    {
+      "name": "PurplePoisonEnchantment",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_poison_enchantment",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/enchantment/purple_poison_enchantment.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Mushroom King"
+    },
+    {
+      "name": "MushroomKingEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_king_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/MushroomKingEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Mushroom King"
+    },
+    {
+      "name": "MushroomKingIsEntityModelShaking",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_king_is_entity_model_shaking",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/MushroomKingIsEntityModelShakingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Mushroom King"
+    },
+    {
+      "name": "MushroomKingPlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_king_player_collides_with_this_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/MushroomKingPlayerCollidesWithThisEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Mushroom King"
+    },
+    {
+      "name": "WhenBreakChestAroundCowlin",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "when_break_chest_around_cowlin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/WhenBreakChestAroundCowlinProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Cowlin"
+    },
+    {
+      "name": "UndergroundStructure",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "underground_structure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/worldgen/template_pool/underground_structure.json",
+          "src/main/resources/data/bloxysstructures/worldgen/structure_set/underground_structure.json",
+          "src/main/resources/data/bloxysstructures/worldgen/structure/underground_structure.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Structures"
+    },
+    {
+      "name": "IllagerVillage",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "illager_village",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/worldgen/structure_set/illager_village.json",
+          "src/main/resources/data/bloxysstructures/worldgen/template_pool/illager_village.json",
+          "src/main/resources/data/bloxysstructures/worldgen/structure/illager_village.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Structures"
+    },
+    {
+      "name": "AncientCityAdventureRealm",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ancient_city_adventure_realm",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/worldgen/structure_set/ancient_city_adventure_realm.json",
+          "src/main/resources/data/bloxysstructures/worldgen/structure/ancient_city_adventure_realm.json",
+          "src/main/resources/data/bloxysstructures/worldgen/template_pool/ancient_city_adventure_realm.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Structures"
+    },
+    {
+      "name": "VoidWalkers",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_walkers",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/entity/VoidWalkersEntity.java",
+          "src/main/resources/assets/bloxysstructures/models/item/void_walkers_spawn_egg.json",
+          "src/main/java/net/mcreator/bloxysstructures/client/renderer/VoidWalkersRenderer.java"
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army"
+    },
+    {
+      "name": "VoidWalkersOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_walkers_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/VoidWalkersOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army"
+    },
+    {
+      "name": "QuantumGuardian",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quantum_guardian",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/entity/QuantumGuardianEntity.java",
+          "src/main/java/net/mcreator/bloxysstructures/client/renderer/QuantumGuardianRenderer.java",
+          "src/main/resources/assets/bloxysstructures/models/item/quantum_guardian_spawn_egg.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army"
+    },
+    {
+      "name": "QuantumGuardianOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quantum_guardian_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/QuantumGuardianOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army"
+    },
+    {
+      "name": "QuantumGuardianDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quantum_guardian_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/QuantumGuardianDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army"
+    },
+    {
+      "name": "QuantumMage",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quantum_mage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/entity/QuantumMageEntity.java",
+          "src/main/java/net/mcreator/bloxysstructures/client/renderer/QuantumMageRenderer.java",
+          "src/main/resources/assets/bloxysstructures/models/item/quantum_mage_spawn_egg.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army"
+    },
+    {
+      "name": "QuantumMageDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quantum_mage_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/QuantumMageDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army"
+    },
+    {
+      "name": "QuantumMageDisplayCondition2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quantum_mage_display_condition_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/QuantumMageDisplayCondition2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army"
+    },
+    {
+      "name": "QuantumMageDisplayCondition3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quantum_mage_display_condition_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/QuantumMageDisplayCondition3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army"
+    },
+    {
+      "name": "QuantumMageDisplayCondition4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quantum_mage_display_condition_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/QuantumMageDisplayCondition4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army"
+    },
+    {
+      "name": "QuantamMagicOrb",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quantam_magic_orb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/entity/QuantamMagicOrbEntity.java",
+          "src/main/java/net/mcreator/bloxysstructures/client/renderer/QuantamMagicOrbRenderer.java"
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army"
+    },
+    {
+      "name": "QuantumMageOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quantum_mage_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/QuantumMageOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army"
+    },
+    {
+      "name": "QuantamMagicOrbWhileProjectileFlyingTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quantam_magic_orb_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/QuantamMagicOrbWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army"
+    },
+    {
+      "name": "QuantamMagicOrbProjectileHitsPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quantam_magic_orb_projectile_hits_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/QuantamMagicOrbProjectileHitsPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army"
+    },
+    {
+      "name": "Mothership",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mothership",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/worldgen/structure/mothership.json",
+          "src/main/resources/data/bloxysstructures/worldgen/template_pool/mothership.json",
+          "src/main/resources/data/bloxysstructures/worldgen/structure_set/mothership.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Structures"
+    },
+    {
+      "name": "Bloxy",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloxy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/entity/BloxyEntity.java",
+          "src/main/resources/assets/bloxysstructures/models/item/bloxy_spawn_egg.json",
+          "src/main/java/net/mcreator/bloxysstructures/client/renderer/BloxyRenderer.java"
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+    },
+    {
+      "name": "BloxyScythe1DisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloxy_scythe_1_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/BloxyScythe1DisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+    },
+    {
+      "name": "BloxyScythe2DisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloxy_scythe_2_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/BloxyScythe2DisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+    },
+    {
+      "name": "BloxyGlowDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloxy_glow_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/BloxyGlowDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+    },
+    {
+      "name": "BloxyOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloxy_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/BloxyOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+    },
+    {
+      "name": "BloxyParticleFunction",
+      "type": "function",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloxy_particle_function",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/function/bloxyparticlefunction.mcfunction"
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+    },
+    {
+      "name": "BloxysScytheThrowableWhileProjectileFlyingTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloxys_scythe_throwable_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/BloxysScytheThrowableWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+    },
+    {
+      "name": "BloxysScytheThrowableProjectileHitsBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloxys_scythe_throwable_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/BloxysScytheThrowableProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+    },
+    {
+      "name": "BloxysScytheThrowable",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloxys_scythe_throwable",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/entity/BloxysScytheThrowableEntity.java",
+          "src/main/java/net/mcreator/bloxysstructures/client/renderer/BloxysScytheThrowableRenderer.java"
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+    },
+    {
+      "name": "BloxysScytheThrowableProjectileHitsPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloxys_scythe_throwable_projectile_hits_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/BloxysScytheThrowableProjectileHitsPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+    },
+    {
+      "name": "BloxyOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloxy_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/BloxyOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+    },
+    {
+      "name": "PurpleLightningShockwave",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_lightning_shockwave",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/client/renderer/PurpleLightningShockwaveRenderer.java",
+          "src/main/java/net/mcreator/bloxysstructures/entity/PurpleLightningShockwaveEntity.java"
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+    },
+    {
+      "name": "PurpleLightningShockwaveOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_lightning_shockwave_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/PurpleLightningShockwaveOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+    },
+    {
+      "name": "PurpleLightningShockwaveModelVisualScale",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_lightning_shockwave_model_visual_scale",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/PurpleLightningShockwaveModelVisualScaleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+    },
+    {
+      "name": "PurpleLightningShockwavePlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_lightning_shockwave_player_collides_with_this_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/PurpleLightningShockwavePlayerCollidesWithThisEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+    },
+    {
+      "name": "AltarBloxy",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altar_bloxy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/models/block/altar_bloxy.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/altar_bloxy.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/AltarBloxyBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/item/altar_bloxy.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/altar_bloxy.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Altars"
+    },
+    {
+      "name": "AltarBloxyOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altar_bloxy_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/AltarBloxyOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Altars"
+    },
+    {
+      "name": "BloxysScythe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloxys_scythe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/models/item/bloxys_scythe.json",
+          "src/main/java/net/mcreator/bloxysstructures/item/BloxysScytheItem.java"
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+    },
+    {
+      "name": "BloxysScytheThrowablePlayer",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloxys_scythe_throwable_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/entity/BloxysScytheThrowablePlayerEntity.java",
+          "src/main/java/net/mcreator/bloxysstructures/client/renderer/BloxysScytheThrowablePlayerRenderer.java"
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+    },
+    {
+      "name": "BloxysScytheToolInInventoryTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloxys_scythe_tool_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/BloxysScytheToolInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+    },
+    {
+      "name": "BloxysScytheThrowablePlayerProjectileHitsBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloxys_scythe_throwable_player_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/BloxysScytheThrowablePlayerProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+    },
+    {
+      "name": "BloxysScytheThrowablePlayerProjectileHitsLivingEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloxys_scythe_throwable_player_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/BloxysScytheThrowablePlayerProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+    },
+    {
+      "name": "BloxysScytheThrowablePlayerWhileProjectileFlyingTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloxys_scythe_throwable_player_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/BloxysScytheThrowablePlayerWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+    },
+    {
+      "name": "BloxysScytheRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloxys_scythe_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/BloxysScytheRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+    },
+    {
+      "name": "BloxyEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloxy_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/BloxyEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+    },
+    {
+      "name": "BloxyEntityIsHurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloxy_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/BloxyEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+    },
+    {
+      "name": "OnEntitySpawnDoStuff",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_entity_spawn_do_stuff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/OnEntitySpawnDoStuffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/GiantSniffer"
+    },
+    {
+      "name": "Battletower",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "battletower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/worldgen/template_pool/battletower_rooms.json",
+          "src/main/resources/data/bloxysstructures/worldgen/template_pool/battletower.json",
+          "src/main/resources/data/bloxysstructures/worldgen/template_pool/battletower_fallback.json",
+          "src/main/resources/data/bloxysstructures/worldgen/structure_set/battletower.json",
+          "src/main/resources/data/bloxysstructures/worldgen/structure/battletower.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Structures"
+    },
+    {
+      "name": "BattleTowerLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battle_tower_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/loot_table/battle_tower_loot.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Battle Tower"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "scythecooldown",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "shockwave",
+      "files": [
+        "401628__studiomandragore__explosion-pas"
+      ],
+      "category": "hostile",
+      "subtitle": "Shockwave"
+    },
+    {
+      "name": "cowlinlaser",
+      "files": [
+        "lasersfx"
+      ],
+      "category": "hostile",
+      "subtitle": "Cowlin readying laser"
+    }
+  ],
+  "tag_elements": {
+    "DAMAGE_TYPES:minecraft:bypasses_enchantments": [
+      "CUSTOM:PurplePoisonDamage"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:PurpleMushroomBlock",
+      "~CUSTOM:YellowMushroomBlock",
+      "~CUSTOM:GreenMushroomBlock",
+      "~CUSTOM:BlueMushroomBlock",
+      "~CUSTOM:MjinLeaves"
+    ],
+    "ENCHANTMENTS:minecraft:treasure": [
+      "~CUSTOM:PurplePoisonEnchantment"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:MjinLog",
+      "CUSTOM:XizaLog",
+      "CUSTOM:LoreoLog",
+      "CUSTOM:LoreoWood",
+      "CUSTOM:MjinWood",
+      "CUSTOM:XizaWood",
+      "CUSTOM:VerdantWood",
+      "CUSTOM:VerdantLog"
+    ],
+    "DAMAGE_TYPES:minecraft:bypasses_effects": [
+      "CUSTOM:PurplePoisonDamage"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "CUSTOM:MjinLeaves",
+      "CUSTOM:LoreoLeaves",
+      "CUSTOM:XizaLeaves",
+      "CUSTOM:VerdantLeaves"
+    ],
+    "BLOCKS:minecraft:dragon_immune": [
+      "CUSTOM:AltarBase",
+      "CUSTOM:AltarInfernoHydra",
+      "CUSTOM:AltarPrinceOfDarkness",
+      "CUSTOM:AltarMushroomKing"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:VerdantSlab",
+      "~CUSTOM:XizaSlab",
+      "~CUSTOM:LoreoSlab",
+      "~CUSTOM:MjinSlab"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:VerdantStairs",
+      "~CUSTOM:XizaStairs",
+      "~CUSTOM:LoreoStairs",
+      "~CUSTOM:MjinStairs"
+    ],
+    "BLOCKS:minecraft:wither_immune": [
+      "CUSTOM:AltarBase",
+      "CUSTOM:AltarInfernoHydra",
+      "CUSTOM:AltarPrinceOfDarkness",
+      "CUSTOM:AltarMushroomKing"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:BloxysScythe",
+      "~CUSTOM:DarknessArm"
+    ],
+    "ITEMS:minecraft:planks": [
+      "CUSTOM:MjinPlanks",
+      "CUSTOM:LoreoPlanks",
+      "CUSTOM:XizaPlanks",
+      "CUSTOM:VerdantPlanks"
+    ],
+    "BIOMES:mod:has_structure/battletower": [],
+    "DAMAGE_TYPES:minecraft:bypasses_cooldown": [
+      "CUSTOM:PurplePoisonDamage"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:AltarBloxy",
+      "~CUSTOM:AltarMushroomKing",
+      "~CUSTOM:AltarPrinceOfDarkness",
+      "~CUSTOM:AltarInfernoHydra",
+      "~CUSTOM:AltarBase"
+    ],
+    "BLOCKS:minecraft:wooden_fences": [
+      "CUSTOM:MjinFence",
+      "CUSTOM:MjinFenceGate",
+      "CUSTOM:LoreoFence",
+      "CUSTOM:LoreoFenceGate",
+      "CUSTOM:XizaFence",
+      "CUSTOM:XizaFenceGate",
+      "CUSTOM:VerdantFence",
+      "CUSTOM:VerdantFenceGate"
+    ],
+    "BLOCKS:minecraft:prevent_mob_spawning_inside": [
+      "CUSTOM:MjinLeaves",
+      "CUSTOM:LoreoLeaves",
+      "CUSTOM:XizaLeaves",
+      "CUSTOM:VerdantLeaves"
+    ],
+    "BIOMES:minecraft:has_structure/trial_chambers": [
+      "CUSTOM:AdventureRealmPlains"
+    ],
+    "ITEMS:mod:giant_wolf_food": [
+      "Items.FISH#0",
+      "Items.FISH#1",
+      "Items.COOKED_FISH#0",
+      "Items.COOKED_FISH#1",
+      "Items.MUTTON",
+      "Items.COOKED_MUTTON",
+      "Items.PORKCHOP",
+      "Items.COOKED_PORKCHOP",
+      "Items.BEEF",
+      "Items.COOKED_BEEF",
+      "Items.CHICKEN",
+      "Items.COOKED_CHICKEN",
+      "Items.RABBIT",
+      "Items.COOKED_RABBIT"
+    ],
+    "DAMAGE_TYPES:minecraft:bypasses_armor": [
+      "CUSTOM:PurplePoisonDamage"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:AdventureRealmPlains"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.STONE#0",
+      "~Blocks.DIRT#0",
+      "~Blocks.GRASS"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:VerdantPlanks",
+      "~CUSTOM:VerdantLog",
+      "~CUSTOM:VerdantWood",
+      "~CUSTOM:XizaPlanks",
+      "~CUSTOM:XizaLog",
+      "~CUSTOM:XizaWood",
+      "~CUSTOM:MjinWood",
+      "~CUSTOM:LoreoPlanks",
+      "~CUSTOM:LoreoLog",
+      "~CUSTOM:LoreoWood",
+      "~CUSTOM:MjinPressurePlate",
+      "~CUSTOM:MjinFenceGate",
+      "~CUSTOM:MjinFence",
+      "~CUSTOM:MjinButton",
+      "~CUSTOM:MjinSlab",
+      "~CUSTOM:MjinStairs",
+      "~CUSTOM:MjinPlanks",
+      "~CUSTOM:MjinLog"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:AltarBloxy",
+      "~CUSTOM:AltarMushroomKing",
+      "~CUSTOM:AltarPrinceOfDarkness",
+      "~CUSTOM:AltarInfernoHydra",
+      "~CUSTOM:AltarBase"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "CUSTOM:MjinFence",
+      "CUSTOM:LoreoFence",
+      "CUSTOM:XizaFence",
+      "CUSTOM:VerdantFence"
+    ],
+    "ENTITIES:mod:cowlin_tag": [
+      "CUSTOM:Cowlin",
+      "CUSTOM:CowlinBrute"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.bloxysstructures.altar_mushroom_king": "Altar (Mushroom King)",
+      "entity.bloxysstructures.cowlin_brute": "Cowlin Brute",
+      "entity.bloxysstructures.bloxy": "Bloxy",
+      "block.bloxysstructures.mjin_button": "Mjin Button",
+      "block.bloxysstructures.yellow_mushroom_block": "Yellow Mushroom Block",
+      "block.bloxysstructures.loreo_planks": "Loreo Planks",
+      "item.bloxysstructures.giant_cow_spawn_egg": "Giant Cow Spawn Egg",
+      "block.bloxysstructures.verdant_wood": "Verdant Wood",
+      "block.bloxysstructures.verdant_pressure_plate": "Verdant Pressure Plate",
+      "block.bloxysstructures.loreo_leaves": "Loreo Leaves",
+      "death.attack.purple_poison_damage.item": "%1$s was killed by %2$s using Purple Poison",
+      "block.bloxysstructures.verdant_fence": "Verdant Fence",
+      "block.bloxysstructures.xiza_stairs": "Xiza Stairs",
+      "block.bloxysstructures.verdant_button": "Verdant Button",
+      "block.bloxysstructures.altar_bloxy": "Altar (Bloxy)",
+      "block.bloxysstructures.loreo_pressure_plate": "Loreo Pressure Plate",
+      "block.bloxysstructures.purple_mushroom_block": "Purple Mushroom Block",
+      "block.bloxysstructures.xiza_planks": "Xiza Planks",
+      "block.bloxysstructures.mjin_log": "Mjin Log",
+      "enchantment.bloxysstructures.purple_poison_enchantment": "Purple Poison",
+      "block.bloxysstructures.mjin_slab": "Mjin Slab",
+      "block.bloxysstructures.mjin_wood": "Mjin Wood",
+      "block.bloxysstructures.xiza_fence_gate": "Xiza Fence Gate",
+      "item.bloxysstructures.void_walkers_spawn_egg": "Void Walker Spawn Egg",
+      "block.bloxysstructures.verdant_slab": "Verdant Slab",
+      "entity.bloxysstructures.adventure_realm_golem": "Adventure Realm Golem",
+      "block.bloxysstructures.loreo_slab": "Loreo Slab",
+      "death.attack.purple_poison_damage": "%1$s died of Purple Poison",
+      "advancements.bloxys_structures_advancement.descr": "Thank you for playing Bloxy\u0027s Structures",
+      "block.bloxysstructures.green_mushroom_block": "Green Mushroom Block",
+      "item.bloxysstructures.quantum_mage_spawn_egg": "Quantum Mage Spawn Egg",
+      "item_group.bloxysstructures.bloxys_structures": "Bloxy\u0027s Structures",
+      "biome.bloxysstructures.adventure_realm_plains": "Adventure Realm Plains",
+      "subtitles.cowlinlaser": "Cowlin readying laser",
+      "entity.bloxysstructures.giant_wolf": "Giant Wolf",
+      "block.bloxysstructures.altar_prince_of_darkness": "Altar (Prince of Darkness)",
+      "entity.bloxysstructures.cowlin": "Cowlin",
+      "item.bloxysstructures.bloxy_spawn_egg": "Bloxy Spawn Egg",
+      "block.bloxysstructures.xiza_leaves": "Xiza Leaves",
+      "item.bloxysstructures.bloxys_scythe": "Bloxy\u0027s Scythe",
+      "entity.bloxysstructures.void_walkers": "Void Walker",
+      "block.bloxysstructures.xiza_slab": "Xiza Slab",
+      "block.bloxysstructures.xiza_pressure_plate": "Xiza Pressure Plate",
+      "block.bloxysstructures.loreo_button": "Loreo Button",
+      "block.bloxysstructures.loreo_log": "Loreo Log",
+      "block.bloxysstructures.altar_base": "Altar (No Entity)",
+      "entity.bloxysstructures.quantum_mage": "Quantum Mage",
+      "block.bloxysstructures.loreo_stairs": "Loreo Stairs",
+      "item.bloxysstructures.prince_of_darkness_spawn_egg": "Prince Of Darkness Spawn Egg",
+      "item.bloxysstructures.giant_wolf_armor": "Giant Wolf Armor",
+      "block.bloxysstructures.mjin_pressure_plate": "Mjin Pressure Plate",
+      "item.bloxysstructures.adventure_realm_golem_spawn_egg": "Adventure Realm Golem Spawn Egg",
+      "entity.bloxysstructures.inferno_hydra": "Inferno Hydra",
+      "block.bloxysstructures.xiza_button": "Xiza Button",
+      "block.bloxysstructures.mjin_leaves": "Mjin Leaves",
+      "block.bloxysstructures.mjin_planks": "Mjin Planks",
+      "block.bloxysstructures.mjin_fence_gate": "Mjin Fence Gate",
+      "block.bloxysstructures.verdant_planks": "Verdant Planks",
+      "item.bloxysstructures.shield_of_inferno": "Shield Of Inferno",
+      "entity.bloxysstructures.prince_of_darkness": "Prince Of Darkness",
+      "item.bloxysstructures.darkness_arm": "Darkness Arm",
+      "block.bloxysstructures.xiza_wood": "Xiza Wood",
+      "block.bloxysstructures.mjin_stairs": "Mjin Stairs",
+      "item.bloxysstructures.giant_wolf_spawn_egg": "Giant Wolf Spawn Egg",
+      "block.bloxysstructures.verdant_stairs": "Verdant Stairs",
+      "item.bloxysstructures.adventure_realm": "Flint and Diamond",
+      "block.bloxysstructures.altar_inferno_hydra": "Altar (Inferno Hydra)",
+      "block.bloxysstructures.loreo_fence": "Loreo Fence",
+      "block.bloxysstructures.loreo_wood": "Loreo Wood",
+      "item.bloxysstructures.inferno_hydra_spawn_egg": "Inferno Hydra Spawn Egg",
+      "block.bloxysstructures.verdant_log": "Verdant Log",
+      "entity.bloxysstructures.purple_lightning_shockwave": "Purple-Lightning-Shockwave",
+      "block.bloxysstructures.verdant_leaves": "Verdant Leaves",
+      "block.bloxysstructures.mjin_fence": "Mjin Fence",
+      "death.attack.purple_poison_damage.player": "%1$s died whilst trying to escape Purple Poison",
+      "item.bloxysstructures.giant_pig_spawn_egg": "Giant Pig Spawn Egg",
+      "item.bloxysstructures.quantum_guardian_spawn_egg": "Quantum Guardian Spawn Egg",
+      "entity.bloxysstructures.giant_pig": "Giant Pig",
+      "block.bloxysstructures.loreo_fence_gate": "Loreo Fence Gate",
+      "item.bloxysstructures.cowlin_brute_spawn_egg": "Cowlin Brute Spawn Egg",
+      "block.bloxysstructures.xiza_log": "Xiza Log",
+      "entity.bloxysstructures.quantum_guardian": "Quantum Guardian",
+      "entity.bloxysstructures.giant_cow": "Giant Cow",
+      "effect.bloxysstructures.purple_poison": "Purple Poison",
+      "item.bloxysstructures.mushroom_king_spawn_egg": "Mushroom King Spawn Egg",
+      "advancements.bloxys_structures_advancement.title": "Bloxy\u0027s Structures",
+      "block.bloxysstructures.blue_mushroom_block": "Blue Mushroom Block",
+      "block.bloxysstructures.xiza_fence": "Xiza Fence",
+      "entity.bloxysstructures.mushroom_king": "Mushroom King",
+      "item.bloxysstructures.cowlin_spawn_egg": "Cowlin Spawn Egg",
+      "block.bloxysstructures.verdant_fence_gate": "Verdant Fence Gate",
+      "subtitles.shockwave": "Shockwave"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Adventure Realm",
+        "children": [
+          {
+            "name": "Biomes",
+            "children": [
+              {
+                "name": "Plains",
+                "children": []
+              },
+              {
+                "name": "Mjin Forest",
+                "children": []
+              },
+              {
+                "name": "Loreo",
+                "children": []
+              },
+              {
+                "name": "Xiza",
+                "children": []
+              },
+              {
+                "name": "Verdant",
+                "children": []
+              },
+              {
+                "name": "Mushroom",
+                "children": [
+                  {
+                    "name": "Blocks",
+                    "children": []
+                  },
+                  {
+                    "name": "Structures",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Items",
+            "children": []
+          },
+          {
+            "name": "Bosses",
+            "children": [
+              {
+                "name": "Altars",
+                "children": []
+              },
+              {
+                "name": "InfernoLeviathan",
+                "children": []
+              },
+              {
+                "name": "Prince of Darkness",
+                "children": []
+              },
+              {
+                "name": "Mushroom King",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Entities",
+            "children": [
+              {
+                "name": "GiantWolf",
+                "children": []
+              },
+              {
+                "name": "GiantSniffer",
+                "children": []
+              },
+              {
+                "name": "Cowlin",
+                "children": []
+              },
+              {
+                "name": "Bloxys Army",
+                "children": [
+                  {
+                    "name": "Bloxy",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Structures",
+            "children": []
+          },
+          {
+            "name": "Battle Tower",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Misc",
+        "children": []
+      },
+      {
+        "name": "Tags",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "bloxysstructures",
+    "modName": "BloxysStructures",
+    "version": "1.17.0",
+    "description": "Adds more Structures to Minecraft",
+    "author": "BloxyMath",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about - Thank you to (ItsJustKen on PlanetMinecraft) for the permission to use the Cowlin Textures",
+    "modElementsPackage": "net.mcreator.bloxysstructures"
+  },
+  "mcreatorVersion": 202400342716
+}

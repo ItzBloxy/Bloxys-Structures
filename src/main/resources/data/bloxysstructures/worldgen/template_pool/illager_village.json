@@ -1,0 +1,212 @@
+{
+  "fallback": "minecraft:village/taiga/terminators",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/taiga/town_centers",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/taiga/houses/taiga_small_house_1",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/taiga/houses/taiga_medium_house_1",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/taiga/houses/taiga_medium_house_2",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/taiga/houses/taiga_medium_house_3",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/taiga/houses/taiga_medium_house_4",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/taiga/houses/taiga_tool_smith_1",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/taiga/houses/taiga_fletcher_house_1",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/taiga/houses/taiga_armorer_house_1",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/taiga/houses/taiga_fisher_cottage_1",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/taiga/houses/taiga_cartographer_house_1",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/taiga/houses/taiga_library_1",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/taiga/houses/taiga_weaponsmith_1",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/taiga/streets/corner_01",
+        "processors": "minecraft:street_snowy_or_taiga"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/taiga/streets/corner_02",
+        "processors": "minecraft:street_snowy_or_taiga"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/taiga/streets/corner_03",
+        "processors": "minecraft:street_snowy_or_taiga"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/taiga/streets/straight_01",
+        "processors": "minecraft:street_snowy_or_taiga"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/taiga/streets/straight_02",
+        "processors": "minecraft:street_snowy_or_taiga"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/taiga/streets/straight_03",
+        "processors": "minecraft:street_snowy_or_taiga"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/taiga/streets/crossroad_01",
+        "processors": "minecraft:street_snowy_or_taiga"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/taiga/streets/crossroad_02",
+        "processors": "minecraft:street_snowy_or_taiga"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/taiga/streets/crossroad_03",
+        "processors": "minecraft:street_snowy_or_taiga"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/taiga/streets/turn_01",
+        "processors": "minecraft:street_snowy_or_taiga"
+      }
+    }
+  ]
+}

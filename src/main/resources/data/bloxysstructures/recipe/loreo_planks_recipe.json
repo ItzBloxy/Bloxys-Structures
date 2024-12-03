@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "bloxysstructures:loreo_log"
+    }
+  ],
+  "result": {
+    "id": "bloxysstructures:loreo_planks",
+    "count": 4
+  }
+}

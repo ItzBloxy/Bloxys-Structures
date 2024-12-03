@@ -1,0 +1,569 @@
+{
+  "_fv": 69,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "Giant Wolf",
+    "mobLabel": "",
+    "mobModelName": "Modelwolf",
+    "mobModelTexture": "wolf_blank.png",
+    "transparentModelCondition": {
+      "fixedValue": false
+    },
+    "isShakingCondition": {
+      "fixedValue": false
+    },
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
+    "visualScale": {
+      "fixedValue": 2.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 2.0
+    },
+    "modelLayers": [
+      {
+        "model": "Modelwolf",
+        "texture": "wolf_tame_notail.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "GiantWolfMainModelDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_40",
+        "texture": "wolf_tame.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "GiantWolfHealth40"
+        }
+      },
+      {
+        "model": "Modelwolf_30",
+        "texture": "wolf_tame.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "GiantWolfHealth30"
+        }
+      },
+      {
+        "model": "Modelwolf_20",
+        "texture": "wolf_tame.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "GiantWolfHealth20"
+        }
+      },
+      {
+        "model": "Modelwolf_10",
+        "texture": "wolf_tame.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "GiantWolfHealth10"
+        }
+      },
+      {
+        "model": "Modelwolf_sitting",
+        "texture": "wolf_tame.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "GiantWolfSitModelDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_armor",
+        "texture": "wolf_armor_white.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "WhiteGiantWolfArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_armor",
+        "texture": "wolf_armor_black.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "BlackGiantWolfArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_armor",
+        "texture": "wolf_armor_blue.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "BlueGiantWolfArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_armor",
+        "texture": "wolf_armor_brown.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "BrownGiantWolfArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_armor",
+        "texture": "wolf_armor_cyan.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "CyanGiantWolfArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_armor",
+        "texture": "wolf_armor_gray.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "GrayGiantWolfArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_armor",
+        "texture": "wolf_armor_green.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "GreenGiantWolfArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_armor",
+        "texture": "wolf_armor_light_white.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "LightGrayGiantWolfArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_armor",
+        "texture": "wolf_armor_lime.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "LimeGiantWolfArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_armor",
+        "texture": "wolf_armor_magenta.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "MagentaGiantWolfArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_armor",
+        "texture": "wolf_armor_orange.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "OrangeGiantWolfArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_armor",
+        "texture": "wolf_armor_pink.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "PinkGiantWolfArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_armor",
+        "texture": "wolf_armor_purple.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "PurpleGiantWolfArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_armor",
+        "texture": "wolf_armor_red.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "RedGiantWolfArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_armor",
+        "texture": "wolf_armor_yellow.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "YellowGiantWolfArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_sitting_armor",
+        "texture": "wolf_armor_white.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "WhiteGiantWolfSitArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_sitting_armor",
+        "texture": "wolf_armor_black.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "BlackGiantWolfSitArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_sitting_armor",
+        "texture": "wolf_armor_blue.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "BlueGiantWolfSitArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_sitting_armor",
+        "texture": "wolf_armor_brown.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "BrownGiantWolfSitArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_sitting_armor",
+        "texture": "wolf_armor_cyan.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "CyanGiantWolfSitArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_sitting_armor",
+        "texture": "wolf_armor_gray.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "GrayGiantWolfSitArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_sitting_armor",
+        "texture": "wolf_armor_green.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "GreenGiantWolfSitArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_sitting_armor",
+        "texture": "wolf_armor_light_white.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "LightWhiteGiantWolfSitArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_sitting_armor",
+        "texture": "wolf_armor_lime.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "LimeGiantWolfSitArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_sitting_armor",
+        "texture": "wolf_armor_magenta.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "MagentaGiantWolfDisplaySitArmorCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_sitting_armor",
+        "texture": "wolf_armor_orange.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "OrangeGiantWolfSitArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_sitting_armor",
+        "texture": "wolf_armor_pink.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "PinkGiantWolfSitArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_sitting_armor",
+        "texture": "wolf_armor_purple.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "PurpleGiantWolfSitArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_sitting_armor",
+        "texture": "wolf_armor_red.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "RedGiantWolfSitArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_sitting_armor",
+        "texture": "wolf_armor_yellow.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "YellowGiantWolfSitArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_sitting_armor",
+        "texture": "wolf_armor.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "LightBlueGiantWolfSitArmorDisplayCondition"
+        }
+      },
+      {
+        "model": "Modelwolf_armor",
+        "texture": "wolf_armor.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "LightBlueGiantWolfArmorDisplayCondition"
+        }
+      }
+    ],
+    "modelWidth": 0.6,
+    "modelHeight": 0.85,
+    "modelShadowSize": 1.0,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -6711401,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -10070198,
+      "falpha": 0.0
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:BloxysStructures"
+      }
+    ],
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 6,
+    "attackKnockback": 0.1,
+    "knockbackResistance": 0.1,
+    "movementSpeed": 0.3,
+    "stepHeight": 0.6,
+    "armorBaseValue": 2.0,
+    "trackingRange": 64,
+    "followRange": 32,
+    "health": 60,
+    "xpAmount": 3,
+    "waterMob": false,
+    "breatheUnderwater": {
+      "fixedValue": false
+    },
+    "pushedByFluids": {
+      "fixedValue": false
+    },
+    "flyingMob": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": "entity.wolf.ambient"
+    },
+    "hurtSound": {
+      "value": "entity.wolf.hurt"
+    },
+    "deathSound": {
+      "value": "entity.wolf.death"
+    },
+    "stepSound": {
+      "value": "entity.wolf.step"
+    },
+    "entityDataEntries": [
+      {
+        "name": "Sitting",
+        "type": "logic",
+        "value": false
+      },
+      {
+        "name": "Armor",
+        "type": "logic",
+        "value": false
+      },
+      {
+        "name": "color",
+        "type": "string",
+        "value": "white"
+      }
+    ],
+    "onRightClickedOn": {
+      "name": "GiantWolfRightClickedOnEntity"
+    },
+    "onMobTickUpdate": {
+      "name": "GiantWolfOnEntityTickUpdate"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">IsGiantWolfSitting,null</field><next><block type=\"attack_with_range\"><field name=\"range\">2.5</field><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">IsGiantWolfSitting,IsGiantWolfSitting</field><next><block type=\"fight_as_owner\"><field name=\"condition\">IsGiantWolfSitting,IsGiantWolfSitting</field><next><block type=\"protect_owner\"><field name=\"condition\">IsGiantWolfSitting,IsGiantWolfSitting</field><next><block type=\"watch_closest_entity\"><field name=\"entity\">EntityPlayer</field><field name=\"radius\">5</field><field name=\"condition\">null,null</field><next><block type=\"follow_owner\"><field name=\"speed\">1.1</field><field name=\"min_distance\">4</field><field name=\"max_distance\">16</field><field name=\"condition\">IsGiantWolfSitting,IsGiantWolfSitting</field><next><block type=\"wander\"><field name=\"speed\">0.8</field><field name=\"condition\">IsGiantWolfSitting,IsGiantWolfSitting</field><next><block type=\"leap_at_target\"><field name=\"speed\">0.5</field><field name=\"condition\">IsGiantWolfSitting,IsGiantWolfSitting</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": true,
+    "tameable": true,
+    "breedTriggerItems": [
+      {
+        "value": "Items.BONE"
+      },
+      {
+        "value": "Items.COOKED_FISH"
+      },
+      {
+        "value": "Items.COOKED_FISH#0"
+      },
+      {
+        "value": "Items.COOKED_FISH#1"
+      },
+      {
+        "value": "Items.COOKED_PORKCHOP"
+      },
+      {
+        "value": "Items.COOKED_BEEF"
+      },
+      {
+        "value": "Items.COOKED_CHICKEN"
+      },
+      {
+        "value": "Items.COOKED_RABBIT"
+      },
+      {
+        "value": "Items.COOKED_MUTTON"
+      },
+      {
+        "value": "Items.BEEF"
+      },
+      {
+        "value": "Items.RABBIT"
+      },
+      {
+        "value": "Items.MUTTON"
+      },
+      {
+        "value": "Items.PORKCHOP"
+      },
+      {
+        "value": "Items.FISH#0"
+      },
+      {
+        "value": "Items.FISH#1"
+      },
+      {
+        "value": "Items.CHICKEN"
+      }
+    ],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 20,
+    "mobSpawningType": "creature",
+    "minNumberOfMobsPerGroup": 2,
+    "maxNumberOfMobsPerGroup": 3,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:AdventureRealmPlains"
+      }
+    ],
+    "spawnInDungeons": false,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ]
+  }
+}

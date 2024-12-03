@@ -1,0 +1,30 @@
+{
+  "_fv": 69,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Bloxy.spawn_egg"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": ""
+    },
+    "igniteFire": false,
+    "power": 1.0,
+    "damage": 0.0,
+    "knockback": 0,
+    "entityModel": "Modelthrowablescythe6",
+    "customModelTexture": "bloxytx.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsBlock": {
+      "name": "BloxysScytheThrowablePlayerProjectileHitsBlock"
+    },
+    "onHitsEntity": {
+      "name": "BloxysScytheThrowablePlayerProjectileHitsLivingEntity"
+    },
+    "onFlyingTick": {
+      "name": "BloxysScytheThrowablePlayerWhileProjectileFlyingTick"
+    }
+  }
+}

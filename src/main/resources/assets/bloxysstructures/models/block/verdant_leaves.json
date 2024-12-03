@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bloxysstructures:block/verdant_leaves",
+    "particle": "bloxysstructures:block/verdant_leaves"
+  }
+}

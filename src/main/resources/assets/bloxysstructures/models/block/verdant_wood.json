@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bloxysstructures:block/verdant_log_side",
+    "particle": "bloxysstructures:block/verdant_log_side"
+  },
+  "render_type": "solid"
+}

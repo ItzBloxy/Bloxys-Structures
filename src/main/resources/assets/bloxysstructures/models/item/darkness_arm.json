@@ -1,0 +1,7 @@
+{
+  "parent": "bloxysstructures:custom/darknessarm",
+  "textures": {
+    "2": "bloxysstructures:block/darknessarmtx",
+    "particle": "bloxysstructures:item/darknessarmtx"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "bloxysstructures:ruined_adventure_realm_portal",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 128,
+    "separation": 100,
+    "salt": 1999959353
+  }
+}

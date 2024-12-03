@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "loreo_wood",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "bloxysstructures:loreo_log"
+    }
+  },
+  "result": {
+    "id": "bloxysstructures:loreo_wood",
+    "count": 4
+  }
+}

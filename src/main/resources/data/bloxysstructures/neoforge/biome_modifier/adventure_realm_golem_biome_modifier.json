@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "bloxysstructures:adventure_realm_plains",
+  "spawners": {
+    "type": "bloxysstructures:adventure_realm_golem",
+    "weight": 50,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

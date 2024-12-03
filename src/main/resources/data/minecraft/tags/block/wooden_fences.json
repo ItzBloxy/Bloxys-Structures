@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "bloxysstructures:mjin_fence",
+    "bloxysstructures:mjin_fence_gate",
+    "bloxysstructures:loreo_fence",
+    "bloxysstructures:loreo_fence_gate",
+    "bloxysstructures:xiza_fence",
+    "bloxysstructures:xiza_fence_gate",
+    "bloxysstructures:verdant_fence",
+    "bloxysstructures:verdant_fence_gate"
+  ]
+}

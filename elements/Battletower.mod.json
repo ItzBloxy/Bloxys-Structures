@@ -1,0 +1,235 @@
+{
+  "_fv": 69,
+  "_type": "structure",
+  "definition": {
+    "structure": "maintowerbase",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 5,
+    "separation": 2,
+    "restrictionBiomes": [
+      {
+        "value": "#mod:has_structure/battletower"
+      }
+    ],
+    "terrainAdaptation": "beard_box",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 8,
+    "maxDistanceFromCenter": 116,
+    "jigsawPools": [
+      {
+        "poolName": "rooms",
+        "fallbackPool": "bloxysstructures:battletower_fallback",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "battlerooms1",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms10",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms11",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms12",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms13",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms14",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms15",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms16",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms17",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms18",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms19",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms2",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms20",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms21",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms22",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms23",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms24",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms25",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms26",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms27",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms28",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms29",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms3",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms30",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms31",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms4",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms5",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms6",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms7",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms8",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "battlerooms9",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "fallback",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "towerend",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      }
+    ]
+  }
+}

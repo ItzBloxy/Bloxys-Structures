@@ -1,0 +1,12 @@
+{
+  "parent": "bloxysstructures:custom/altar_base",
+  "textures": {
+    "all": "bloxysstructures:block/fireleviathanaltarblock",
+    "particle": "bloxysstructures:block/fireleviathanaltarblock",
+    "1": "bloxysstructures:block/altararmorsidetx",
+    "2": "bloxysstructures:block/altararmortoptx",
+    "3": "bloxysstructures:block/infernohydraaltaranimate",
+    "4": "bloxysstructures:block/fireleviathanaltarblock"
+  },
+  "render_type": "cutout"
+}

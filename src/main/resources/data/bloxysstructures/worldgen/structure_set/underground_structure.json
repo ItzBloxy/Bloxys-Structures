@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "bloxysstructures:underground_structure",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 695700187,
+    "frequency": 1,
+    "spread_type": "linear",
+    "spacing": 4,
+    "separation": 2
+  }
+}

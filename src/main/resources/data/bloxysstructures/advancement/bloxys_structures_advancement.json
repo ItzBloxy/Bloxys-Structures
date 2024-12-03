@@ -1,0 +1,64 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "id": "bloxysstructures:adventure_realm"
+    },
+    "title": {
+      "translate": "advancements.bloxys_structures_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.bloxys_structures_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "bloxys_structures_advancement_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "bloxysstructures:mjin_planks_recipe",
+      "bloxysstructures:mjin_stairs_recipe_1",
+      "bloxysstructures:mjin_slab_recipe",
+      "bloxysstructures:mjin_button_recipe",
+      "bloxysstructures:mjin_fence_recipe_2",
+      "bloxysstructures:mjin_fence_gate_recipe_1",
+      "bloxysstructures:mjin_pressure_plate_recipe_2",
+      "bloxysstructures:mjin_wood_recipe",
+      "bloxysstructures:loreo_wood_recipe_1",
+      "bloxysstructures:loreo_planks_recipe",
+      "bloxysstructures:loreo_stairs_recipe_1",
+      "bloxysstructures:loreo_slab_recipe_1",
+      "bloxysstructures:loreo_fence_recipe",
+      "bloxysstructures:loreo_fence_gate_recipe",
+      "bloxysstructures:loreo_pressure_plate_recipe",
+      "bloxysstructures:xiza_wood_recipe",
+      "bloxysstructures:xiza_planks_log_recipe",
+      "bloxysstructures:xiza_planks_wood_recipe",
+      "bloxysstructures:xiza_stairs_recipe",
+      "bloxysstructures:xiza_slab_recipe",
+      "bloxysstructures:xiza_fence_recipe",
+      "bloxysstructures:xiza_fence_gate_recipe",
+      "bloxysstructures:xiza_pressure_plate_recipe",
+      "bloxysstructures:xiza_button_recipe",
+      "bloxysstructures:xiza_stick_recipe",
+      "bloxysstructures:verdant_wood_recipe",
+      "bloxysstructures:verdant_planks_log_recipe",
+      "bloxysstructures:verdant_planks_wood_recipe",
+      "bloxysstructures:verdant_stairs_recipe",
+      "bloxysstructures:verdant_slab_recipe",
+      "bloxysstructures:verdant_fence_recipe",
+      "bloxysstructures:verdant_fence_gate_recipe",
+      "bloxysstructures:verdant_pressure_plate_recipe",
+      "bloxysstructures:verdant_button_recipe",
+      "bloxysstructures:verdant_stick_recipe",
+      "bloxysstructures:flint_and_diamond_recipe"
+    ]
+  }
+}

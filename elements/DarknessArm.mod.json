@@ -1,0 +1,62 @@
+{
+  "_fv": 69,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "darknessarmtx",
+    "customModelName": "darknessarm:default",
+    "blockingModelName": "Normal blocking",
+    "name": "Darkness Arm",
+    "specialInformation": {
+      "fixedValue": [
+        "- Right Click to use Shadow Shockwave"
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:BloxysStructures"
+      }
+    ],
+    "efficiency": 6.0,
+    "attackSpeed": 1.5999999999999999,
+    "enchantability": 8,
+    "damageVsEntity": 5.5,
+    "usageCount": 960,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.NETHERITE_SCRAP"
+      },
+      {
+        "value": "Items.EMERALD"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "DIAMOND",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "DarknessArmRightclicked"
+    }
+  }
+}

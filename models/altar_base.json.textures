@@ -1,0 +1,58 @@
+{
+  "mappings": {
+    "infernohydra": {
+      "map": {
+        "1": "altararmorsidetx",
+        "2": "altararmortoptx",
+        "3": "infernohydraaltaranimate",
+        "4": "fireleviathanaltarblock"
+      },
+      "name": "infernohydra"
+    },
+    "default": {
+      "map": {
+        "1": "altararmorsidetx",
+        "2": "altararmortoptx",
+        "3": "cobblestone",
+        "4": "cobblestone"
+      },
+      "name": "default"
+    },
+    "princedarknes": {
+      "map": {
+        "1": "altararmorsidetx",
+        "2": "altararmortoptx",
+        "3": "princedarknessaltaranimation",
+        "4": "princedarknessaltarblock"
+      },
+      "name": "princedarknes"
+    },
+    "mushroomking": {
+      "map": {
+        "1": "altararmorsidetx",
+        "2": "altararmortoptx",
+        "3": "mushroomkingaltaranimate",
+        "4": "purplemushroomblock"
+      },
+      "name": "mushroomking"
+    },
+    "cowlinking": {
+      "map": {
+        "1": "altararmorsidetx",
+        "2": "altararmortoptx",
+        "3": "cowlingkinganimate",
+        "4": "cowlinkingaltar"
+      },
+      "name": "cowlinking"
+    },
+    "bloxy": {
+      "map": {
+        "1": "altararmorsidetx",
+        "2": "altararmortoptx",
+        "3": "bloxyaltaranimatetx",
+        "4": "bloxyaltarblocktx"
+      },
+      "name": "bloxy"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bloxysstructures:block/purplemushroomblock",
+    "particle": "bloxysstructures:block/purplemushroomblock"
+  },
+  "render_type": "solid"
+}

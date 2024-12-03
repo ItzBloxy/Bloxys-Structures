@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "bloxysstructures:loot_crate",
+    "bloxysstructures:verdant_planks",
+    "bloxysstructures:verdant_log",
+    "bloxysstructures:verdant_wood",
+    "bloxysstructures:xiza_planks",
+    "bloxysstructures:xiza_log",
+    "bloxysstructures:xiza_wood",
+    "bloxysstructures:mjin_wood",
+    "bloxysstructures:loreo_planks",
+    "bloxysstructures:loreo_log",
+    "bloxysstructures:loreo_wood",
+    "bloxysstructures:mjin_pressure_plate",
+    "bloxysstructures:mjin_fence_gate",
+    "bloxysstructures:mjin_fence",
+    "bloxysstructures:mjin_button",
+    "bloxysstructures:mjin_slab",
+    "bloxysstructures:mjin_stairs",
+    "bloxysstructures:mjin_planks",
+    "bloxysstructures:mjin_log"
+  ]
+}

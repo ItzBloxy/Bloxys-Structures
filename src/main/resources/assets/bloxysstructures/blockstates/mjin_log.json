@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "bloxysstructures:block/mjin_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "bloxysstructures:block/mjin_log"
+    },
+    "axis=z": {
+      "model": "bloxysstructures:block/mjin_log",
+      "x": 90
+    }
+  }
+}

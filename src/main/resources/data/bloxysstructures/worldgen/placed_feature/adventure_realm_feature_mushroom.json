@@ -1,0 +1,34 @@
+{
+  "feature": "bloxysstructures:adventure_realm_feature_mushroom",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 48
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:grass_block",
+          "minecraft:short_grass"
+        ],
+        "offset": [
+          0,
+          -1,
+          0
+        ]
+      }
+    }
+  ]
+}

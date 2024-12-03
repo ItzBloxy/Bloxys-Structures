@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "bloxysstructures:block/verdant_planks",
+    "particle": "bloxysstructures:block/verdant_planks"
+  },
+  "render_type": "solid"
+}

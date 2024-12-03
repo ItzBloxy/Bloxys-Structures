@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "bloxysstructures:block/xiza_slab"
+    },
+    "type=top": {
+      "model": "bloxysstructures:block/xiza_slab_top"
+    },
+    "type=double": {
+      "model": "bloxysstructures:block/xiza_slab_full"
+    }
+  }
+}

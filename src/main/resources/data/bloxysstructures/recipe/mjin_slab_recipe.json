@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mjin_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "bloxysstructures:mjin_planks"
+    }
+  },
+  "result": {
+    "id": "bloxysstructures:mjin_slab",
+    "count": 6
+  }
+}

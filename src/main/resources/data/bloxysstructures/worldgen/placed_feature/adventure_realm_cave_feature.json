@@ -1,0 +1,12 @@
+{
+  "feature": "bloxysstructures:adventure_realm_cave_feature",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 2
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

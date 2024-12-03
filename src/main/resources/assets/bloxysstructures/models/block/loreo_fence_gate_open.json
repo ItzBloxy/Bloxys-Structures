@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate_open",
+  "textures": {
+    "particle": "bloxysstructures:block/loreo_planks",
+    "texture": "bloxysstructures:block/loreo_planks"
+  },
+  "render_type": "solid"
+}

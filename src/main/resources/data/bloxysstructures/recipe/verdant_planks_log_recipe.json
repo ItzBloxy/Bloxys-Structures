@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "bloxysstructures:verdant_log"
+    }
+  ],
+  "result": {
+    "id": "bloxysstructures:verdant_planks",
+    "count": 4
+  }
+}

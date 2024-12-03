@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "bloxysstructures:illager_village",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1544564733,
+    "frequency": 1,
+    "spacing": 42,
+    "separation": 40
+  }
+}

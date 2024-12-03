@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mjin_wood",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "bloxysstructures:mjin_log"
+    }
+  },
+  "result": {
+    "id": "bloxysstructures:mjin_wood",
+    "count": 4
+  }
+}

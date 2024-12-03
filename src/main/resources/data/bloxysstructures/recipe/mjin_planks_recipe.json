@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "bloxysstructures:mjin_log"
+    }
+  ],
+  "result": {
+    "id": "bloxysstructures:mjin_planks",
+    "count": 4
+  }
+}
