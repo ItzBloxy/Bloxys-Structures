@@ -29,7 +29,7 @@
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": ""
+      "value": "music.creative"
     },
     "additionsSound": {
       "value": ""
@@ -45,7 +45,7 @@
     "particleToSpawn": {
       "value": "CUSTOM:AdventureRealmAmbientParticle"
     },
-    "particlesProbability": 0.33,
+    "particlesProbability": 0.32999999999999996,
     "rainingPossibility": 0.5,
     "temperature": 0.5,
     "spawnBiome": false,
@@ -122,6 +122,15 @@
         "minGroup": 2,
         "maxGroup": 3,
         "weight": 64,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityFrog"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 32,
         "spawnType": "creature"
       }
     ]

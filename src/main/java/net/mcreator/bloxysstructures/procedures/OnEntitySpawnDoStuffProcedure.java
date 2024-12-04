@@ -7,6 +7,7 @@ import net.neoforged.bus.api.Event;
 
 import net.minecraft.world.entity.monster.warden.Warden;
 import net.minecraft.world.entity.animal.sniffer.Sniffer;
+import net.minecraft.world.entity.animal.frog.Frog;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
@@ -43,6 +44,13 @@ public class OnEntitySpawnDoStuffProcedure {
 					_livingEntity10.getAttribute(Attributes.SCALE).setBaseValue(2);
 				if (entity instanceof LivingEntity _livingEntity11 && _livingEntity11.getAttributes().hasAttribute(Attributes.STEP_HEIGHT))
 					_livingEntity11.getAttribute(Attributes.STEP_HEIGHT).setBaseValue(16);
+				if (entity instanceof LivingEntity _livingEntity12 && _livingEntity12.getAttributes().hasAttribute(Attributes.SAFE_FALL_DISTANCE))
+					_livingEntity12.getAttribute(Attributes.SAFE_FALL_DISTANCE).setBaseValue(16);
+			}
+		} else if (entity instanceof Frog) {
+			if ((entity.level().dimension()) == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("bloxysstructures:adventure_realm"))) {
+				if (entity instanceof LivingEntity _livingEntity18 && _livingEntity18.getAttributes().hasAttribute(Attributes.SCALE))
+					_livingEntity18.getAttribute(Attributes.SCALE).setBaseValue((Mth.nextDouble(RandomSource.create(), 4, 6)));
 			}
 		}
 	}

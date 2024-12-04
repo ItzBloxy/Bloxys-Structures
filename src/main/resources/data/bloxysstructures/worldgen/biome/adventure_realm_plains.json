@@ -3,6 +3,7 @@
   "temperature": 0.5,
   "downfall": 0.5,
   "effects": {
+    "ambient_sound": "music.creative",
     "particle": {
       "options": {
         "type": "bloxysstructures:adventure_realm_ambient_particle"
@@ -24,6 +25,12 @@
         "weight": 64,
         "minCount": 2,
         "maxCount": 3
+      },
+      {
+        "type": "frog",
+        "weight": 32,
+        "minCount": 1,
+        "maxCount": 1
       }
     ],
     "ambient": [],
