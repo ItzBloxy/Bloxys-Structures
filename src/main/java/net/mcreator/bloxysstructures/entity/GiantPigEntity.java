@@ -8,6 +8,8 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.ai.goal.TemptGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
@@ -17,13 +19,15 @@ import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnPlacementTypes;
 import net.minecraft.world.entity.Pose;
-import net.minecraft.world.entity.PathfinderMob;
+import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EntityDimensions;
+import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
@@ -31,7 +35,7 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.bloxysstructures.procedures.GiantPigEntityDiesProcedure;
 import net.mcreator.bloxysstructures.init.BloxysstructuresModEntities;
 
-public class GiantPigEntity extends PathfinderMob {
+public class GiantPigEntity extends Animal {
 	public GiantPigEntity(EntityType<GiantPigEntity> type, Level world) {
 		super(type, world);
 		xpReward = 3;
@@ -73,6 +77,18 @@ public class GiantPigEntity extends PathfinderMob {
 	public void die(DamageSource source) {
 		super.die(source);
 		GiantPigEntityDiesProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
+	}
+
+	@Override
+	public AgeableMob getBreedOffspring(ServerLevel serverWorld, AgeableMob ageable) {
+		GiantPigEntity retval = BloxysstructuresModEntities.GIANT_PIG.get().create(serverWorld);
+		retval.finalizeSpawn(serverWorld, serverWorld.getCurrentDifficultyAt(retval.blockPosition()), MobSpawnType.BREEDING, null);
+		return retval;
+	}
+
+	@Override
+	public boolean isFood(ItemStack stack) {
+		return Ingredient.of(new ItemStack(Items.CARROT)).test(stack);
 	}
 
 	@Override

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "bloxysstructures:adventure_realm_plains",
+  "features": "bloxysstructures:adventure_realm_bushes_feature",
+  "step": "raw_generation"
+}

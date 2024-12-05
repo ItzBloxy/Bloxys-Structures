@@ -13,11 +13,11 @@
       "value": "Blocks.GRASS"
     },
     "grassColor": {
-      "value": -16731648,
+      "value": -16729088,
       "falpha": 0.0
     },
     "foliageColor": {
-      "value": -16738048,
+      "value": -16734720,
       "falpha": 0.0
     },
     "waterColor": {
@@ -92,7 +92,9 @@
       "ForestGrass",
       "ForestFlowers",
       "AmethystGeodes",
-      "ReedsAndPumpkins"
+      "ReedsAndPumpkins",
+      "Fossils",
+      "TaigaGrassAndMushrooms"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": true,
@@ -113,7 +115,7 @@
     "spawnNetherFossil": false,
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
-    "spawnRuinedPortal": "NONE",
+    "spawnRuinedPortal": "STANDARD",
     "spawnEntries": [
       {
         "entity": {

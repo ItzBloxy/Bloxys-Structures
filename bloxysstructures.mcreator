@@ -1387,10 +1387,10 @@
       "registry_name": "giant_cow",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/bloxysstructures/entity/GiantCowEntity.java",
           "src/main/java/net/mcreator/bloxysstructures/client/renderer/GiantCowRenderer.java",
-          "src/main/resources/assets/bloxysstructures/models/item/giant_cow_spawn_egg.json",
-          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/giant_cow_biome_modifier.json"
+          "src/main/java/net/mcreator/bloxysstructures/entity/GiantCowEntity.java",
+          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/giant_cow_biome_modifier.json",
+          "src/main/resources/assets/bloxysstructures/models/item/giant_cow_spawn_egg.json"
         ]
       },
       "path": "~/Adventure Realm/Entities"
@@ -1404,9 +1404,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/bloxysstructures/models/item/giant_pig_spawn_egg.json",
-          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/giant_pig_biome_modifier.json",
           "src/main/java/net/mcreator/bloxysstructures/entity/GiantPigEntity.java",
-          "src/main/java/net/mcreator/bloxysstructures/client/renderer/GiantPigRenderer.java"
+          "src/main/java/net/mcreator/bloxysstructures/client/renderer/GiantPigRenderer.java",
+          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/giant_pig_biome_modifier.json"
         ]
       },
       "path": "~/Adventure Realm/Entities"
@@ -4484,6 +4484,21 @@
         ]
       },
       "path": "~/Adventure Realm/Battle Tower"
+    },
+    {
+      "name": "AdventureRealmBushesFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adventure_realm_bushes_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/worldgen/placed_feature/adventure_realm_bushes_feature.json",
+          "src/main/resources/data/bloxysstructures/worldgen/configured_feature/adventure_realm_bushes_feature.json",
+          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/adventure_realm_bushes_feature_biome_modifier.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Biomes/Plains"
     }
   ],
   "variable_elements": [
@@ -4672,6 +4687,9 @@
     "ENTITIES:mod:cowlin_tag": [
       "CUSTOM:Cowlin",
       "CUSTOM:CowlinBrute"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_standard": [
+      "~CUSTOM:AdventureRealmPlains"
     ]
   },
   "tab_element_order": {},

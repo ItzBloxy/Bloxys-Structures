@@ -10,8 +10,8 @@
       },
       "probability": 0.0033
     },
-    "foliage_color": -16738048,
-    "grass_color": -16731648,
+    "foliage_color": -16734720,
+    "grass_color": -16729088,
     "sky_color": 7972607,
     "fog_color": 12638463,
     "water_color": -16740097,
@@ -48,7 +48,10 @@
     [
       "minecraft:amethyst_geode"
     ],
-    [],
+    [
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower"
+    ],
     [],
     [],
     [
@@ -74,6 +77,9 @@
     [],
     [
       "minecraft:forest_flowers",
+      "minecraft:patch_grass_taiga_2",
+      "minecraft:brown_mushroom_taiga",
+      "minecraft:red_mushroom_taiga",
       "minecraft:patch_grass_forest",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin"
