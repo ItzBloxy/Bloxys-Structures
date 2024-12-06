@@ -6,7 +6,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "bloxysstructures:underground1",
+        "location": "bloxysstructures:undergroundstructureupdated",
         "processors": "minecraft:empty"
       }
     },
@@ -15,7 +15,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "bloxysstructures:underground2",
+        "location": "bloxysstructures:undergroundstructureupdated2",
         "processors": "minecraft:empty"
       }
     },
@@ -24,7 +24,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "bloxysstructures:underground3",
+        "location": "bloxysstructures:undergroundstructureupdated3",
         "processors": "minecraft:empty"
       }
     },
@@ -33,7 +33,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "bloxysstructures:underground4",
+        "location": "bloxysstructures:undergroundstructureupdated4",
         "processors": "minecraft:empty"
       }
     },
@@ -42,7 +42,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "bloxysstructures:underground5",
+        "location": "bloxysstructures:undergroundstructureupdated5",
         "processors": "minecraft:empty"
       }
     }

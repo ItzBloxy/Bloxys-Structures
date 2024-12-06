@@ -251,7 +251,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 4,
-                "max": 6
+                "max": 4
               }
             }
           ]
@@ -349,7 +349,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 1
+                "max": 2
               }
             }
           ]
@@ -363,7 +363,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 1
+                "max": 3
               }
             }
           ]
@@ -385,13 +385,13 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:emerald",
-          "weight": 2,
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 1
+                "max": 6
               }
             }
           ]
@@ -860,7 +860,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:heavy_core",
+          "name": "minecraft:wolf_armor",
           "weight": 1,
           "functions": [
             {
@@ -868,6 +868,20 @@
               "count": {
                 "min": 1,
                 "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 6
               }
             }
           ]
