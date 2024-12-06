@@ -4554,6 +4554,9 @@
     "DAMAGE_TYPES:minecraft:bypasses_effects": [
       "CUSTOM:PurplePoisonDamage"
     ],
+    "BIOMES:dungeons_arise:has_structure/thornborn_towers_biomes": [
+      "CUSTOM:AdventureRealmPlains"
+    ],
     "BLOCKS:minecraft:leaves": [
       "CUSTOM:MjinLeaves",
       "CUSTOM:LoreoLeaves",
@@ -4650,6 +4653,9 @@
       "~Blocks.STONE#0",
       "~Blocks.DIRT#0",
       "~Blocks.GRASS"
+    ],
+    "BIOMES:dungeons_arise:has_structure/illager_windmill_biomes": [
+      "CUSTOM:AdventureRealmPlains"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:VerdantPlanks",
