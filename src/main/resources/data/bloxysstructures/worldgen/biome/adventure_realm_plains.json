@@ -30,6 +30,24 @@
         "type": "frog",
         "weight": 32,
         "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "chicken",
+        "weight": 22,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "goat",
+        "weight": 22,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "rabbit",
+        "weight": 22,
+        "minCount": 1,
         "maxCount": 1
       }
     ],

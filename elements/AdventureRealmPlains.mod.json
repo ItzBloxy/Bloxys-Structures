@@ -131,8 +131,35 @@
           "value": "EntityFrog"
         },
         "minGroup": 1,
-        "maxGroup": 1,
+        "maxGroup": 2,
         "weight": 32,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityChicken"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 22,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityGoat"
+        },
+        "minGroup": 2,
+        "maxGroup": 3,
+        "weight": 22,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityRabbit"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 22,
         "spawnType": "creature"
       }
     ]

@@ -10,7 +10,10 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.monster.warden.Warden;
 import net.minecraft.world.entity.animal.sniffer.Sniffer;
+import net.minecraft.world.entity.animal.goat.Goat;
 import net.minecraft.world.entity.animal.frog.Frog;
+import net.minecraft.world.entity.animal.Rabbit;
+import net.minecraft.world.entity.animal.Chicken;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -116,6 +119,21 @@ public class OnEntitySpawnDoStuffProcedure {
 						}
 					}
 				}
+			}
+		} else if (entity instanceof Chicken) {
+			if ((entity.level().dimension()) == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("bloxysstructures:adventure_realm"))) {
+				if (entity instanceof LivingEntity _livingEntity58 && _livingEntity58.getAttributes().hasAttribute(Attributes.SCALE))
+					_livingEntity58.getAttribute(Attributes.SCALE).setBaseValue((Mth.nextDouble(RandomSource.create(), 2, 4)));
+			}
+		} else if (entity instanceof Goat) {
+			if ((entity.level().dimension()) == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("bloxysstructures:adventure_realm"))) {
+				if (entity instanceof LivingEntity _livingEntity64 && _livingEntity64.getAttributes().hasAttribute(Attributes.SCALE))
+					_livingEntity64.getAttribute(Attributes.SCALE).setBaseValue((Mth.nextDouble(RandomSource.create(), 2, 4)));
+			}
+		} else if (entity instanceof Rabbit) {
+			if ((entity.level().dimension()) == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("bloxysstructures:adventure_realm"))) {
+				if (entity instanceof LivingEntity _livingEntity70 && _livingEntity70.getAttributes().hasAttribute(Attributes.SCALE))
+					_livingEntity70.getAttribute(Attributes.SCALE).setBaseValue((Mth.nextDouble(RandomSource.create(), 4, 6)));
 			}
 		}
 	}
