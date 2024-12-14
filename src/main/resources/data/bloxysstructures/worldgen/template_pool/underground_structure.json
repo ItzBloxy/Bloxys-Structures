@@ -2,48 +2,59 @@
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 25,
+      "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "bloxysstructures:undergroundstructureupdated",
+        "location": "bloxysstructures:underground1",
         "processors": "minecraft:empty"
       }
     },
     {
-      "weight": 35,
+      "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "bloxysstructures:undergroundstructureupdated2",
+        "location": "bloxysstructures:underground2",
+        "processors": []
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "bloxysstructures:underground3",
         "processors": "minecraft:empty"
       }
     },
     {
-      "weight": 35,
+      "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "bloxysstructures:undergroundstructureupdated3",
+        "location": "bloxysstructures:underground4",
         "processors": "minecraft:empty"
       }
     },
     {
-      "weight": 35,
+      "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "bloxysstructures:undergroundstructureupdated4",
+        "location": "bloxysstructures:underground5",
         "processors": "minecraft:empty"
       }
     },
     {
-      "weight": 35,
+      "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "bloxysstructures:undergroundstructureupdated5",
-        "processors": "minecraft:empty"
+        "location": "bloxysstructures:undergroundbattletower",
+        "processors": {
+          "processors": []
+        }
       }
     }
   ]

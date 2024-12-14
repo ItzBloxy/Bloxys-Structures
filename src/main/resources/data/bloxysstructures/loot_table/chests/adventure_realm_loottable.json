@@ -245,7 +245,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_carrot",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -259,7 +259,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_apple",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -273,7 +273,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:cooked_porkchop",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -287,7 +287,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:cooked_beef",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -301,7 +301,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:cooked_mutton",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -315,7 +315,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:cooked_chicken",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -329,7 +329,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:cooked_rabbit",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -343,7 +343,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bow",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -364,7 +364,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:crossbow",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -385,7 +385,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -399,7 +399,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:gold_ingot",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -413,7 +413,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -427,7 +427,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:emerald",
-          "weight": 3,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -441,7 +441,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:lapis_lazuli",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -455,7 +455,7 @@
         {
           "type": "minecraft:item",
           "name": "bloxysstructures:giant_wolf_armor",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -469,7 +469,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:experience_bottle",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -483,7 +483,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:coal",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -497,7 +497,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:shield",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -518,7 +518,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_axe",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -530,8 +530,8 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
-                "min": 2,
-                "max": 5
+                "min": 6,
+                "max": 12
               }
             }
           ]
@@ -539,7 +539,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:name_tag",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -581,7 +581,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:saddle",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -595,7 +595,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_nugget",
-          "weight": 3,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -609,7 +609,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:gold_nugget",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -623,7 +623,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_ore",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -637,7 +637,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_ore",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -651,7 +651,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:gunpowder",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -665,7 +665,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_horse_armor",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -679,7 +679,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_horse_armor",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -693,7 +693,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_horse_armor",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -817,8 +817,8 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
-                "min": 3,
-                "max": 6
+                "min": 6,
+                "max": 12
               }
             }
           ]
@@ -838,8 +838,8 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
-                "min": 3,
-                "max": 6
+                "min": 6,
+                "max": 12
               }
             }
           ]
@@ -881,7 +881,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 3
+                "max": 4
               }
             }
           ]
@@ -910,20 +910,6 @@
               "count": {
                 "min": 1,
                 "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:heavy_core",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0,
-                "max": 1
               }
             }
           ]
@@ -969,6 +955,48 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:breeze_rod",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:recovery_compass",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
         }
       ]
     },
@@ -981,7 +1009,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_13",
-          "weight": 1,
+          "weight": 100,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -995,7 +1023,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_cat",
-          "weight": 1,
+          "weight": 100,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -1009,7 +1037,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_blocks",
-          "weight": 1,
+          "weight": 100,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -1023,7 +1051,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_far",
-          "weight": 1,
+          "weight": 100,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -1037,7 +1065,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_mall",
-          "weight": 1,
+          "weight": 100,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -1051,7 +1079,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_mellohi",
-          "weight": 1,
+          "weight": 100,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -1065,7 +1093,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_stal",
-          "weight": 1,
+          "weight": 100,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -1079,7 +1107,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_strad",
-          "weight": 1,
+          "weight": 100,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -1093,7 +1121,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_ward",
-          "weight": 1,
+          "weight": 100,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -1107,7 +1135,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_11",
-          "weight": 1,
+          "weight": 100,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -1121,7 +1149,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_wait",
-          "weight": 1,
+          "weight": 100,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -1135,7 +1163,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_otherside",
-          "weight": 1,
+          "weight": 100,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -1149,7 +1177,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_pigstep",
-          "weight": 1,
+          "weight": 100,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -1163,7 +1191,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_relic",
-          "weight": 1,
+          "weight": 100,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -1177,13 +1205,83 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:arrow",
-          "weight": 1,
+          "weight": 100,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 4,
                 "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_creator_music_box",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_precipice",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_creator",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_5",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heavy_core",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
               }
             }
           ]

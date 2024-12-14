@@ -240,7 +240,7 @@
             "item": {
               "value": "Items.GOLDEN_APPLE#1"
             },
-            "weight": 1,
+            "weight": 5,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -254,7 +254,7 @@
             "item": {
               "value": "Items.GOLDEN_CARROT"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 4,
             "maxCount": 4,
             "minEnchantmentLevel": 0,
@@ -268,7 +268,7 @@
             "item": {
               "value": "Items.GOLDEN_APPLE#0"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -282,7 +282,7 @@
             "item": {
               "value": "Items.COOKED_PORKCHOP"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 8,
             "maxCount": 12,
             "minEnchantmentLevel": 0,
@@ -296,7 +296,7 @@
             "item": {
               "value": "Items.COOKED_BEEF"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 8,
             "maxCount": 12,
             "minEnchantmentLevel": 0,
@@ -310,7 +310,7 @@
             "item": {
               "value": "Items.COOKED_MUTTON"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 8,
             "maxCount": 12,
             "minEnchantmentLevel": 0,
@@ -324,7 +324,7 @@
             "item": {
               "value": "Items.COOKED_CHICKEN"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 8,
             "maxCount": 12,
             "minEnchantmentLevel": 0,
@@ -338,7 +338,7 @@
             "item": {
               "value": "Items.COOKED_RABBIT"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 8,
             "maxCount": 12,
             "minEnchantmentLevel": 0,
@@ -352,7 +352,7 @@
             "item": {
               "value": "Items.IRON_INGOT"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 2,
             "minEnchantmentLevel": 0,
@@ -366,7 +366,7 @@
             "item": {
               "value": "Items.GOLD_INGOT"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 3,
             "minEnchantmentLevel": 0,
@@ -394,7 +394,7 @@
             "item": {
               "value": "Items.EMERALD"
             },
-            "weight": 3,
+            "weight": 2,
             "minCount": 1,
             "maxCount": 6,
             "minEnchantmentLevel": 0,
@@ -408,7 +408,7 @@
             "item": {
               "value": "Items.DYE#4"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 2,
             "maxCount": 7,
             "minEnchantmentLevel": 0,
@@ -422,7 +422,7 @@
             "item": {
               "value": "CUSTOM:GiantWolfArmor"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -436,7 +436,7 @@
             "item": {
               "value": "Items.EXPERIENCE_BOTTLE"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 2,
             "maxCount": 6,
             "minEnchantmentLevel": 0,
@@ -450,7 +450,7 @@
             "item": {
               "value": "Items.COAL#0"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 3,
             "maxCount": 6,
             "minEnchantmentLevel": 0,
@@ -464,7 +464,7 @@
             "item": {
               "value": "Items.SHIELD"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -478,7 +478,7 @@
             "item": {
               "value": "Items.DIAMOND_AXE"
             },
-            "weight": 2,
+            "weight": 3,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 2,
@@ -492,7 +492,7 @@
             "item": {
               "value": "Items.NAME_TAG"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -506,7 +506,7 @@
             "item": {
               "value": "Blocks.ANVIL#2"
             },
-            "weight": 1,
+            "weight": 3,
             "minCount": 0,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -534,7 +534,7 @@
             "item": {
               "value": "Items.SADDLE"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -548,7 +548,7 @@
             "item": {
               "value": "Items.IRON_INGOT"
             },
-            "weight": 3,
+            "weight": 1,
             "minCount": 5,
             "maxCount": 9,
             "minEnchantmentLevel": 0,
@@ -562,7 +562,7 @@
             "item": {
               "value": "Items.GOLD_INGOT"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 4,
             "maxCount": 9,
             "minEnchantmentLevel": 0,
@@ -576,7 +576,7 @@
             "item": {
               "value": "Blocks.IRON_ORE"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 3,
             "minEnchantmentLevel": 0,
@@ -590,7 +590,7 @@
             "item": {
               "value": "Blocks.IRON_ORE"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 3,
             "minEnchantmentLevel": 0,
@@ -604,7 +604,7 @@
             "item": {
               "value": "Items.GUNPOWDER"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 3,
             "maxCount": 6,
             "minEnchantmentLevel": 0,
@@ -618,7 +618,7 @@
             "item": {
               "value": "Items.IRON_HORSE_ARMOR"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -632,7 +632,7 @@
             "item": {
               "value": "Items.GOLDEN_HORSE_ARMOR"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -646,7 +646,7 @@
             "item": {
               "value": "Items.DIAMOND_HORSE_ARMOR"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -828,7 +828,7 @@
             "item": {
               "value": "Items.TRIAL_KEY"
             },
-            "weight": 1,
+            "weight": 2,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -842,7 +842,7 @@
             "item": {
               "value": "Items.OMINOUS_TRIAL_KEY"
             },
-            "weight": 1,
+            "weight": 2,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -873,6 +873,20 @@
             "weight": 1,
             "minCount": 1,
             "maxCount": 6,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.BREEZE_ROD"
+            },
+            "weight": 1,
+            "minCount": 0,
+            "maxCount": 3,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
@@ -1097,6 +1111,62 @@
             "affectedByFortune": false,
             "explosionDecay": false,
             "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.RECORD_CREATOR"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.RECORD_CREATOR_MUSIC_BOX"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.RECORD_PRECIPICE"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.MUSIC_DISC_5"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
           }
         ]
       },
@@ -1115,8 +1185,8 @@
             "weight": 100,
             "minCount": 1,
             "maxCount": 2,
-            "minEnchantmentLevel": 30,
-            "maxEnchantmentLevel": 50,
+            "minEnchantmentLevel": 20,
+            "maxEnchantmentLevel": 40,
             "affectedByFortune": false,
             "explosionDecay": false,
             "silkTouchMode": 0
