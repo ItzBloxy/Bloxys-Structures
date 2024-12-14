@@ -4538,6 +4538,9 @@
       "~CUSTOM:BlueMushroomBlock",
       "~CUSTOM:MjinLeaves"
     ],
+    "BIOMES:dungeons_arise:has_structure/mechanical_nest_biomes": [
+      "CUSTOM:AdventureRealmPlains"
+    ],
     "ENCHANTMENTS:minecraft:treasure": [
       "~CUSTOM:PurplePoisonEnchantment"
     ],
@@ -4574,6 +4577,9 @@
       "~CUSTOM:XizaSlab",
       "~CUSTOM:LoreoSlab",
       "~CUSTOM:MjinSlab"
+    ],
+    "BIOMES:dungeons_arise:has_structure/bandit_towers_biomes": [
+      "CUSTOM:AdventureRealmPlains"
     ],
     "BLOCKS:minecraft:stairs": [
       "~CUSTOM:VerdantStairs",
@@ -4696,6 +4702,9 @@
     ],
     "BIOMES:minecraft:has_structure/ruined_portal_standard": [
       "~CUSTOM:AdventureRealmPlains"
+    ],
+    "BIOMES:dungeons_arise:has_structure/heavenly_challenger_biomes": [
+      "CUSTOM:AdventureRealmPlains"
     ]
   },
   "tab_element_order": {},
