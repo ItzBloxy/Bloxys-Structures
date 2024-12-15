@@ -49,7 +49,7 @@ public class CowlinEntity extends Monster {
 		});
 		this.targetSelector.addGoal(2, new HurtByTargetGoal(this).setAlertOthers());
 		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 0.8));
-		this.goalSelector.addGoal(4, new FollowMobGoal(this, 1, (float) 12, (float) 5));
+		this.goalSelector.addGoal(4, new FollowMobGoal(this, 1, (float) 10, (float) 5));
 		this.goalSelector.addGoal(5, new LookAtPlayerGoal(this, Player.class, (float) 8));
 		this.goalSelector.addGoal(6, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(7, new MoveBackToVillageGoal(this, 0.6, false));
@@ -96,7 +96,7 @@ public class CowlinEntity extends Monster {
 		builder = builder.add(Attributes.ARMOR, 2);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 5);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 24);
-		builder = builder.add(Attributes.STEP_HEIGHT, 0.8);
+		builder = builder.add(Attributes.STEP_HEIGHT, 1.5);
 		return builder;
 	}
 }

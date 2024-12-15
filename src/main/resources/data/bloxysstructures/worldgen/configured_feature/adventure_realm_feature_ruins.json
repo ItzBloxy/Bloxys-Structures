@@ -28,7 +28,50 @@
         "feature": {
           "type": "bloxysstructures:structure_feature",
           "config": {
+            "structure": "bloxysstructures:stonegiant3",
+            "random_rotation": true,
+            "ignored_blocks": "minecraft:air"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "bloxysstructures:structure_feature",
+          "config": {
+            "structure": "bloxysstructures:stonegiant4",
+            "random_rotation": true,
+            "ignored_blocks": "minecraft:air",
+            "offset": [
+              0,
+              -3,
+              0
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "bloxysstructures:structure_feature",
+          "config": {
             "structure": "bloxysstructures:stoneswordmonument",
+            "random_rotation": true,
+            "ignored_blocks": "minecraft:air",
+            "offset": [
+              0,
+              -3,
+              0
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "bloxysstructures:structure_feature",
+          "config": {
+            "structure": "bloxysstructures:bigfossil3",
             "random_rotation": true,
             "ignored_blocks": "minecraft:air",
             "offset": [

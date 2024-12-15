@@ -229,6 +229,17 @@
           "processors": []
         }
       }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "bloxysstructures:cowlinoutpost4",
+        "processors": {
+          "processors": []
+        }
+      }
     }
   ]
 }

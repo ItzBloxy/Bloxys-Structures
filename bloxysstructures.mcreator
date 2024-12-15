@@ -4493,9 +4493,9 @@
       "registry_name": "adventure_realm_bushes_feature",
       "metadata": {
         "files": [
+          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/adventure_realm_bushes_feature_biome_modifier.json",
           "src/main/resources/data/bloxysstructures/worldgen/placed_feature/adventure_realm_bushes_feature.json",
-          "src/main/resources/data/bloxysstructures/worldgen/configured_feature/adventure_realm_bushes_feature.json",
-          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/adventure_realm_bushes_feature_biome_modifier.json"
+          "src/main/resources/data/bloxysstructures/worldgen/configured_feature/adventure_realm_bushes_feature.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Plains"
