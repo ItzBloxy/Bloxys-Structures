@@ -218,6 +218,17 @@
           "processors": []
         }
       }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "bloxysstructures:illagercastle19",
+        "processors": {
+          "processors": []
+        }
+      }
     }
   ]
 }

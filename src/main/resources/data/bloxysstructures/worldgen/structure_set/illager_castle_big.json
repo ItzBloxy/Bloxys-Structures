@@ -14,7 +14,7 @@
     "salt": 1826629767,
     "frequency": 1,
     "spread_type": "triangular",
-    "spacing": 7,
-    "separation": 5
+    "spacing": 8,
+    "separation": 6
   }
 }
