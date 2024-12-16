@@ -2,19 +2,20 @@
   "type": "minecraft:jigsaw",
   "biomes": "bloxysstructures:adventure_realm_plains",
   "step": "raw_generation",
-  "terrain_adaptation": "encapsulate",
+  "terrain_adaptation": "none",
   "spawn_overrides": {},
   "start_pool": "bloxysstructures:underground_structure",
   "size": 1,
   "start_height": {
     "type": "minecraft:uniform",
     "min_inclusive": {
-      "absolute": -96
+      "absolute": -75
     },
     "max_inclusive": {
-      "absolute": 0
+      "absolute": -111
     }
   },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
   "max_distance_from_center": 111,
   "use_expansion_hack": false
 }
