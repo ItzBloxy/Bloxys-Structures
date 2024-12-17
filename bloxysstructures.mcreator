@@ -1680,22 +1680,6 @@
       "path": "~/Adventure Realm/Entities/GiantWolf"
     },
     {
-      "name": "AdventureRealmFloatingIslands",
-      "type": "feature",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "adventure_realm_floating_islands",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/adventure_realm_floating_islands_biome_modifier.json",
-          "src/main/resources/data/bloxysstructures/worldgen/configured_feature/adventure_realm_floating_islands.json",
-          "src/main/resources/data/bloxysstructures/worldgen/placed_feature/adventure_realm_floating_islands.json"
-        ],
-        "has_nbt_structure": true
-      },
-      "path": "~/Adventure Realm/Biomes/Plains"
-    },
-    {
       "name": "RuinedAdventureRealmPortal",
       "type": "structure",
       "compiles": true,
