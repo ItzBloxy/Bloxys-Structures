@@ -41,12 +41,7 @@
           "config": {
             "structure": "bloxysstructures:stonegiant4",
             "random_rotation": true,
-            "ignored_blocks": "minecraft:air",
-            "offset": [
-              0,
-              -3,
-              0
-            ]
+            "ignored_blocks": "minecraft:air"
           }
         },
         "placement": []

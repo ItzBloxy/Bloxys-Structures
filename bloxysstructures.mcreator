@@ -1387,10 +1387,10 @@
       "registry_name": "giant_cow",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/bloxysstructures/client/renderer/GiantCowRenderer.java",
           "src/main/java/net/mcreator/bloxysstructures/entity/GiantCowEntity.java",
-          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/giant_cow_biome_modifier.json",
-          "src/main/resources/assets/bloxysstructures/models/item/giant_cow_spawn_egg.json"
+          "src/main/java/net/mcreator/bloxysstructures/client/renderer/GiantCowRenderer.java",
+          "src/main/resources/assets/bloxysstructures/models/item/giant_cow_spawn_egg.json",
+          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/giant_cow_biome_modifier.json"
         ]
       },
       "path": "~/Adventure Realm/Entities"
@@ -1404,9 +1404,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/bloxysstructures/models/item/giant_pig_spawn_egg.json",
+          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/giant_pig_biome_modifier.json",
           "src/main/java/net/mcreator/bloxysstructures/entity/GiantPigEntity.java",
-          "src/main/java/net/mcreator/bloxysstructures/client/renderer/GiantPigRenderer.java",
-          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/giant_pig_biome_modifier.json"
+          "src/main/java/net/mcreator/bloxysstructures/client/renderer/GiantPigRenderer.java"
         ]
       },
       "path": "~/Adventure Realm/Entities"
