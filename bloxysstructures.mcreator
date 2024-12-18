@@ -4515,15 +4515,15 @@
     "DAMAGE_TYPES:minecraft:bypasses_enchantments": [
       "CUSTOM:PurplePoisonDamage"
     ],
+    "BIOMES:dungeons_arise:has_structure/mechanical_nest_biomes": [
+      "CUSTOM:AdventureRealmPlains"
+    ],
     "BLOCKS:minecraft:mineable/hoe": [
       "~CUSTOM:PurpleMushroomBlock",
       "~CUSTOM:YellowMushroomBlock",
       "~CUSTOM:GreenMushroomBlock",
       "~CUSTOM:BlueMushroomBlock",
       "~CUSTOM:MjinLeaves"
-    ],
-    "BIOMES:dungeons_arise:has_structure/mechanical_nest_biomes": [
-      "CUSTOM:AdventureRealmPlains"
     ],
     "ENCHANTMENTS:minecraft:treasure": [
       "~CUSTOM:PurplePoisonEnchantment"
