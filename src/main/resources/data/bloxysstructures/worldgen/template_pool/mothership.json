@@ -86,6 +86,17 @@
           "processors": []
         }
       }
+    },
+    {
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "bloxysstructures:ship1",
+        "processors": {
+          "processors": []
+        }
+      }
     }
   ]
 }
