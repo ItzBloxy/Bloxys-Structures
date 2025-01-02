@@ -25,8 +25,6 @@ import net.mcreator.bloxysstructures.entity.PrinceOfDarknessEntity;
 import net.mcreator.bloxysstructures.entity.MushroomKingEntity;
 import net.mcreator.bloxysstructures.entity.InfernoHydraEntity;
 import net.mcreator.bloxysstructures.entity.GiantWolfEntity;
-import net.mcreator.bloxysstructures.entity.GiantPigEntity;
-import net.mcreator.bloxysstructures.entity.GiantCowEntity;
 import net.mcreator.bloxysstructures.entity.CowlinEntity;
 import net.mcreator.bloxysstructures.entity.CowlinBruteEntity;
 import net.mcreator.bloxysstructures.entity.BloxysScytheThrowablePlayerEntity;
@@ -38,14 +36,6 @@ import net.mcreator.bloxysstructures.BloxysstructuresMod;
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class BloxysstructuresModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(Registries.ENTITY_TYPE, BloxysstructuresMod.MODID);
-	public static final DeferredHolder<EntityType<?>, EntityType<GiantCowEntity>> GIANT_COW = register("giant_cow",
-			EntityType.Builder.<GiantCowEntity>of(GiantCowEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-
-					.sized(0.9f, 1.4f));
-	public static final DeferredHolder<EntityType<?>, EntityType<GiantPigEntity>> GIANT_PIG = register("giant_pig",
-			EntityType.Builder.<GiantPigEntity>of(GiantPigEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-
-					.sized(0.9f, 0.9f));
 	public static final DeferredHolder<EntityType<?>, EntityType<GiantWolfEntity>> GIANT_WOLF = register("giant_wolf",
 			EntityType.Builder.<GiantWolfEntity>of(GiantWolfEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
@@ -99,8 +89,6 @@ public class BloxysstructuresModEntities {
 
 	@SubscribeEvent
 	public static void init(RegisterSpawnPlacementsEvent event) {
-		GiantCowEntity.init(event);
-		GiantPigEntity.init(event);
 		GiantWolfEntity.init(event);
 		AdventureRealmGolemEntity.init(event);
 		CowlinEntity.init(event);
@@ -117,8 +105,6 @@ public class BloxysstructuresModEntities {
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
-		event.put(GIANT_COW.get(), GiantCowEntity.createAttributes().build());
-		event.put(GIANT_PIG.get(), GiantPigEntity.createAttributes().build());
 		event.put(GIANT_WOLF.get(), GiantWolfEntity.createAttributes().build());
 		event.put(ADVENTURE_REALM_GOLEM.get(), AdventureRealmGolemEntity.createAttributes().build());
 		event.put(COWLIN.get(), CowlinEntity.createAttributes().build());

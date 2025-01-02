@@ -72,8 +72,6 @@ public class BloxysstructuresModItems {
 	public static final DeferredItem<Item> VERDANT_FENCE_GATE = block(BloxysstructuresModBlocks.VERDANT_FENCE_GATE);
 	public static final DeferredItem<Item> VERDANT_PRESSURE_PLATE = block(BloxysstructuresModBlocks.VERDANT_PRESSURE_PLATE);
 	public static final DeferredItem<Item> VERDANT_BUTTON = block(BloxysstructuresModBlocks.VERDANT_BUTTON);
-	public static final DeferredItem<Item> GIANT_COW_SPAWN_EGG = REGISTRY.register("giant_cow_spawn_egg", () -> new DeferredSpawnEggItem(BloxysstructuresModEntities.GIANT_COW, -14279147, -11513776, new Item.Properties()));
-	public static final DeferredItem<Item> GIANT_PIG_SPAWN_EGG = REGISTRY.register("giant_pig_spawn_egg", () -> new DeferredSpawnEggItem(BloxysstructuresModEntities.GIANT_PIG, -3174516, -28788, new Item.Properties()));
 	public static final DeferredItem<Item> GIANT_WOLF_SPAWN_EGG = REGISTRY.register("giant_wolf_spawn_egg", () -> new DeferredSpawnEggItem(BloxysstructuresModEntities.GIANT_WOLF, -6711401, -10070198, new Item.Properties()));
 	public static final DeferredItem<Item> GIANT_WOLF_ARMOR = REGISTRY.register("giant_wolf_armor", GiantWolfArmorItem::new);
 	public static final DeferredItem<Item> ADVENTURE_REALM_GOLEM_SPAWN_EGG = REGISTRY.register("adventure_realm_golem_spawn_egg",

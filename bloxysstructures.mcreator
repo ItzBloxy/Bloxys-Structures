@@ -1380,38 +1380,6 @@
       "path": "~/Adventure Realm/Items"
     },
     {
-      "name": "GiantCow",
-      "type": "livingentity",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "giant_cow",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/bloxysstructures/entity/GiantCowEntity.java",
-          "src/main/java/net/mcreator/bloxysstructures/client/renderer/GiantCowRenderer.java",
-          "src/main/resources/assets/bloxysstructures/models/item/giant_cow_spawn_egg.json",
-          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/giant_cow_biome_modifier.json"
-        ]
-      },
-      "path": "~/Adventure Realm/Entities"
-    },
-    {
-      "name": "GiantPig",
-      "type": "livingentity",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "giant_pig",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/bloxysstructures/models/item/giant_pig_spawn_egg.json",
-          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/giant_pig_biome_modifier.json",
-          "src/main/java/net/mcreator/bloxysstructures/entity/GiantPigEntity.java",
-          "src/main/java/net/mcreator/bloxysstructures/client/renderer/GiantPigRenderer.java"
-        ]
-      },
-      "path": "~/Adventure Realm/Entities"
-    },
-    {
       "name": "GiantWolf",
       "type": "livingentity",
       "compiles": true,
@@ -3085,76 +3053,6 @@
       "path": "~/Adventure Realm/Bosses/Mushroom King"
     },
     {
-      "name": "GiantCowEntityDies",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "giant_cow_entity_dies",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/bloxysstructures/procedures/GiantCowEntityDiesProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Adventure Realm/Entities"
-    },
-    {
-      "name": "GiantPigEntityDies",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "giant_pig_entity_dies",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/bloxysstructures/procedures/GiantPigEntityDiesProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Adventure Realm/Entities"
-    },
-    {
       "name": "AdventureRealmGolemEntityDies",
       "type": "procedure",
       "compiles": true,
@@ -4700,7 +4598,6 @@
       "block.bloxysstructures.mjin_button": "Mjin Button",
       "block.bloxysstructures.yellow_mushroom_block": "Yellow Mushroom Block",
       "block.bloxysstructures.loreo_planks": "Loreo Planks",
-      "item.bloxysstructures.giant_cow_spawn_egg": "Giant Cow Spawn Egg",
       "block.bloxysstructures.verdant_wood": "Verdant Wood",
       "block.bloxysstructures.verdant_pressure_plate": "Verdant Pressure Plate",
       "block.bloxysstructures.loreo_leaves": "Loreo Leaves",
@@ -4769,14 +4666,11 @@
       "block.bloxysstructures.verdant_leaves": "Verdant Leaves",
       "block.bloxysstructures.mjin_fence": "Mjin Fence",
       "death.attack.purple_poison_damage.player": "%1$s died whilst trying to escape Purple Poison",
-      "item.bloxysstructures.giant_pig_spawn_egg": "Giant Pig Spawn Egg",
       "item.bloxysstructures.quantum_guardian_spawn_egg": "Quantum Guardian Spawn Egg",
-      "entity.bloxysstructures.giant_pig": "Giant Pig",
       "block.bloxysstructures.loreo_fence_gate": "Loreo Fence Gate",
       "item.bloxysstructures.cowlin_brute_spawn_egg": "Cowlin Brute Spawn Egg",
       "block.bloxysstructures.xiza_log": "Xiza Log",
       "entity.bloxysstructures.quantum_guardian": "Quantum Guardian",
-      "entity.bloxysstructures.giant_cow": "Giant Cow",
       "effect.bloxysstructures.purple_poison": "Purple Poison",
       "item.bloxysstructures.mushroom_king_spawn_egg": "Mushroom King Spawn Egg",
       "advancements.bloxys_structures_advancement.title": "Bloxy\u0027s Structures",

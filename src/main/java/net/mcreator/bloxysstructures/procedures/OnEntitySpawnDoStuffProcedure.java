@@ -13,6 +13,8 @@ import net.minecraft.world.entity.animal.sniffer.Sniffer;
 import net.minecraft.world.entity.animal.goat.Goat;
 import net.minecraft.world.entity.animal.frog.Frog;
 import net.minecraft.world.entity.animal.Rabbit;
+import net.minecraft.world.entity.animal.Pig;
+import net.minecraft.world.entity.animal.Cow;
 import net.minecraft.world.entity.animal.Chicken;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.LivingEntity;
@@ -26,8 +28,6 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.bloxysstructures.entity.GiantWolfEntity;
-import net.mcreator.bloxysstructures.entity.GiantPigEntity;
-import net.mcreator.bloxysstructures.entity.GiantCowEntity;
 
 import javax.annotation.Nullable;
 
@@ -68,15 +68,15 @@ public class OnEntitySpawnDoStuffProcedure {
 				if (entity instanceof LivingEntity _livingEntity20 && _livingEntity20.getAttributes().hasAttribute(Attributes.MOVEMENT_SPEED))
 					_livingEntity20.getAttribute(Attributes.MOVEMENT_SPEED).setBaseValue(1.75);
 			}
-		} else if (entity instanceof GiantCowEntity) {
+		} else if (entity instanceof Cow) {
 			if ((entity.level().dimension()) == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("bloxysstructures:adventure_realm"))) {
 				if (entity instanceof LivingEntity _livingEntity26 && _livingEntity26.getAttributes().hasAttribute(Attributes.SCALE))
-					_livingEntity26.getAttribute(Attributes.SCALE).setBaseValue((Mth.nextDouble(RandomSource.create(), 0.85, 1.25)));
+					_livingEntity26.getAttribute(Attributes.SCALE).setBaseValue((Mth.nextDouble(RandomSource.create(), 2, 2.5)));
 			}
-		} else if (entity instanceof GiantPigEntity) {
+		} else if (entity instanceof Pig) {
 			if ((entity.level().dimension()) == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("bloxysstructures:adventure_realm"))) {
 				if (entity instanceof LivingEntity _livingEntity32 && _livingEntity32.getAttributes().hasAttribute(Attributes.SCALE))
-					_livingEntity32.getAttribute(Attributes.SCALE).setBaseValue((Mth.nextDouble(RandomSource.create(), 0.85, 1.25)));
+					_livingEntity32.getAttribute(Attributes.SCALE).setBaseValue((Mth.nextDouble(RandomSource.create(), 2, 2.5)));
 			}
 		} else if (entity instanceof GiantWolfEntity) {
 			if ((entity.level().dimension()) == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("bloxysstructures:adventure_realm"))) {
@@ -86,7 +86,7 @@ public class OnEntitySpawnDoStuffProcedure {
 		} else if (entity.getType().is(EntityTypeTags.ILLAGER)) {
 			if ((entity.level().dimension()) == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("bloxysstructures:adventure_realm"))) {
 				if (entity instanceof LivingEntity _livingEntity44 && _livingEntity44.getAttributes().hasAttribute(Attributes.SCALE))
-					_livingEntity44.getAttribute(Attributes.SCALE).setBaseValue((Mth.nextDouble(RandomSource.create(), 1, 1.125)));
+					_livingEntity44.getAttribute(Attributes.SCALE).setBaseValue((Mth.nextDouble(RandomSource.create(), 0.95, 1.1)));
 			}
 		} else if (entity.getType().is(EntityTypeTags.UNDEAD)) {
 			if ((entity.level().dimension()) == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("bloxysstructures:adventure_realm"))) {

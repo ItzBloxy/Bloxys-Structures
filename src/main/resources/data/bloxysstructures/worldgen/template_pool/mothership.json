@@ -97,6 +97,28 @@
           "processors": []
         }
       }
+    },
+    {
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "bloxysstructures:ancientsentinel5",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "bloxysstructures:ancientsentinel6",
+        "processors": {
+          "processors": []
+        }
+      }
     }
   ]
 }

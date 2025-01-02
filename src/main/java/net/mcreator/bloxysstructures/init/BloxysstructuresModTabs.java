@@ -59,8 +59,6 @@ public class BloxysstructuresModTabs {
 				tabData.accept(BloxysstructuresModBlocks.VERDANT_FENCE_GATE.get().asItem());
 				tabData.accept(BloxysstructuresModBlocks.VERDANT_PRESSURE_PLATE.get().asItem());
 				tabData.accept(BloxysstructuresModBlocks.VERDANT_BUTTON.get().asItem());
-				tabData.accept(BloxysstructuresModItems.GIANT_COW_SPAWN_EGG.get());
-				tabData.accept(BloxysstructuresModItems.GIANT_PIG_SPAWN_EGG.get());
 				tabData.accept(BloxysstructuresModItems.GIANT_WOLF_SPAWN_EGG.get());
 				tabData.accept(BloxysstructuresModItems.GIANT_WOLF_ARMOR.get());
 				tabData.accept(BloxysstructuresModItems.ADVENTURE_REALM_GOLEM_SPAWN_EGG.get());

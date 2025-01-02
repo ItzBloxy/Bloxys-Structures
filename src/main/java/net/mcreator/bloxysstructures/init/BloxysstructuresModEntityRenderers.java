@@ -18,8 +18,6 @@ import net.mcreator.bloxysstructures.client.renderer.PrinceOfDarknessRenderer;
 import net.mcreator.bloxysstructures.client.renderer.MushroomKingRenderer;
 import net.mcreator.bloxysstructures.client.renderer.InfernoHydraRenderer;
 import net.mcreator.bloxysstructures.client.renderer.GiantWolfRenderer;
-import net.mcreator.bloxysstructures.client.renderer.GiantPigRenderer;
-import net.mcreator.bloxysstructures.client.renderer.GiantCowRenderer;
 import net.mcreator.bloxysstructures.client.renderer.CowlinRenderer;
 import net.mcreator.bloxysstructures.client.renderer.CowlinBruteRenderer;
 import net.mcreator.bloxysstructures.client.renderer.BloxysScytheThrowableRenderer;
@@ -31,8 +29,6 @@ import net.mcreator.bloxysstructures.client.renderer.AdventureRealmGolemRenderer
 public class BloxysstructuresModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
-		event.registerEntityRenderer(BloxysstructuresModEntities.GIANT_COW.get(), GiantCowRenderer::new);
-		event.registerEntityRenderer(BloxysstructuresModEntities.GIANT_PIG.get(), GiantPigRenderer::new);
 		event.registerEntityRenderer(BloxysstructuresModEntities.GIANT_WOLF.get(), GiantWolfRenderer::new);
 		event.registerEntityRenderer(BloxysstructuresModEntities.ADVENTURE_REALM_GOLEM.get(), AdventureRealmGolemRenderer::new);
 		event.registerEntityRenderer(BloxysstructuresModEntities.COWLIN.get(), CowlinRenderer::new);

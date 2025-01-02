@@ -10,7 +10,7 @@
       },
       "probability": 0.0033
     },
-    "foliage_color": -16734720,
+    "foliage_color": -16735467,
     "grass_color": -16729088,
     "sky_color": 7972607,
     "fog_color": 12638463,
@@ -49,6 +49,18 @@
         "weight": 22,
         "minCount": 1,
         "maxCount": 1
+      },
+      {
+        "type": "pig",
+        "weight": 22,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "cow",
+        "weight": 24,
+        "minCount": 3,
+        "maxCount": 4
       }
     ],
     "ambient": [],
@@ -95,6 +107,7 @@
     [],
     [
       "minecraft:forest_flowers",
+      "minecraft:patch_tall_grass",
       "minecraft:patch_grass_taiga_2",
       "minecraft:brown_mushroom_taiga",
       "minecraft:red_mushroom_taiga",

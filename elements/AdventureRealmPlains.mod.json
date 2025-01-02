@@ -17,7 +17,7 @@
       "falpha": 0.0
     },
     "foliageColor": {
-      "value": -16734720,
+      "value": -16735467,
       "falpha": 0.0
     },
     "waterColor": {
@@ -94,7 +94,8 @@
       "AmethystGeodes",
       "ReedsAndPumpkins",
       "Fossils",
-      "TaigaGrassAndMushrooms"
+      "TaigaGrassAndMushrooms",
+      "PlainsTallGrass"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": true,
@@ -160,6 +161,24 @@
         "minGroup": 1,
         "maxGroup": 1,
         "weight": 22,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityPig"
+        },
+        "minGroup": 2,
+        "maxGroup": 3,
+        "weight": 22,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityCow"
+        },
+        "minGroup": 3,
+        "maxGroup": 4,
+        "weight": 24,
         "spawnType": "creature"
       }
     ]
