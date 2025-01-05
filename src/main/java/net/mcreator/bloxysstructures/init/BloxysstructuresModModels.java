@@ -17,6 +17,7 @@ import net.mcreator.bloxysstructures.client.model.Modelwolf_30;
 import net.mcreator.bloxysstructures.client.model.Modelwolf_20;
 import net.mcreator.bloxysstructures.client.model.Modelwolf_10;
 import net.mcreator.bloxysstructures.client.model.Modelwolf;
+import net.mcreator.bloxysstructures.client.model.Modeltreemoo;
 import net.mcreator.bloxysstructures.client.model.Modelthrowablescythe6;
 import net.mcreator.bloxysstructures.client.model.Modelthrowablescythe5;
 import net.mcreator.bloxysstructures.client.model.Modelslimbiped;
@@ -49,6 +50,7 @@ public class BloxysstructuresModModels {
 		event.registerLayerDefinition(Modelthrowablescythe5.LAYER_LOCATION, Modelthrowablescythe5::createBodyLayer);
 		event.registerLayerDefinition(Modelquantumorb4.LAYER_LOCATION, Modelquantumorb4::createBodyLayer);
 		event.registerLayerDefinition(Modelwolf_sitting_armor.LAYER_LOCATION, Modelwolf_sitting_armor::createBodyLayer);
+		event.registerLayerDefinition(Modeltreemoo.LAYER_LOCATION, Modeltreemoo::createBodyLayer);
 		event.registerLayerDefinition(Modelslimbiped.LAYER_LOCATION, Modelslimbiped::createBodyLayer);
 		event.registerLayerDefinition(Modeladventurerealmgolem.LAYER_LOCATION, Modeladventurerealmgolem::createBodyLayer);
 		event.registerLayerDefinition(Modelquantumorb1.LAYER_LOCATION, Modelquantumorb1::createBodyLayer);

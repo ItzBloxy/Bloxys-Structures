@@ -10,6 +10,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
 import net.mcreator.bloxysstructures.client.renderer.VoidWalkersRenderer;
+import net.mcreator.bloxysstructures.client.renderer.TreemooRenderer;
 import net.mcreator.bloxysstructures.client.renderer.QuantumMageRenderer;
 import net.mcreator.bloxysstructures.client.renderer.QuantumGuardianRenderer;
 import net.mcreator.bloxysstructures.client.renderer.QuantamMagicOrbRenderer;
@@ -44,5 +45,6 @@ public class BloxysstructuresModEntityRenderers {
 		event.registerEntityRenderer(BloxysstructuresModEntities.BLOXYS_SCYTHE_THROWABLE.get(), BloxysScytheThrowableRenderer::new);
 		event.registerEntityRenderer(BloxysstructuresModEntities.PURPLE_LIGHTNING_SHOCKWAVE.get(), PurpleLightningShockwaveRenderer::new);
 		event.registerEntityRenderer(BloxysstructuresModEntities.BLOXYS_SCYTHE_THROWABLE_PLAYER.get(), BloxysScytheThrowablePlayerRenderer::new);
+		event.registerEntityRenderer(BloxysstructuresModEntities.TREEMOO.get(), TreemooRenderer::new);
 	}
 }

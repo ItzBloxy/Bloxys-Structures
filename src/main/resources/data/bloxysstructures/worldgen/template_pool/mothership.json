@@ -7,7 +7,9 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bloxysstructures:mothershipflipped3",
-        "processors": "minecraft:empty"
+        "processors": {
+          "processors": []
+        }
       }
     },
     {
@@ -115,6 +117,50 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bloxysstructures:ancientsentinel6",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "bloxysstructures:ancientsentinel7",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "bloxysstructures:floatinghouse3",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "bloxysstructures:floatinghouse4",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "bloxysstructures:floatingplanet2",
         "processors": {
           "processors": []
         }

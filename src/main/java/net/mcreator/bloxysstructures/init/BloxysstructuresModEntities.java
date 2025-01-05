@@ -17,6 +17,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.bloxysstructures.entity.VoidWalkersEntity;
+import net.mcreator.bloxysstructures.entity.TreemooEntity;
 import net.mcreator.bloxysstructures.entity.QuantumMageEntity;
 import net.mcreator.bloxysstructures.entity.QuantumGuardianEntity;
 import net.mcreator.bloxysstructures.entity.QuantamMagicOrbEntity;
@@ -80,6 +81,10 @@ public class BloxysstructuresModEntities {
 			EntityType.Builder.<PurpleLightningShockwaveEntity>of(PurpleLightningShockwaveEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune().sized(3f, 0.4f));
 	public static final DeferredHolder<EntityType<?>, EntityType<BloxysScytheThrowablePlayerEntity>> BLOXYS_SCYTHE_THROWABLE_PLAYER = register("bloxys_scythe_throwable_player",
 			EntityType.Builder.<BloxysScytheThrowablePlayerEntity>of(BloxysScytheThrowablePlayerEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final DeferredHolder<EntityType<?>, EntityType<TreemooEntity>> TREEMOO = register("treemoo",
+			EntityType.Builder.<TreemooEntity>of(TreemooEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.9f, 1.4f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -101,6 +106,7 @@ public class BloxysstructuresModEntities {
 		QuantumMageEntity.init(event);
 		BloxyEntity.init(event);
 		PurpleLightningShockwaveEntity.init(event);
+		TreemooEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -117,5 +123,6 @@ public class BloxysstructuresModEntities {
 		event.put(QUANTUM_MAGE.get(), QuantumMageEntity.createAttributes().build());
 		event.put(BLOXY.get(), BloxyEntity.createAttributes().build());
 		event.put(PURPLE_LIGHTNING_SHOCKWAVE.get(), PurpleLightningShockwaveEntity.createAttributes().build());
+		event.put(TREEMOO.get(), TreemooEntity.createAttributes().build());
 	}
 }

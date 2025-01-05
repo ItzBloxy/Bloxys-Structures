@@ -4381,6 +4381,164 @@
         ]
       },
       "path": "~/Adventure Realm/Biomes/Plains"
+    },
+    {
+      "name": "Treemoo",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "treemoo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bloxysstructures/models/item/treemoo_spawn_egg.json",
+          "src/main/java/net/mcreator/bloxysstructures/client/renderer/TreemooRenderer.java",
+          "src/main/java/net/mcreator/bloxysstructures/entity/TreemooEntity.java",
+          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/treemoo_biome_modifier.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Treemoo"
+    },
+    {
+      "name": "CherryTreemooDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_treemoo_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/CherryTreemooDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Treemoo"
+    },
+    {
+      "name": "SpruceTreemooDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_treemoo_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/SpruceTreemooDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Treemoo"
+    },
+    {
+      "name": "OakTreemooDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_treemoo_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/OakTreemooDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Treemoo"
+    },
+    {
+      "name": "BirchTreemooDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_treemoo_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/BirchTreemooDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Treemoo"
+    },
+    {
+      "name": "TreemooOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "treemoo_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/TreemooOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Treemoo"
+    },
+    {
+      "name": "TreemooRightClickedOnEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "treemoo_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/TreemooRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Treemoo"
     }
   ],
   "variable_elements": [
@@ -4589,7 +4747,76 @@
       "CUSTOM:AdventureRealmPlains"
     ]
   },
-  "tab_element_order": {},
+  "tab_element_order": {
+    "CUSTOM:BloxysStructures": [
+      "AdventureRealm",
+      "MjinLog",
+      "MjinPlanks",
+      "MjinStairs",
+      "MjinSlab",
+      "MjinButton",
+      "MjinFence",
+      "MjinFenceGate",
+      "MjinPressurePlate",
+      "MjinLeaves",
+      "LoreoWood",
+      "LoreoLog",
+      "LoreoPlanks",
+      "LoreoLeaves",
+      "LoreoStairs",
+      "LoreoSlab",
+      "LoreoFence",
+      "LoreoFenceGate",
+      "LoreoPressurePlate",
+      "LoreoButton",
+      "MjinWood",
+      "XizaWood",
+      "XizaLog",
+      "XizaPlanks",
+      "XizaLeaves",
+      "XizaStairs",
+      "XizaSlab",
+      "XizaFence",
+      "XizaFenceGate",
+      "XizaPressurePlate",
+      "XizaButton",
+      "VerdantWood",
+      "VerdantLog",
+      "VerdantPlanks",
+      "VerdantLeaves",
+      "VerdantStairs",
+      "VerdantSlab",
+      "VerdantFence",
+      "VerdantFenceGate",
+      "VerdantPressurePlate",
+      "VerdantButton",
+      "GreenMushroomBlock",
+      "YellowMushroomBlock",
+      "BlueMushroomBlock",
+      "PurpleMushroomBlock",
+      "AltarBase",
+      "AdventureRealmGolem",
+      "Cowlin",
+      "CowlinBrute",
+      "GiantWolf",
+      "GiantWolfArmor",
+      "AltarInfernoHydra",
+      "InfernoHydra",
+      "ShieldOfInferno",
+      "AltarPrinceOfDarkness",
+      "PrinceOfDarkness",
+      "DarknessArm",
+      "AltarMushroomKing",
+      "MushroomKing",
+      "AltarBloxy",
+      "Bloxy",
+      "VoidWalkers",
+      "QuantumGuardian",
+      "QuantumMage",
+      "BloxysScythe",
+      "Treemoo"
+    ]
+  },
   "language_map": {
     "en_us": {
       "block.bloxysstructures.altar_mushroom_king": "Altar (Mushroom King)",
@@ -4616,6 +4843,7 @@
       "block.bloxysstructures.xiza_fence_gate": "Xiza Fence Gate",
       "item.bloxysstructures.void_walkers_spawn_egg": "Void Walker Spawn Egg",
       "block.bloxysstructures.verdant_slab": "Verdant Slab",
+      "entity.bloxysstructures.treemoo": "Treemoo",
       "entity.bloxysstructures.adventure_realm_golem": "Adventure Realm Golem",
       "block.bloxysstructures.loreo_slab": "Loreo Slab",
       "death.attack.purple_poison_damage": "%1$s died of Purple Poison",
@@ -4671,6 +4899,7 @@
       "item.bloxysstructures.cowlin_brute_spawn_egg": "Cowlin Brute Spawn Egg",
       "block.bloxysstructures.xiza_log": "Xiza Log",
       "entity.bloxysstructures.quantum_guardian": "Quantum Guardian",
+      "item.bloxysstructures.treemoo_spawn_egg": "Treemoo Spawn Egg",
       "effect.bloxysstructures.purple_poison": "Purple Poison",
       "item.bloxysstructures.mushroom_king_spawn_egg": "Mushroom King Spawn Egg",
       "advancements.bloxys_structures_advancement.title": "Bloxy\u0027s Structures",
@@ -4774,6 +5003,10 @@
                     "children": []
                   }
                 ]
+              },
+              {
+                "name": "Treemoo",
+                "children": []
               }
             ]
           },

@@ -27,6 +27,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
 
+import net.mcreator.bloxysstructures.entity.TreemooEntity;
 import net.mcreator.bloxysstructures.entity.GiantWolfEntity;
 
 import javax.annotation.Nullable;
@@ -134,6 +135,11 @@ public class OnEntitySpawnDoStuffProcedure {
 			if ((entity.level().dimension()) == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("bloxysstructures:adventure_realm"))) {
 				if (entity instanceof LivingEntity _livingEntity70 && _livingEntity70.getAttributes().hasAttribute(Attributes.SCALE))
 					_livingEntity70.getAttribute(Attributes.SCALE).setBaseValue((Mth.nextDouble(RandomSource.create(), 4, 6)));
+			}
+		} else if (entity instanceof TreemooEntity) {
+			if ((entity.level().dimension()) == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("bloxysstructures:adventure_realm"))) {
+				if (entity instanceof LivingEntity _livingEntity76 && _livingEntity76.getAttributes().hasAttribute(Attributes.SCALE))
+					_livingEntity76.getAttribute(Attributes.SCALE).setBaseValue((Mth.nextDouble(RandomSource.create(), 1, 2)));
 			}
 		}
 	}
