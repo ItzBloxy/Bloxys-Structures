@@ -57,6 +57,11 @@ public class BloxysScytheThrowablePlayerProjectileHitsBlockProcedure {
 			_vars.scythecooldown = false;
 			_vars.syncPlayerVariables(entity);
 		}
+		{
+			BloxysstructuresModVariables.PlayerVariables _vars = entity.getData(BloxysstructuresModVariables.PLAYER_VARIABLES);
+			_vars.scythethrowcooldown = 100;
+			_vars.syncPlayerVariables(entity);
+		}
 		if (world instanceof Level _level) {
 			if (!_level.isClientSide()) {
 				_level.playSound(null, BlockPos.containing(entity.getX(), entity.getY(), entity.getZ()), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("item.trident.return")), SoundSource.PLAYERS, 1, 1);

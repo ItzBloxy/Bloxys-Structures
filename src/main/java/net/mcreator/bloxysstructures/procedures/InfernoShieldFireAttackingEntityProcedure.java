@@ -39,7 +39,7 @@ public class InfernoShieldFireAttackingEntityProcedure {
 		if (entity instanceof Player) {
 			if (entity instanceof LivingEntity _livEnt1 && _livEnt1.isBlocking() && ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == BloxysstructuresModItems.SHIELD_OF_INFERNO.get()
 					|| (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == BloxysstructuresModItems.SHIELD_OF_INFERNO.get())) {
-				sourceentity.igniteForSeconds(5);
+				sourceentity.igniteForSeconds(3);
 				entity.clearFire();
 			}
 		}

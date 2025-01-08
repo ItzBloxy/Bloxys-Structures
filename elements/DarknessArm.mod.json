@@ -8,10 +8,11 @@
     "texture": "darknessarmtx",
     "customModelName": "darknessarm:default",
     "blockingModelName": "Normal blocking",
-    "name": "Darkness Arm",
+    "name": "Arm of Shadows",
     "specialInformation": {
       "fixedValue": [
-        "- Right Click to use Shadow Shockwave"
+        "- Right Click to use Shadow Shockwave",
+        "- Deals 1 half-heart of damage for each block fallen"
       ]
     },
     "creativeTabs": [
@@ -22,8 +23,8 @@
     "efficiency": 6.0,
     "attackSpeed": 1.5999999999999999,
     "enchantability": 8,
-    "damageVsEntity": 5.5,
-    "usageCount": 960,
+    "damageVsEntity": 7.0,
+    "usageCount": 1408,
     "glowCondition": {
       "fixedValue": false
     },
@@ -55,8 +56,8 @@
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "onRightClickedInAir": {
-      "name": "DarknessArmRightclicked"
+    "onEntityHitWith": {
+      "name": "DarknessArmLivingEntityIsHitWithTool"
     }
   }
 }

@@ -62,6 +62,8 @@ public class BloxysstructuresModVariables {
 			PlayerVariables clone = new PlayerVariables();
 			if (!event.isWasDeath()) {
 				clone.scythecooldown = original.scythecooldown;
+				clone.CalledBackScythe = original.CalledBackScythe;
+				clone.scythethrowcooldown = original.scythethrowcooldown;
 			}
 			event.getEntity().setData(PLAYER_VARIABLES, clone);
 		}
@@ -69,17 +71,23 @@ public class BloxysstructuresModVariables {
 
 	public static class PlayerVariables implements INBTSerializable<CompoundTag> {
 		public boolean scythecooldown = false;
+		public double CalledBackScythe = 0;
+		public double scythethrowcooldown = 0;
 
 		@Override
 		public CompoundTag serializeNBT(HolderLookup.Provider lookupProvider) {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putBoolean("scythecooldown", scythecooldown);
+			nbt.putDouble("CalledBackScythe", CalledBackScythe);
+			nbt.putDouble("scythethrowcooldown", scythethrowcooldown);
 			return nbt;
 		}
 
 		@Override
 		public void deserializeNBT(HolderLookup.Provider lookupProvider, CompoundTag nbt) {
 			scythecooldown = nbt.getBoolean("scythecooldown");
+			CalledBackScythe = nbt.getDouble("CalledBackScythe");
+			scythethrowcooldown = nbt.getDouble("scythethrowcooldown");
 		}
 
 		public void syncPlayerVariables(Entity entity) {

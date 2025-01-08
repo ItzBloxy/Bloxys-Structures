@@ -3697,7 +3697,7 @@
           "src/main/java/net/mcreator/bloxysstructures/client/renderer/BloxyRenderer.java"
         ]
       },
-      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+      "path": "~/Adventure Realm/Bosses/Bloxy"
     },
     {
       "name": "BloxyScythe1DisplayCondition",
@@ -3717,7 +3717,7 @@
           }
         ]
       },
-      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+      "path": "~/Adventure Realm/Bosses/Bloxy"
     },
     {
       "name": "BloxyScythe2DisplayCondition",
@@ -3737,7 +3737,7 @@
           }
         ]
       },
-      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+      "path": "~/Adventure Realm/Bosses/Bloxy"
     },
     {
       "name": "BloxyGlowDisplayCondition",
@@ -3757,7 +3757,7 @@
           }
         ]
       },
-      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+      "path": "~/Adventure Realm/Bosses/Bloxy"
     },
     {
       "name": "BloxyOnEntityTickUpdate",
@@ -3792,7 +3792,7 @@
           }
         ]
       },
-      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+      "path": "~/Adventure Realm/Bosses/Bloxy"
     },
     {
       "name": "BloxyParticleFunction",
@@ -3805,7 +3805,7 @@
           "src/main/resources/data/bloxysstructures/function/bloxyparticlefunction.mcfunction"
         ]
       },
-      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+      "path": "~/Adventure Realm/Bosses/Bloxy"
     },
     {
       "name": "BloxysScytheThrowableWhileProjectileFlyingTick",
@@ -3824,7 +3824,7 @@
           }
         ]
       },
-      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+      "path": "~/Adventure Realm/Bosses/Bloxy"
     },
     {
       "name": "BloxysScytheThrowableProjectileHitsBlock",
@@ -3859,7 +3859,7 @@
           }
         ]
       },
-      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+      "path": "~/Adventure Realm/Bosses/Bloxy"
     },
     {
       "name": "BloxysScytheThrowable",
@@ -3873,7 +3873,7 @@
           "src/main/java/net/mcreator/bloxysstructures/client/renderer/BloxysScytheThrowableRenderer.java"
         ]
       },
-      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+      "path": "~/Adventure Realm/Bosses/Bloxy"
     },
     {
       "name": "BloxysScytheThrowableProjectileHitsPlayer",
@@ -3912,7 +3912,7 @@
           }
         ]
       },
-      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+      "path": "~/Adventure Realm/Bosses/Bloxy"
     },
     {
       "name": "BloxyOnInitialEntitySpawn",
@@ -3931,7 +3931,7 @@
           }
         ]
       },
-      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+      "path": "~/Adventure Realm/Bosses/Bloxy"
     },
     {
       "name": "PurpleLightningShockwave",
@@ -3945,7 +3945,7 @@
           "src/main/java/net/mcreator/bloxysstructures/entity/PurpleLightningShockwaveEntity.java"
         ]
       },
-      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+      "path": "~/Adventure Realm/Bosses/Bloxy"
     },
     {
       "name": "PurpleLightningShockwaveOnEntityTickUpdate",
@@ -3964,7 +3964,7 @@
           }
         ]
       },
-      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+      "path": "~/Adventure Realm/Bosses/Bloxy"
     },
     {
       "name": "PurpleLightningShockwaveModelVisualScale",
@@ -3984,7 +3984,7 @@
           }
         ]
       },
-      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+      "path": "~/Adventure Realm/Bosses/Bloxy"
     },
     {
       "name": "PurpleLightningShockwavePlayerCollidesWithThisEntity",
@@ -4007,7 +4007,7 @@
           }
         ]
       },
-      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+      "path": "~/Adventure Realm/Bosses/Bloxy"
     },
     {
       "name": "AltarBloxy",
@@ -4069,7 +4069,7 @@
           "src/main/java/net/mcreator/bloxysstructures/item/BloxysScytheItem.java"
         ]
       },
-      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+      "path": "~/Adventure Realm/Bosses/Bloxy"
     },
     {
       "name": "BloxysScytheThrowablePlayer",
@@ -4083,7 +4083,7 @@
           "src/main/java/net/mcreator/bloxysstructures/client/renderer/BloxysScytheThrowablePlayerRenderer.java"
         ]
       },
-      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+      "path": "~/Adventure Realm/Bosses/Bloxy"
     },
     {
       "name": "BloxysScytheToolInInventoryTick",
@@ -4106,7 +4106,7 @@
           }
         ]
       },
-      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+      "path": "~/Adventure Realm/Bosses/Bloxy"
     },
     {
       "name": "BloxysScytheThrowablePlayerProjectileHitsBlock",
@@ -4145,7 +4145,7 @@
           }
         ]
       },
-      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+      "path": "~/Adventure Realm/Bosses/Bloxy"
     },
     {
       "name": "BloxysScytheThrowablePlayerProjectileHitsLivingEntity",
@@ -4188,7 +4188,7 @@
           }
         ]
       },
-      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+      "path": "~/Adventure Realm/Bosses/Bloxy"
     },
     {
       "name": "BloxysScytheThrowablePlayerWhileProjectileFlyingTick",
@@ -4208,14 +4208,10 @@
           {
             "name": "immediatesourceentity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
-      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+      "path": "~/Adventure Realm/Bosses/Bloxy"
     },
     {
       "name": "BloxysScytheRightclicked",
@@ -4254,7 +4250,7 @@
           }
         ]
       },
-      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+      "path": "~/Adventure Realm/Bosses/Bloxy"
     },
     {
       "name": "BloxyEntityDies",
@@ -4285,7 +4281,7 @@
           }
         ]
       },
-      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+      "path": "~/Adventure Realm/Bosses/Bloxy"
     },
     {
       "name": "BloxyEntityIsHurt",
@@ -4316,7 +4312,7 @@
           }
         ]
       },
-      "path": "~/Adventure Realm/Entities/Bloxys Army/Bloxy"
+      "path": "~/Adventure Realm/Bosses/Bloxy"
     },
     {
       "name": "OnEntitySpawnDoStuff",
@@ -4539,6 +4535,164 @@
         ]
       },
       "path": "~/Adventure Realm/Entities/Treemoo"
+    },
+    {
+      "name": "Darkness",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkness",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bloxysstructures/damage_type/darkness.json"
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Prince of Darkness"
+    },
+    {
+      "name": "DarknessArmLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkness_arm_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/DarknessArmLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Prince of Darkness"
+    },
+    {
+      "name": "BloxysScytheCallBack",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloxys_scythe_call_back",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/BloxysScytheCallBackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Bloxy"
+    },
+    {
+      "name": "UseItemSpecialOnKeyReleased",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "use_item_special_on_key_released",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/UseItemSpecialOnKeyReleasedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "UseItemSpecial",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "use_item_special",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/network/UseItemSpecialMessage.java"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "TakeCareOfCooldownProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "take_care_of_cooldown_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/TakeCareOfCooldownProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Bosses/Bloxy"
     }
   ],
   "variable_elements": [
@@ -4547,6 +4701,18 @@
       "type": "logic",
       "scope": "player_lifetime",
       "value": "false"
+    },
+    {
+      "name": "CalledBackScythe",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "scythethrowcooldown",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -4571,15 +4737,18 @@
     "DAMAGE_TYPES:minecraft:bypasses_enchantments": [
       "CUSTOM:PurplePoisonDamage"
     ],
+    "BIOMES:dungeons_arise:has_structure/mechanical_nest_biomes": [
+      "CUSTOM:AdventureRealmPlains"
+    ],
     "BLOCKS:minecraft:mineable/hoe": [
       "~CUSTOM:PurpleMushroomBlock",
       "~CUSTOM:YellowMushroomBlock",
       "~CUSTOM:GreenMushroomBlock",
       "~CUSTOM:BlueMushroomBlock",
-      "~CUSTOM:MjinLeaves"
-    ],
-    "BIOMES:dungeons_arise:has_structure/mechanical_nest_biomes": [
-      "CUSTOM:AdventureRealmPlains"
+      "~CUSTOM:MjinLeaves",
+      "CUSTOM:VerdantLeaves",
+      "CUSTOM:LoreoLeaves",
+      "CUSTOM:XizaLeaves"
     ],
     "ENCHANTMENTS:minecraft:treasure": [
       "~CUSTOM:PurplePoisonEnchantment"
@@ -4645,7 +4814,8 @@
     ],
     "BIOMES:mod:has_structure/battletower": [],
     "DAMAGE_TYPES:minecraft:bypasses_cooldown": [
-      "CUSTOM:PurplePoisonDamage"
+      "CUSTOM:PurplePoisonDamage",
+      "CUSTOM:Darkness"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:AltarBloxy",
@@ -4795,6 +4965,7 @@
       "BlueMushroomBlock",
       "PurpleMushroomBlock",
       "AltarBase",
+      "Treemoo",
       "AdventureRealmGolem",
       "Cowlin",
       "CowlinBrute",
@@ -4813,8 +4984,7 @@
       "VoidWalkers",
       "QuantumGuardian",
       "QuantumMage",
-      "BloxysScythe",
-      "Treemoo"
+      "BloxysScythe"
     ]
   },
   "language_map": {
@@ -4858,13 +5028,16 @@
       "entity.bloxysstructures.cowlin": "Cowlin",
       "item.bloxysstructures.bloxy_spawn_egg": "Bloxy Spawn Egg",
       "block.bloxysstructures.xiza_leaves": "Xiza Leaves",
+      "death.attack.darkness": "%1$s was sent to the Shadow Realm",
       "item.bloxysstructures.bloxys_scythe": "Bloxy\u0027s Scythe",
       "entity.bloxysstructures.void_walkers": "Void Walker",
+      "death.attack.darkness.player": "%1$s was sent to the Shadow Realm whilst trying to escape %2$s",
       "block.bloxysstructures.xiza_slab": "Xiza Slab",
       "block.bloxysstructures.xiza_pressure_plate": "Xiza Pressure Plate",
       "block.bloxysstructures.loreo_button": "Loreo Button",
       "block.bloxysstructures.loreo_log": "Loreo Log",
       "block.bloxysstructures.altar_base": "Altar (No Entity)",
+      "key.bloxysstructures.use_item_special": "Use Item Ability (Bloxy\u0027s Structures)",
       "entity.bloxysstructures.quantum_mage": "Quantum Mage",
       "block.bloxysstructures.loreo_stairs": "Loreo Stairs",
       "item.bloxysstructures.prince_of_darkness_spawn_egg": "Prince Of Darkness Spawn Egg",
@@ -4879,7 +5052,7 @@
       "block.bloxysstructures.verdant_planks": "Verdant Planks",
       "item.bloxysstructures.shield_of_inferno": "Shield Of Inferno",
       "entity.bloxysstructures.prince_of_darkness": "Prince Of Darkness",
-      "item.bloxysstructures.darkness_arm": "Darkness Arm",
+      "item.bloxysstructures.darkness_arm": "Arm of Shadows",
       "block.bloxysstructures.xiza_wood": "Xiza Wood",
       "block.bloxysstructures.mjin_stairs": "Mjin Stairs",
       "item.bloxysstructures.giant_wolf_spawn_egg": "Giant Wolf Spawn Egg",
@@ -4891,6 +5064,7 @@
       "item.bloxysstructures.inferno_hydra_spawn_egg": "Inferno Hydra Spawn Egg",
       "block.bloxysstructures.verdant_log": "Verdant Log",
       "entity.bloxysstructures.purple_lightning_shockwave": "Purple-Lightning-Shockwave",
+      "death.attack.darkness.item": "%1$s sent %2$s to the Shadow Realm",
       "block.bloxysstructures.verdant_leaves": "Verdant Leaves",
       "block.bloxysstructures.mjin_fence": "Mjin Fence",
       "death.attack.purple_poison_damage.player": "%1$s died whilst trying to escape Purple Poison",
@@ -4977,6 +5151,10 @@
               {
                 "name": "Mushroom King",
                 "children": []
+              },
+              {
+                "name": "Bloxy",
+                "children": []
               }
             ]
           },
@@ -4996,16 +5174,11 @@
                 "children": []
               },
               {
-                "name": "Bloxys Army",
-                "children": [
-                  {
-                    "name": "Bloxy",
-                    "children": []
-                  }
-                ]
+                "name": "Treemoo",
+                "children": []
               },
               {
-                "name": "Treemoo",
+                "name": "Bloxys Army",
                 "children": []
               }
             ]

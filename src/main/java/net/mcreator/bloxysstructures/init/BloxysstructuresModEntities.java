@@ -54,7 +54,7 @@ public class BloxysstructuresModEntities {
 
 					.sized(0.6f, 1.95f));
 	public static final DeferredHolder<EntityType<?>, EntityType<InfernoHydraEntity>> INFERNO_HYDRA = register("inferno_hydra",
-			EntityType.Builder.<InfernoHydraEntity>of(InfernoHydraEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune().sized(0.6f, 1.8f));
+			EntityType.Builder.<InfernoHydraEntity>of(InfernoHydraEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune().sized(3.9f, 1.9f));
 	public static final DeferredHolder<EntityType<?>, EntityType<PrinceOfDarknessEntity>> PRINCE_OF_DARKNESS = register("prince_of_darkness",
 			EntityType.Builder.<PrinceOfDarknessEntity>of(PrinceOfDarknessEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(96).setUpdateInterval(3).fireImmune().sized(0.8f, 3.2f));
 	public static final DeferredHolder<EntityType<?>, EntityType<MushroomKingEntity>> MUSHROOM_KING = register("mushroom_king",

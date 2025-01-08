@@ -1,0 +1,12 @@
+{
+  "_fv": 69,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "R",
+    "keyBindingName": "Use Item Ability (Bloxy's Structures)",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyReleased": {
+      "name": "UseItemSpecialOnKeyReleased"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "_fv": 69,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.1,
+    "scaling": "never",
+    "effects": "hurt",
+    "normalDeathMessage": "%1$s was sent to the Shadow Realm",
+    "itemDeathMessage": "%1$s sent %2$s to the Shadow Realm",
+    "playerDeathMessage": "%1$s was sent to the Shadow Realm whilst trying to escape %2$s"
+  }
+}

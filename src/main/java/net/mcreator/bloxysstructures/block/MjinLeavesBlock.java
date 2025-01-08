@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class MjinLeavesBlock extends LeavesBlock {
 	public MjinLeavesBlock() {
-		super(BlockBehaviour.Properties.of().ignitedByLava().mapColor(MapColor.COLOR_RED).sound(SoundType.GRASS).strength(0.3f).noOcclusion());
+		super(BlockBehaviour.Properties.of().ignitedByLava().mapColor(MapColor.COLOR_RED).sound(SoundType.GRASS).strength(0.3f, 0.2f).noOcclusion());
 	}
 
 	@Override

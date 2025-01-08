@@ -64,6 +64,7 @@ public class BloxysstructuresModTabs {
 				tabData.accept(BloxysstructuresModBlocks.BLUE_MUSHROOM_BLOCK.get().asItem());
 				tabData.accept(BloxysstructuresModBlocks.PURPLE_MUSHROOM_BLOCK.get().asItem());
 				tabData.accept(BloxysstructuresModBlocks.ALTAR_BASE.get().asItem());
+				tabData.accept(BloxysstructuresModItems.TREEMOO_SPAWN_EGG.get());
 				tabData.accept(BloxysstructuresModItems.ADVENTURE_REALM_GOLEM_SPAWN_EGG.get());
 				tabData.accept(BloxysstructuresModItems.COWLIN_SPAWN_EGG.get());
 				tabData.accept(BloxysstructuresModItems.COWLIN_BRUTE_SPAWN_EGG.get());
@@ -83,7 +84,6 @@ public class BloxysstructuresModTabs {
 				tabData.accept(BloxysstructuresModItems.QUANTUM_GUARDIAN_SPAWN_EGG.get());
 				tabData.accept(BloxysstructuresModItems.QUANTUM_MAGE_SPAWN_EGG.get());
 				tabData.accept(BloxysstructuresModItems.BLOXYS_SCYTHE.get());
-				tabData.accept(BloxysstructuresModItems.TREEMOO_SPAWN_EGG.get());
 			})
 
 					.build());

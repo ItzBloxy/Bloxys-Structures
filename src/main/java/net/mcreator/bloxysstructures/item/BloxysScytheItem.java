@@ -10,15 +10,11 @@ import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.InteractionResultHolder;
-import net.minecraft.world.InteractionHand;
 import net.minecraft.tags.TagKey;
 import net.minecraft.tags.BlockTags;
 
 import net.mcreator.bloxysstructures.procedures.BloxysScytheToolInInventoryTickProcedure;
-import net.mcreator.bloxysstructures.procedures.BloxysScytheRightclickedProcedure;
 
 public class BloxysScytheItem extends SwordItem {
 	private static final Tier TOOL_TIER = new Tier() {
@@ -55,14 +51,7 @@ public class BloxysScytheItem extends SwordItem {
 	};
 
 	public BloxysScytheItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(SwordItem.createAttributes(TOOL_TIER, 7f, -2.2f)).fireResistant());
-	}
-
-	@Override
-	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
-		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
-		BloxysScytheRightclickedProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity, ar.getObject());
-		return ar;
+		super(TOOL_TIER, new Item.Properties().attributes(SwordItem.createAttributes(TOOL_TIER, 6f, -2.2f)).fireResistant());
 	}
 
 	@Override

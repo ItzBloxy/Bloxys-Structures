@@ -89,7 +89,7 @@ public class BloxysScytheThrowablePlayerEntity extends AbstractArrow implements 
 	@Override
 	public void tick() {
 		super.tick();
-		BloxysScytheThrowablePlayerWhileProjectileFlyingTickProcedure.execute(this.level(), this.getOwner(), this);
+		BloxysScytheThrowablePlayerWhileProjectileFlyingTickProcedure.execute(this.getOwner(), this);
 		if (this.inGround)
 			this.discard();
 	}

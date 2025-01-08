@@ -103,6 +103,8 @@ public class InfernoHydraEntity extends Monster {
 			return false;
 		if (damagesource.is(DamageTypes.LIGHTNING_BOLT))
 			return false;
+		if (damagesource.is(DamageTypes.DRAGON_BREATH))
+			return false;
 		return super.hurt(damagesource, amount);
 	}
 

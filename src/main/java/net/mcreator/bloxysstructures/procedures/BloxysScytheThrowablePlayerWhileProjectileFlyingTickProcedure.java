@@ -1,23 +1,29 @@
 package net.mcreator.bloxysstructures.procedures;
 
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.core.BlockPos;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
 
 import net.mcreator.bloxysstructures.network.BloxysstructuresModVariables;
 
 public class BloxysScytheThrowablePlayerWhileProjectileFlyingTickProcedure {
-	public static void execute(LevelAccessor world, Entity entity, Entity immediatesourceentity) {
+	public static void execute(Entity entity, Entity immediatesourceentity) {
 		if (entity == null || immediatesourceentity == null)
 			return;
+		if (entity.getData(BloxysstructuresModVariables.PLAYER_VARIABLES).scythecooldown == false) {
+			{
+				BloxysstructuresModVariables.PlayerVariables _vars = entity.getData(BloxysstructuresModVariables.PLAYER_VARIABLES);
+				_vars.scythecooldown = false;
+				_vars.syncPlayerVariables(entity);
+			}
+			if (!immediatesourceentity.level().isClientSide())
+				immediatesourceentity.discard();
+		}
 		immediatesourceentity.setNoGravity(true);
+		if (immediatesourceentity instanceof LivingEntity _entity)
+			_entity.setDiscardFriction(false);
 		immediatesourceentity.getPersistentData().putDouble("counter3", (immediatesourceentity.getPersistentData().getDouble("counter3") + 1));
 		if (immediatesourceentity.getPersistentData().getDouble("counter3") % 6 == 0) {
 			{
@@ -30,20 +36,18 @@ public class BloxysScytheThrowablePlayerWhileProjectileFlyingTickProcedure {
 		}
 		immediatesourceentity.getPersistentData().putDouble("counter1", (immediatesourceentity.getPersistentData().getDouble("counter1") + 1));
 		if (immediatesourceentity.getPersistentData().getDouble("counter1") % 120 == 0) {
-			if (!immediatesourceentity.level().isClientSide())
-				immediatesourceentity.discard();
-			if (world instanceof Level _level) {
-				if (!_level.isClientSide()) {
-					_level.playSound(null, BlockPos.containing(entity.getX(), entity.getY(), entity.getZ()), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("item.trident.return")), SoundSource.PLAYERS, 1, 1);
-				} else {
-					_level.playLocalSound((entity.getX()), (entity.getY()), (entity.getZ()), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("item.trident.return")), SoundSource.PLAYERS, 1, 1, false);
-				}
+			{
+				BloxysstructuresModVariables.PlayerVariables _vars = entity.getData(BloxysstructuresModVariables.PLAYER_VARIABLES);
+				_vars.CalledBackScythe = 0;
+				_vars.syncPlayerVariables(entity);
 			}
 			{
 				BloxysstructuresModVariables.PlayerVariables _vars = entity.getData(BloxysstructuresModVariables.PLAYER_VARIABLES);
 				_vars.scythecooldown = false;
 				_vars.syncPlayerVariables(entity);
 			}
+			if (!immediatesourceentity.level().isClientSide())
+				immediatesourceentity.discard();
 		}
 	}
 }

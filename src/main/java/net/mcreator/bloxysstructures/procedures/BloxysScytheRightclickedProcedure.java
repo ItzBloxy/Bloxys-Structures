@@ -11,7 +11,6 @@ import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.world.InteractionHand;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -26,6 +25,11 @@ public class BloxysScytheRightclickedProcedure {
 		if (entity == null)
 			return;
 		if (entity.getData(BloxysstructuresModVariables.PLAYER_VARIABLES).scythecooldown == false) {
+			{
+				BloxysstructuresModVariables.PlayerVariables _vars = entity.getData(BloxysstructuresModVariables.PLAYER_VARIABLES);
+				_vars.scythecooldown = true;
+				_vars.syncPlayerVariables(entity);
+			}
 			{
 				Entity _shootFrom = entity;
 				Level projectileLevel = _shootFrom.level();
@@ -60,8 +64,6 @@ public class BloxysScytheRightclickedProcedure {
 					projectileLevel.addFreshEntity(_entityToSpawn);
 				}
 			}
-			if (entity instanceof LivingEntity _entity)
-				_entity.swing(InteractionHand.MAIN_HAND, true);
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("item.trident.throw")), SoundSource.PLAYERS, 1, 1);
@@ -71,9 +73,10 @@ public class BloxysScytheRightclickedProcedure {
 			}
 			if (entity instanceof Player _player)
 				_player.getCooldowns().addCooldown(itemstack.getItem(), 130);
+		} else if (entity.getData(BloxysstructuresModVariables.PLAYER_VARIABLES).scythecooldown == true) {
 			{
 				BloxysstructuresModVariables.PlayerVariables _vars = entity.getData(BloxysstructuresModVariables.PLAYER_VARIABLES);
-				_vars.scythecooldown = true;
+				_vars.scythecooldown = false;
 				_vars.syncPlayerVariables(entity);
 			}
 		}

@@ -12,7 +12,7 @@ public class BloxysScytheToolInInventoryTickProcedure {
 			return;
 		if (entity.getData(BloxysstructuresModVariables.PLAYER_VARIABLES).scythecooldown == false) {
 			if (entity instanceof Player _player)
-				_player.getCooldowns().addCooldown(itemstack.getItem(), 0);
+				_player.getCooldowns().addCooldown(itemstack.getItem(), (int) entity.getData(BloxysstructuresModVariables.PLAYER_VARIABLES).scythethrowcooldown);
 		}
 	}
 }

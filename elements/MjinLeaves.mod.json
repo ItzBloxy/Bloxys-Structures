@@ -40,7 +40,7 @@
       "fixedValue": []
     },
     "hardness": 0.3,
-    "resistance": 0.3,
+    "resistance": 0.2,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTabs": [

@@ -36,6 +36,11 @@ public class BloxysScytheThrowablePlayerProjectileHitsLivingEntityProcedure {
 			_vars.scythecooldown = false;
 			_vars.syncPlayerVariables(sourceentity);
 		}
+		{
+			BloxysstructuresModVariables.PlayerVariables _vars = sourceentity.getData(BloxysstructuresModVariables.PLAYER_VARIABLES);
+			_vars.scythethrowcooldown = 100;
+			_vars.syncPlayerVariables(sourceentity);
+		}
 		entity.hurt(new DamageSource(world.holderOrThrow(DamageTypes.PLAYER_ATTACK)), 5);
 		for (int index0 = 0; index0 < Mth.nextInt(RandomSource.create(), 1, 2); index0++) {
 			if (world instanceof ServerLevel _level) {

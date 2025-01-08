@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "bloxysstructures:purple_poison_damage"
+    "bloxysstructures:purple_poison_damage",
+    "bloxysstructures:darkness"
   ]
 }
