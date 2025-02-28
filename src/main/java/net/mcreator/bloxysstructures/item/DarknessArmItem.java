@@ -70,7 +70,7 @@ public class DarknessArmItem extends SwordItem {
 	@OnlyIn(Dist.CLIENT)
 	public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, context, list, flag);
-		list.add(Component.literal("- Right Click to use Shadow Shockwave"));
-		list.add(Component.literal("- Deals 1 half-heart of damage for each block fallen"));
+		list.add(Component.translatable("item.bloxysstructures.darkness_arm.description_0"));
+		list.add(Component.translatable("item.bloxysstructures.darkness_arm.description_1"));
 	}
 }

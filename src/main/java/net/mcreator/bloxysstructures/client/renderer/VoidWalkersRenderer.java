@@ -19,7 +19,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 
 public class VoidWalkersRenderer extends HumanoidMobRenderer<VoidWalkersEntity, HumanoidModel<VoidWalkersEntity>> {
 	public VoidWalkersRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
+		super(context, new HumanoidModel<VoidWalkersEntity>(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
 		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
 		this.addLayer(new RenderLayer<VoidWalkersEntity, HumanoidModel<VoidWalkersEntity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("bloxysstructures:textures/entities/voidwalkerstx_e.png");

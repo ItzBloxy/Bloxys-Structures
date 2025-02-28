@@ -29,6 +29,6 @@ public class ShieldOfInfernoItem extends ShieldItem {
 	@OnlyIn(Dist.CLIENT)
 	public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, context, list, flag);
-		list.add(Component.literal("- Sets attacking Entities on Fire when blocking"));
+		list.add(Component.translatable("item.bloxysstructures.shield_of_inferno.description_0"));
 	}
 }

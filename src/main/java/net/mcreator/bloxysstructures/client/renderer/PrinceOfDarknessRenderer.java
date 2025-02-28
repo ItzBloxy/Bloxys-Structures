@@ -19,7 +19,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 
 public class PrinceOfDarknessRenderer extends MobRenderer<PrinceOfDarknessEntity, Modelprince_of_darkness<PrinceOfDarknessEntity>> {
 	public PrinceOfDarknessRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelprince_of_darkness(context.bakeLayer(Modelprince_of_darkness.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelprince_of_darkness<PrinceOfDarknessEntity>(context.bakeLayer(Modelprince_of_darkness.LAYER_LOCATION)), 0.5f);
 		this.addLayer(new RenderLayer<PrinceOfDarknessEntity, Modelprince_of_darkness<PrinceOfDarknessEntity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("bloxysstructures:textures/entities/prince_of_darkness_tx_e.png");
 

@@ -22,7 +22,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 
 public class TreemooRenderer extends MobRenderer<TreemooEntity, Modeltreemoo<TreemooEntity>> {
 	public TreemooRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modeltreemoo(context.bakeLayer(Modeltreemoo.LAYER_LOCATION)), 0.5f);
+		super(context, new Modeltreemoo<TreemooEntity>(context.bakeLayer(Modeltreemoo.LAYER_LOCATION)), 0.5f);
 		this.addLayer(new RenderLayer<TreemooEntity, Modeltreemoo<TreemooEntity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("bloxysstructures:textures/entities/treemoo_birch.png");
 

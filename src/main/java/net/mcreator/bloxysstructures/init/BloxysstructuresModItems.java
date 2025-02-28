@@ -98,6 +98,7 @@ public class BloxysstructuresModItems {
 	public static final DeferredItem<Item> ALTAR_BLOXY = block(BloxysstructuresModBlocks.ALTAR_BLOXY);
 	public static final DeferredItem<Item> BLOXYS_SCYTHE = REGISTRY.register("bloxys_scythe", BloxysScytheItem::new);
 	public static final DeferredItem<Item> TREEMOO_SPAWN_EGG = REGISTRY.register("treemoo_spawn_egg", () -> new DeferredSpawnEggItem(BloxysstructuresModEntities.TREEMOO, -12964320, -16744448, new Item.Properties()));
+	public static final DeferredItem<Item> WHALKYR_SPAWN_EGG = REGISTRY.register("whalkyr_spawn_egg", () -> new DeferredSpawnEggItem(BloxysstructuresModEntities.WHALKYR, -6750055, -10066177, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

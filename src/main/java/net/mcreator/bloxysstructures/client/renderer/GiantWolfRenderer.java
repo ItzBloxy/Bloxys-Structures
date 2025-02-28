@@ -65,7 +65,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 
 public class GiantWolfRenderer extends MobRenderer<GiantWolfEntity, Modelwolf<GiantWolfEntity>> {
 	public GiantWolfRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelwolf(context.bakeLayer(Modelwolf.LAYER_LOCATION)), 1f);
+		super(context, new Modelwolf<GiantWolfEntity>(context.bakeLayer(Modelwolf.LAYER_LOCATION)), 1f);
 		this.addLayer(new RenderLayer<GiantWolfEntity, Modelwolf<GiantWolfEntity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("bloxysstructures:textures/entities/wolf_tame_notail.png");
 

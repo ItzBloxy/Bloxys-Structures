@@ -165,7 +165,8 @@ public class InfernoHydraOnEntityTickUpdateProcedure {
 			});
 		}
 		if (world.getBlockState(BlockPos.containing(x, y - 1, z)).canOcclude()) {
-			entity.setDeltaMovement(new Vec3((entity.getDeltaMovement().x()), 1, (entity.getLookAngle().z)));
+			entity.push(0, 1, 0);
 		}
+		entity.push((entity.getLookAngle().x * 0.025), (entity.getLookAngle().y * 0.025), (entity.getLookAngle().z * 0.025));
 	}
 }

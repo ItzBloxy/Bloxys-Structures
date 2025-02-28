@@ -21,6 +21,6 @@ public class GiantWolfArmorItem extends Item {
 	@OnlyIn(Dist.CLIENT)
 	public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, context, list, flag);
-		list.add(Component.literal("- Can be Dyed when applied to a Wolf"));
+		list.add(Component.translatable("item.bloxysstructures.giant_wolf_armor.description_0"));
 	}
 }

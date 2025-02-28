@@ -1,5 +1,5 @@
 {
-  "_fv": 69,
+  "_fv": 73,
   "_type": "livingentity",
   "definition": {
     "mobName": "Adventure Realm Golem",
@@ -24,6 +24,7 @@
       "name": "AdventureRealmGolemModelVisualScale"
     },
     "modelLayers": [],
+    "animations": [],
     "modelWidth": 0.7,
     "modelHeight": 1.9,
     "modelShadowSize": 0.5,
@@ -83,7 +84,6 @@
       "fixedValue": true
     },
     "flyingMob": false,
-    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "disableCollisions": false,

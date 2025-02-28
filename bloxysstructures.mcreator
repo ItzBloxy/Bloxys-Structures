@@ -74,10 +74,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/bloxysstructures/blockstates/mjin_log.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/mjin_log.json",
           "src/main/java/net/mcreator/bloxysstructures/block/MjinLogBlock.java",
-          "src/main/resources/assets/bloxysstructures/models/item/mjin_log.json",
           "src/main/resources/assets/bloxysstructures/models/block/mjin_log.json",
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/mjin_log.json"
+          "src/main/resources/assets/bloxysstructures/models/item/mjin_log.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Mjin Forest"
@@ -101,11 +101,11 @@
       "registry_name": "mjin_planks",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/bloxysstructures/block/MjinPlanksBlock.java",
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/mjin_planks.json",
+          "src/main/resources/assets/bloxysstructures/models/item/mjin_planks.json",
           "src/main/resources/assets/bloxysstructures/blockstates/mjin_planks.json",
           "src/main/resources/assets/bloxysstructures/models/block/mjin_planks.json",
-          "src/main/resources/assets/bloxysstructures/models/item/mjin_planks.json"
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/mjin_planks.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/MjinPlanksBlock.java"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Mjin Forest"
@@ -131,12 +131,12 @@
       "registry_name": "mjin_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bloxysstructures/models/block/mjin_stairs.json",
-          "src/main/resources/assets/bloxysstructures/models/block/mjin_stairs_inner.json",
-          "src/main/resources/assets/bloxysstructures/models/item/mjin_stairs.json",
-          "src/main/resources/assets/bloxysstructures/blockstates/mjin_stairs.json",
           "src/main/resources/data/bloxysstructures/loot_table/blocks/mjin_stairs.json",
           "src/main/java/net/mcreator/bloxysstructures/block/MjinStairsBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/item/mjin_stairs.json",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_stairs_inner.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/mjin_stairs.json",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_stairs.json",
           "src/main/resources/assets/bloxysstructures/models/block/mjin_stairs_outer.json"
         ]
       },
@@ -150,13 +150,13 @@
       "registry_name": "mjin_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bloxysstructures/models/item/mjin_slab.json",
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/mjin_slab.json",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_slab_top.json",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_slab_full.json",
           "src/main/resources/assets/bloxysstructures/blockstates/mjin_slab.json",
           "src/main/java/net/mcreator/bloxysstructures/block/MjinSlabBlock.java",
-          "src/main/resources/assets/bloxysstructures/models/block/mjin_slab_full.json",
-          "src/main/resources/assets/bloxysstructures/models/block/mjin_slab_top.json",
-          "src/main/resources/assets/bloxysstructures/models/block/mjin_slab.json"
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_slab.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/mjin_slab.json",
+          "src/main/resources/assets/bloxysstructures/models/item/mjin_slab.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Mjin Forest"
@@ -169,13 +169,13 @@
       "registry_name": "mjin_button",
       "metadata": {
         "files": [
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/mjin_button.json",
-          "src/main/resources/assets/bloxysstructures/models/item/mjin_button.json",
-          "src/main/resources/assets/bloxysstructures/blockstates/mjin_button.json",
-          "src/main/java/net/mcreator/bloxysstructures/block/MjinButtonBlock.java",
           "src/main/resources/assets/bloxysstructures/models/block/mjin_button_inventory.json",
           "src/main/resources/assets/bloxysstructures/models/block/mjin_button_pressed.json",
-          "src/main/resources/assets/bloxysstructures/models/block/mjin_button.json"
+          "src/main/java/net/mcreator/bloxysstructures/block/MjinButtonBlock.java",
+          "src/main/resources/assets/bloxysstructures/blockstates/mjin_button.json",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_button.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/mjin_button.json",
+          "src/main/resources/assets/bloxysstructures/models/item/mjin_button.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Mjin Forest"
@@ -188,13 +188,13 @@
       "registry_name": "mjin_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bloxysstructures/blockstates/mjin_fence.json",
-          "src/main/resources/assets/bloxysstructures/models/block/mjin_fence_inventory.json",
           "src/main/resources/assets/bloxysstructures/models/block/mjin_fence_post.json",
-          "src/main/resources/assets/bloxysstructures/models/item/mjin_fence.json",
           "src/main/resources/data/bloxysstructures/loot_table/blocks/mjin_fence.json",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_fence.json",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_fence_inventory.json",
           "src/main/java/net/mcreator/bloxysstructures/block/MjinFenceBlock.java",
-          "src/main/resources/assets/bloxysstructures/models/block/mjin_fence.json"
+          "src/main/resources/assets/bloxysstructures/models/item/mjin_fence.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/mjin_fence.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Mjin Forest"
@@ -207,14 +207,14 @@
       "registry_name": "mjin_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bloxysstructures/blockstates/mjin_fence_gate.json",
-          "src/main/resources/assets/bloxysstructures/models/block/mjin_fence_gate_open.json",
-          "src/main/resources/assets/bloxysstructures/models/item/mjin_fence_gate.json",
-          "src/main/resources/assets/bloxysstructures/models/block/mjin_fence_gate_wall.json",
-          "src/main/java/net/mcreator/bloxysstructures/block/MjinFenceGateBlock.java",
           "src/main/resources/data/bloxysstructures/loot_table/blocks/mjin_fence_gate.json",
+          "src/main/resources/assets/bloxysstructures/models/item/mjin_fence_gate.json",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_fence_gate_wall_open.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/mjin_fence_gate.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/MjinFenceGateBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_fence_gate_wall.json",
           "src/main/resources/assets/bloxysstructures/models/block/mjin_fence_gate.json",
-          "src/main/resources/assets/bloxysstructures/models/block/mjin_fence_gate_wall_open.json"
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_fence_gate_open.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Mjin Forest"
@@ -227,12 +227,12 @@
       "registry_name": "mjin_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bloxysstructures/models/block/mjin_pressure_plate_down.json",
           "src/main/resources/assets/bloxysstructures/blockstates/mjin_pressure_plate.json",
-          "src/main/resources/assets/bloxysstructures/models/item/mjin_pressure_plate.json",
           "src/main/resources/assets/bloxysstructures/models/block/mjin_pressure_plate.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/MjinPressurePlateBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/item/mjin_pressure_plate.json",
           "src/main/resources/data/bloxysstructures/loot_table/blocks/mjin_pressure_plate.json",
-          "src/main/java/net/mcreator/bloxysstructures/block/MjinPressurePlateBlock.java"
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_pressure_plate_down.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Mjin Forest"
@@ -355,8 +355,8 @@
       "registry_name": "adventure_realm_feature_oak_tree",
       "metadata": {
         "files": [
-          "src/main/resources/data/bloxysstructures/worldgen/configured_feature/adventure_realm_feature_oak_tree.json",
           "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/adventure_realm_feature_oak_tree_biome_modifier.json",
+          "src/main/resources/data/bloxysstructures/worldgen/configured_feature/adventure_realm_feature_oak_tree.json",
           "src/main/resources/data/bloxysstructures/worldgen/placed_feature/adventure_realm_feature_oak_tree.json"
         ]
       },
@@ -385,11 +385,11 @@
       "registry_name": "mjin_leaves",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bloxysstructures/blockstates/mjin_leaves.json",
           "src/main/java/net/mcreator/bloxysstructures/block/MjinLeavesBlock.java",
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/mjin_leaves.json",
+          "src/main/resources/assets/bloxysstructures/models/item/mjin_leaves.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/mjin_leaves.json",
           "src/main/resources/assets/bloxysstructures/models/block/mjin_leaves.json",
-          "src/main/resources/assets/bloxysstructures/models/item/mjin_leaves.json"
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/mjin_leaves.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Mjin Forest"
@@ -403,10 +403,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/bloxysstructures/models/item/loreo_wood.json",
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/loreo_wood.json",
-          "src/main/java/net/mcreator/bloxysstructures/block/LoreoWoodBlock.java",
           "src/main/resources/assets/bloxysstructures/blockstates/loreo_wood.json",
-          "src/main/resources/assets/bloxysstructures/models/block/loreo_wood.json"
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/loreo_wood.json",
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_wood.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/LoreoWoodBlock.java"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Loreo"
@@ -419,10 +419,10 @@
       "registry_name": "loreo_log",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/bloxysstructures/block/LoreoLogBlock.java",
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/loreo_log.json",
           "src/main/resources/assets/bloxysstructures/models/item/loreo_log.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/loreo_log.json",
           "src/main/resources/assets/bloxysstructures/blockstates/loreo_log.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/LoreoLogBlock.java",
           "src/main/resources/assets/bloxysstructures/models/block/loreo_log.json"
         ]
       },
@@ -436,11 +436,11 @@
       "registry_name": "loreo_planks",
       "metadata": {
         "files": [
+          "src/main/resources/assets/bloxysstructures/models/item/loreo_planks.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/loreo_planks.json",
           "src/main/resources/assets/bloxysstructures/models/block/loreo_planks.json",
           "src/main/java/net/mcreator/bloxysstructures/block/LoreoPlanksBlock.java",
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/loreo_planks.json",
-          "src/main/resources/assets/bloxysstructures/blockstates/loreo_planks.json",
-          "src/main/resources/assets/bloxysstructures/models/item/loreo_planks.json"
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/loreo_planks.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Loreo"
@@ -454,10 +454,10 @@
       "metadata": {
         "files": [
           "src/main/resources/data/bloxysstructures/loot_table/blocks/loreo_leaves.json",
-          "src/main/resources/assets/bloxysstructures/models/item/loreo_leaves.json",
           "src/main/resources/assets/bloxysstructures/blockstates/loreo_leaves.json",
           "src/main/resources/assets/bloxysstructures/models/block/loreo_leaves.json",
-          "src/main/java/net/mcreator/bloxysstructures/block/LoreoLeavesBlock.java"
+          "src/main/java/net/mcreator/bloxysstructures/block/LoreoLeavesBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/item/loreo_leaves.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Loreo"
@@ -470,12 +470,12 @@
       "registry_name": "loreo_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bloxysstructures/models/item/loreo_stairs.json",
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/loreo_stairs.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/LoreoStairsBlock.java",
           "src/main/resources/assets/bloxysstructures/blockstates/loreo_stairs.json",
           "src/main/resources/assets/bloxysstructures/models/block/loreo_stairs_inner.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/loreo_stairs.json",
+          "src/main/resources/assets/bloxysstructures/models/item/loreo_stairs.json",
           "src/main/resources/assets/bloxysstructures/models/block/loreo_stairs.json",
-          "src/main/java/net/mcreator/bloxysstructures/block/LoreoStairsBlock.java",
           "src/main/resources/assets/bloxysstructures/models/block/loreo_stairs_outer.json"
         ]
       },
@@ -489,12 +489,12 @@
       "registry_name": "loreo_slab",
       "metadata": {
         "files": [
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/loreo_slab.json",
-          "src/main/resources/assets/bloxysstructures/models/block/loreo_slab_top.json",
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_slab_full.json",
           "src/main/java/net/mcreator/bloxysstructures/block/LoreoSlabBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_slab_top.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/loreo_slab.json",
           "src/main/resources/assets/bloxysstructures/models/item/loreo_slab.json",
           "src/main/resources/assets/bloxysstructures/blockstates/loreo_slab.json",
-          "src/main/resources/assets/bloxysstructures/models/block/loreo_slab_full.json",
           "src/main/resources/assets/bloxysstructures/models/block/loreo_slab.json"
         ]
       },
@@ -508,13 +508,13 @@
       "registry_name": "loreo_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bloxysstructures/models/item/loreo_fence.json",
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/loreo_fence.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/loreo_fence.json",
           "src/main/resources/assets/bloxysstructures/models/block/loreo_fence.json",
           "src/main/java/net/mcreator/bloxysstructures/block/LoreoFenceBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/item/loreo_fence.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/loreo_fence.json",
           "src/main/resources/assets/bloxysstructures/models/block/loreo_fence_inventory.json",
-          "src/main/resources/assets/bloxysstructures/models/block/loreo_fence_post.json",
-          "src/main/resources/assets/bloxysstructures/blockstates/loreo_fence.json"
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_fence_post.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Loreo"
@@ -527,14 +527,14 @@
       "registry_name": "loreo_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bloxysstructures/models/block/loreo_fence_gate.json",
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/loreo_fence_gate.json",
-          "src/main/resources/assets/bloxysstructures/models/block/loreo_fence_gate_wall.json",
-          "src/main/resources/assets/bloxysstructures/models/item/loreo_fence_gate.json",
-          "src/main/java/net/mcreator/bloxysstructures/block/LoreoFenceGateBlock.java",
           "src/main/resources/assets/bloxysstructures/models/block/loreo_fence_gate_open.json",
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_fence_gate_wall.json",
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_fence_gate.json",
           "src/main/resources/assets/bloxysstructures/blockstates/loreo_fence_gate.json",
-          "src/main/resources/assets/bloxysstructures/models/block/loreo_fence_gate_wall_open.json"
+          "src/main/java/net/mcreator/bloxysstructures/block/LoreoFenceGateBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/item/loreo_fence_gate.json",
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_fence_gate_wall_open.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/loreo_fence_gate.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Loreo"
@@ -548,10 +548,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/bloxysstructures/models/item/loreo_pressure_plate.json",
+          "src/main/resources/assets/bloxysstructures/models/block/loreo_pressure_plate_down.json",
           "src/main/resources/assets/bloxysstructures/models/block/loreo_pressure_plate.json",
           "src/main/java/net/mcreator/bloxysstructures/block/LoreoPressurePlateBlock.java",
           "src/main/resources/data/bloxysstructures/loot_table/blocks/loreo_pressure_plate.json",
-          "src/main/resources/assets/bloxysstructures/models/block/loreo_pressure_plate_down.json",
           "src/main/resources/assets/bloxysstructures/blockstates/loreo_pressure_plate.json"
         ]
       },
@@ -565,13 +565,13 @@
       "registry_name": "loreo_button",
       "metadata": {
         "files": [
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/loreo_button.json",
-          "src/main/resources/assets/bloxysstructures/blockstates/loreo_button.json",
+          "src/main/resources/assets/bloxysstructures/models/item/loreo_button.json",
           "src/main/resources/assets/bloxysstructures/models/block/loreo_button.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/LoreoButtonBlock.java",
           "src/main/resources/assets/bloxysstructures/models/block/loreo_button_inventory.json",
           "src/main/resources/assets/bloxysstructures/models/block/loreo_button_pressed.json",
-          "src/main/java/net/mcreator/bloxysstructures/block/LoreoButtonBlock.java",
-          "src/main/resources/assets/bloxysstructures/models/item/loreo_button.json"
+          "src/main/resources/assets/bloxysstructures/blockstates/loreo_button.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/loreo_button.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Loreo"
@@ -584,11 +584,11 @@
       "registry_name": "mjin_wood",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/bloxysstructures/block/MjinWoodBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/block/mjin_wood.json",
           "src/main/resources/assets/bloxysstructures/blockstates/mjin_wood.json",
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/mjin_wood.json",
           "src/main/resources/assets/bloxysstructures/models/item/mjin_wood.json",
-          "src/main/resources/assets/bloxysstructures/models/block/mjin_wood.json"
+          "src/main/java/net/mcreator/bloxysstructures/block/MjinWoodBlock.java",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/mjin_wood.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Mjin Forest"
@@ -721,10 +721,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/bloxysstructures/models/block/xiza_wood.json",
-          "src/main/java/net/mcreator/bloxysstructures/block/XizaWoodBlock.java",
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/xiza_wood.json",
           "src/main/resources/assets/bloxysstructures/blockstates/xiza_wood.json",
-          "src/main/resources/assets/bloxysstructures/models/item/xiza_wood.json"
+          "src/main/resources/assets/bloxysstructures/models/item/xiza_wood.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/XizaWoodBlock.java",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/xiza_wood.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Xiza"
@@ -738,10 +738,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/bloxysstructures/blockstates/xiza_log.json",
-          "src/main/java/net/mcreator/bloxysstructures/block/XizaLogBlock.java",
-          "src/main/resources/assets/bloxysstructures/models/item/xiza_log.json",
           "src/main/resources/assets/bloxysstructures/models/block/xiza_log.json",
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/xiza_log.json"
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/xiza_log.json",
+          "src/main/resources/assets/bloxysstructures/models/item/xiza_log.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/XizaLogBlock.java"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Xiza"
@@ -754,11 +754,11 @@
       "registry_name": "xiza_planks",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/bloxysstructures/block/XizaPlanksBlock.java",
           "src/main/resources/assets/bloxysstructures/blockstates/xiza_planks.json",
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_planks.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/XizaPlanksBlock.java",
           "src/main/resources/assets/bloxysstructures/models/item/xiza_planks.json",
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/xiza_planks.json",
-          "src/main/resources/assets/bloxysstructures/models/block/xiza_planks.json"
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/xiza_planks.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Xiza"
@@ -771,10 +771,10 @@
       "registry_name": "xiza_leaves",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/bloxysstructures/block/XizaLeavesBlock.java",
           "src/main/resources/assets/bloxysstructures/models/item/xiza_leaves.json",
-          "src/main/resources/assets/bloxysstructures/blockstates/xiza_leaves.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/XizaLeavesBlock.java",
           "src/main/resources/data/bloxysstructures/loot_table/blocks/xiza_leaves.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/xiza_leaves.json",
           "src/main/resources/assets/bloxysstructures/models/block/xiza_leaves.json"
         ]
       },
@@ -788,13 +788,13 @@
       "registry_name": "xiza_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bloxysstructures/models/block/xiza_stairs_outer.json",
-          "src/main/resources/assets/bloxysstructures/models/item/xiza_stairs.json",
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/xiza_stairs.json",
           "src/main/resources/assets/bloxysstructures/models/block/xiza_stairs_inner.json",
-          "src/main/resources/assets/bloxysstructures/models/block/xiza_stairs.json",
+          "src/main/resources/assets/bloxysstructures/models/item/xiza_stairs.json",
           "src/main/java/net/mcreator/bloxysstructures/block/XizaStairsBlock.java",
-          "src/main/resources/assets/bloxysstructures/blockstates/xiza_stairs.json"
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_stairs_outer.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/xiza_stairs.json",
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_stairs.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/xiza_stairs.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Xiza"
@@ -807,12 +807,12 @@
       "registry_name": "xiza_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bloxysstructures/models/item/xiza_slab.json",
-          "src/main/resources/assets/bloxysstructures/models/block/xiza_slab.json",
           "src/main/resources/data/bloxysstructures/loot_table/blocks/xiza_slab.json",
-          "src/main/java/net/mcreator/bloxysstructures/block/XizaSlabBlock.java",
-          "src/main/resources/assets/bloxysstructures/models/block/xiza_slab_top.json",
+          "src/main/resources/assets/bloxysstructures/models/item/xiza_slab.json",
           "src/main/resources/assets/bloxysstructures/blockstates/xiza_slab.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/XizaSlabBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_slab.json",
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_slab_top.json",
           "src/main/resources/assets/bloxysstructures/models/block/xiza_slab_full.json"
         ]
       },
@@ -828,11 +828,11 @@
         "files": [
           "src/main/resources/assets/bloxysstructures/models/item/xiza_fence.json",
           "src/main/resources/assets/bloxysstructures/blockstates/xiza_fence.json",
-          "src/main/resources/assets/bloxysstructures/models/block/xiza_fence_post.json",
           "src/main/java/net/mcreator/bloxysstructures/block/XizaFenceBlock.java",
           "src/main/resources/data/bloxysstructures/loot_table/blocks/xiza_fence.json",
-          "src/main/resources/assets/bloxysstructures/models/block/xiza_fence_inventory.json",
-          "src/main/resources/assets/bloxysstructures/models/block/xiza_fence.json"
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_fence_post.json",
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_fence.json",
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_fence_inventory.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Xiza"
@@ -845,14 +845,14 @@
       "registry_name": "xiza_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bloxysstructures/models/block/xiza_fence_gate.json",
           "src/main/resources/assets/bloxysstructures/models/block/xiza_fence_gate_wall.json",
-          "src/main/resources/assets/bloxysstructures/models/item/xiza_fence_gate.json",
-          "src/main/java/net/mcreator/bloxysstructures/block/XizaFenceGateBlock.java",
-          "src/main/resources/assets/bloxysstructures/models/block/xiza_fence_gate_wall_open.json",
           "src/main/resources/assets/bloxysstructures/blockstates/xiza_fence_gate.json",
+          "src/main/resources/assets/bloxysstructures/models/item/xiza_fence_gate.json",
           "src/main/resources/data/bloxysstructures/loot_table/blocks/xiza_fence_gate.json",
-          "src/main/resources/assets/bloxysstructures/models/block/xiza_fence_gate_open.json"
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_fence_gate_open.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/XizaFenceGateBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_fence_gate.json",
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_fence_gate_wall_open.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Xiza"
@@ -865,12 +865,12 @@
       "registry_name": "xiza_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bloxysstructures/models/block/xiza_pressure_plate.json",
           "src/main/resources/assets/bloxysstructures/models/block/xiza_pressure_plate_down.json",
-          "src/main/resources/assets/bloxysstructures/blockstates/xiza_pressure_plate.json",
-          "src/main/java/net/mcreator/bloxysstructures/block/XizaPressurePlateBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_pressure_plate.json",
+          "src/main/resources/assets/bloxysstructures/models/item/xiza_pressure_plate.json",
           "src/main/resources/data/bloxysstructures/loot_table/blocks/xiza_pressure_plate.json",
-          "src/main/resources/assets/bloxysstructures/models/item/xiza_pressure_plate.json"
+          "src/main/resources/assets/bloxysstructures/blockstates/xiza_pressure_plate.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/XizaPressurePlateBlock.java"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Xiza"
@@ -883,13 +883,13 @@
       "registry_name": "xiza_button",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bloxysstructures/models/block/xiza_button_pressed.json",
-          "src/main/resources/assets/bloxysstructures/models/block/xiza_button.json",
           "src/main/resources/assets/bloxysstructures/blockstates/xiza_button.json",
-          "src/main/resources/assets/bloxysstructures/models/block/xiza_button_inventory.json",
-          "src/main/resources/assets/bloxysstructures/models/item/xiza_button.json",
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_button.json",
           "src/main/resources/data/bloxysstructures/loot_table/blocks/xiza_button.json",
-          "src/main/java/net/mcreator/bloxysstructures/block/XizaButtonBlock.java"
+          "src/main/java/net/mcreator/bloxysstructures/block/XizaButtonBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/item/xiza_button.json",
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_button_pressed.json",
+          "src/main/resources/assets/bloxysstructures/models/block/xiza_button_inventory.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Xiza"
@@ -1032,9 +1032,9 @@
       "registry_name": "adventure_realm_feature_xiza_tree",
       "metadata": {
         "files": [
-          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/adventure_realm_feature_xiza_tree_biome_modifier.json",
+          "src/main/resources/data/bloxysstructures/worldgen/configured_feature/adventure_realm_feature_xiza_tree.json",
           "src/main/resources/data/bloxysstructures/worldgen/placed_feature/adventure_realm_feature_xiza_tree.json",
-          "src/main/resources/data/bloxysstructures/worldgen/configured_feature/adventure_realm_feature_xiza_tree.json"
+          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/adventure_realm_feature_xiza_tree_biome_modifier.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Plains"
@@ -1047,11 +1047,11 @@
       "registry_name": "verdant_wood",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/bloxysstructures/block/VerdantWoodBlock.java",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_wood.json",
           "src/main/resources/assets/bloxysstructures/models/item/verdant_wood.json",
-          "src/main/resources/assets/bloxysstructures/blockstates/verdant_wood.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/VerdantWoodBlock.java",
           "src/main/resources/assets/bloxysstructures/models/block/verdant_wood.json",
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_wood.json"
+          "src/main/resources/assets/bloxysstructures/blockstates/verdant_wood.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Verdant"
@@ -1064,11 +1064,11 @@
       "registry_name": "verdant_log",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/bloxysstructures/block/VerdantLogBlock.java",
-          "src/main/resources/assets/bloxysstructures/blockstates/verdant_log.json",
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_log.json",
           "src/main/resources/assets/bloxysstructures/models/item/verdant_log.json",
-          "src/main/resources/assets/bloxysstructures/models/block/verdant_log.json"
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_log.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/verdant_log.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/VerdantLogBlock.java",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_log.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Verdant"
@@ -1081,10 +1081,10 @@
       "registry_name": "verdant_planks",
       "metadata": {
         "files": [
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_planks.json",
-          "src/main/java/net/mcreator/bloxysstructures/block/VerdantPlanksBlock.java",
           "src/main/resources/assets/bloxysstructures/models/item/verdant_planks.json",
           "src/main/resources/assets/bloxysstructures/blockstates/verdant_planks.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_planks.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/VerdantPlanksBlock.java",
           "src/main/resources/assets/bloxysstructures/models/block/verdant_planks.json"
         ]
       },
@@ -1098,11 +1098,11 @@
       "registry_name": "verdant_leaves",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/bloxysstructures/block/VerdantLeavesBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_leaves.json",
           "src/main/resources/assets/bloxysstructures/blockstates/verdant_leaves.json",
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_leaves.json",
           "src/main/resources/assets/bloxysstructures/models/item/verdant_leaves.json",
-          "src/main/resources/assets/bloxysstructures/models/block/verdant_leaves.json"
+          "src/main/java/net/mcreator/bloxysstructures/block/VerdantLeavesBlock.java",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_leaves.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Verdant"
@@ -1115,13 +1115,13 @@
       "registry_name": "verdant_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bloxysstructures/models/item/verdant_stairs.json",
-          "src/main/resources/assets/bloxysstructures/models/block/verdant_stairs.json",
-          "src/main/resources/assets/bloxysstructures/models/block/verdant_stairs_outer.json",
-          "src/main/resources/assets/bloxysstructures/models/block/verdant_stairs_inner.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_stairs.json",
           "src/main/resources/assets/bloxysstructures/blockstates/verdant_stairs.json",
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_stairs.json",
+          "src/main/resources/assets/bloxysstructures/models/item/verdant_stairs.json",
           "src/main/java/net/mcreator/bloxysstructures/block/VerdantStairsBlock.java",
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_stairs.json"
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_stairs_inner.json",
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_stairs_outer.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Verdant"
@@ -1134,12 +1134,12 @@
       "registry_name": "verdant_slab",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/bloxysstructures/block/VerdantSlabBlock.java",
-          "src/main/resources/assets/bloxysstructures/models/block/verdant_slab_top.json",
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_slab.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/verdant_slab.json",
           "src/main/resources/assets/bloxysstructures/models/block/verdant_slab.json",
           "src/main/resources/assets/bloxysstructures/models/item/verdant_slab.json",
-          "src/main/resources/assets/bloxysstructures/blockstates/verdant_slab.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_slab.json",
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_slab_top.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/VerdantSlabBlock.java",
           "src/main/resources/assets/bloxysstructures/models/block/verdant_slab_full.json"
         ]
       },
@@ -1153,13 +1153,13 @@
       "registry_name": "verdant_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bloxysstructures/blockstates/verdant_fence.json",
-          "src/main/resources/assets/bloxysstructures/models/block/verdant_fence_post.json",
           "src/main/resources/assets/bloxysstructures/models/block/verdant_fence_inventory.json",
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_fence.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/verdant_fence.json",
           "src/main/resources/assets/bloxysstructures/models/item/verdant_fence.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_fence.json",
           "src/main/resources/assets/bloxysstructures/models/block/verdant_fence.json",
-          "src/main/java/net/mcreator/bloxysstructures/block/VerdantFenceBlock.java"
+          "src/main/java/net/mcreator/bloxysstructures/block/VerdantFenceBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_fence_post.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Verdant"
@@ -1172,14 +1172,14 @@
       "registry_name": "verdant_fence_gate",
       "metadata": {
         "files": [
+          "src/main/resources/assets/bloxysstructures/models/item/verdant_fence_gate.json",
           "src/main/resources/assets/bloxysstructures/models/block/verdant_fence_gate.json",
-          "src/main/java/net/mcreator/bloxysstructures/block/VerdantFenceGateBlock.java",
-          "src/main/resources/assets/bloxysstructures/blockstates/verdant_fence_gate.json",
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_fence_gate_wall.json",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_fence_gate.json",
           "src/main/resources/assets/bloxysstructures/models/block/verdant_fence_gate_open.json",
           "src/main/resources/assets/bloxysstructures/models/block/verdant_fence_gate_wall_open.json",
-          "src/main/resources/assets/bloxysstructures/models/item/verdant_fence_gate.json",
-          "src/main/resources/assets/bloxysstructures/models/block/verdant_fence_gate_wall.json",
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_fence_gate.json"
+          "src/main/resources/assets/bloxysstructures/blockstates/verdant_fence_gate.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/VerdantFenceGateBlock.java"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Verdant"
@@ -1192,10 +1192,10 @@
       "registry_name": "verdant_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bloxysstructures/models/block/verdant_pressure_plate.json",
           "src/main/resources/assets/bloxysstructures/models/item/verdant_pressure_plate.json",
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_pressure_plate.json",
           "src/main/java/net/mcreator/bloxysstructures/block/VerdantPressurePlateBlock.java",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_pressure_plate.json",
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_pressure_plate.json",
           "src/main/resources/assets/bloxysstructures/blockstates/verdant_pressure_plate.json",
           "src/main/resources/assets/bloxysstructures/models/block/verdant_pressure_plate_down.json"
         ]
@@ -1210,13 +1210,13 @@
       "registry_name": "verdant_button",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bloxysstructures/models/block/verdant_button_pressed.json",
-          "src/main/resources/assets/bloxysstructures/blockstates/verdant_button.json",
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_button.json",
-          "src/main/java/net/mcreator/bloxysstructures/block/VerdantButtonBlock.java",
-          "src/main/resources/assets/bloxysstructures/models/block/verdant_button.json",
           "src/main/resources/assets/bloxysstructures/models/item/verdant_button.json",
-          "src/main/resources/assets/bloxysstructures/models/block/verdant_button_inventory.json"
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/verdant_button.json",
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_button_inventory.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/VerdantButtonBlock.java",
+          "src/main/resources/assets/bloxysstructures/blockstates/verdant_button.json",
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_button_pressed.json",
+          "src/main/resources/assets/bloxysstructures/models/block/verdant_button.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Verdant"
@@ -1360,8 +1360,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/adventure_realm_feature_verdant_tree_biome_modifier.json",
-          "src/main/resources/data/bloxysstructures/worldgen/configured_feature/adventure_realm_feature_verdant_tree.json",
-          "src/main/resources/data/bloxysstructures/worldgen/placed_feature/adventure_realm_feature_verdant_tree.json"
+          "src/main/resources/data/bloxysstructures/worldgen/placed_feature/adventure_realm_feature_verdant_tree.json",
+          "src/main/resources/data/bloxysstructures/worldgen/configured_feature/adventure_realm_feature_verdant_tree.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Plains"
@@ -1388,9 +1388,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/bloxysstructures/client/renderer/GiantWolfRenderer.java",
-          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/giant_wolf_biome_modifier.json",
+          "src/main/resources/assets/bloxysstructures/models/item/giant_wolf_spawn_egg.json",
           "src/main/java/net/mcreator/bloxysstructures/entity/GiantWolfEntity.java",
-          "src/main/resources/assets/bloxysstructures/models/item/giant_wolf_spawn_egg.json"
+          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/giant_wolf_biome_modifier.json"
         ]
       },
       "path": "~/Adventure Realm/Entities/GiantWolf"
@@ -1655,9 +1655,9 @@
       "registry_name": "ruined_adventure_realm_portal",
       "metadata": {
         "files": [
-          "src/main/resources/data/bloxysstructures/worldgen/template_pool/ruined_adventure_realm_portal.json",
           "src/main/resources/data/bloxysstructures/worldgen/structure/ruined_adventure_realm_portal.json",
-          "src/main/resources/data/bloxysstructures/worldgen/structure_set/ruined_adventure_realm_portal.json"
+          "src/main/resources/data/bloxysstructures/worldgen/structure_set/ruined_adventure_realm_portal.json",
+          "src/main/resources/data/bloxysstructures/worldgen/template_pool/ruined_adventure_realm_portal.json"
         ]
       },
       "path": "~/Adventure Realm/Structures"
@@ -1670,10 +1670,10 @@
       "registry_name": "adventure_realm_golem",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/bloxysstructures/client/renderer/AdventureRealmGolemRenderer.java",
-          "src/main/java/net/mcreator/bloxysstructures/entity/AdventureRealmGolemEntity.java",
           "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/adventure_realm_golem_biome_modifier.json",
-          "src/main/resources/assets/bloxysstructures/models/item/adventure_realm_golem_spawn_egg.json"
+          "src/main/resources/assets/bloxysstructures/models/item/adventure_realm_golem_spawn_egg.json",
+          "src/main/java/net/mcreator/bloxysstructures/client/renderer/AdventureRealmGolemRenderer.java",
+          "src/main/java/net/mcreator/bloxysstructures/entity/AdventureRealmGolemEntity.java"
         ]
       },
       "path": "~/Adventure Realm/Entities"
@@ -1687,8 +1687,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/bloxysstructures/client/renderer/CowlinRenderer.java",
-          "src/main/resources/assets/bloxysstructures/models/item/cowlin_spawn_egg.json",
-          "src/main/java/net/mcreator/bloxysstructures/entity/CowlinEntity.java"
+          "src/main/java/net/mcreator/bloxysstructures/entity/CowlinEntity.java",
+          "src/main/resources/assets/bloxysstructures/models/item/cowlin_spawn_egg.json"
         ]
       },
       "path": "~/Adventure Realm/Entities/Cowlin"
@@ -1702,8 +1702,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/bloxysstructures/client/renderer/CowlinBruteRenderer.java",
-          "src/main/resources/assets/bloxysstructures/models/item/cowlin_brute_spawn_egg.json",
-          "src/main/java/net/mcreator/bloxysstructures/entity/CowlinBruteEntity.java"
+          "src/main/java/net/mcreator/bloxysstructures/entity/CowlinBruteEntity.java",
+          "src/main/resources/assets/bloxysstructures/models/item/cowlin_brute_spawn_egg.json"
         ]
       },
       "path": "~/Adventure Realm/Entities/Cowlin"
@@ -1840,9 +1840,9 @@
       "registry_name": "shield_of_inferno",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bloxysstructures/models/item/shield_of_inferno.json",
           "src/main/resources/assets/bloxysstructures/models/item/shield_of_inferno_0.json",
-          "src/main/java/net/mcreator/bloxysstructures/item/ShieldOfInfernoItem.java"
+          "src/main/java/net/mcreator/bloxysstructures/item/ShieldOfInfernoItem.java",
+          "src/main/resources/assets/bloxysstructures/models/item/shield_of_inferno.json"
         ]
       },
       "path": "~/Adventure Realm/Bosses/InfernoLeviathan"
@@ -1914,10 +1914,10 @@
       "metadata": {
         "files": [
           "src/main/resources/data/bloxysstructures/loot_table/blocks/altar_base.json",
-          "src/main/resources/assets/bloxysstructures/blockstates/altar_base.json",
-          "src/main/resources/assets/bloxysstructures/models/block/altar_base.json",
           "src/main/java/net/mcreator/bloxysstructures/block/AltarBaseBlock.java",
-          "src/main/resources/assets/bloxysstructures/models/item/altar_base.json"
+          "src/main/resources/assets/bloxysstructures/models/block/altar_base.json",
+          "src/main/resources/assets/bloxysstructures/models/item/altar_base.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/altar_base.json"
         ]
       },
       "path": "~/Adventure Realm/Bosses/Altars"
@@ -1930,11 +1930,11 @@
       "registry_name": "altar_inferno_hydra",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bloxysstructures/blockstates/altar_inferno_hydra.json",
+          "src/main/resources/assets/bloxysstructures/models/item/altar_inferno_hydra.json",
           "src/main/resources/data/bloxysstructures/loot_table/blocks/altar_inferno_hydra.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/altar_inferno_hydra.json",
           "src/main/java/net/mcreator/bloxysstructures/block/AltarInfernoHydraBlock.java",
-          "src/main/resources/assets/bloxysstructures/models/block/altar_inferno_hydra.json",
-          "src/main/resources/assets/bloxysstructures/models/item/altar_inferno_hydra.json"
+          "src/main/resources/assets/bloxysstructures/models/block/altar_inferno_hydra.json"
         ]
       },
       "path": "~/Adventure Realm/Bosses/Altars"
@@ -1978,8 +1978,8 @@
       "registry_name": "prince_of_darkness",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/bloxysstructures/entity/PrinceOfDarknessEntity.java",
           "src/main/java/net/mcreator/bloxysstructures/client/renderer/PrinceOfDarknessRenderer.java",
+          "src/main/java/net/mcreator/bloxysstructures/entity/PrinceOfDarknessEntity.java",
           "src/main/resources/assets/bloxysstructures/models/item/prince_of_darkness_spawn_egg.json"
         ]
       },
@@ -2112,9 +2112,9 @@
       "registry_name": "altar_prince_of_darkness",
       "metadata": {
         "files": [
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/altar_prince_of_darkness.json",
           "src/main/resources/assets/bloxysstructures/models/item/altar_prince_of_darkness.json",
           "src/main/resources/assets/bloxysstructures/blockstates/altar_prince_of_darkness.json",
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/altar_prince_of_darkness.json",
           "src/main/resources/assets/bloxysstructures/models/block/altar_prince_of_darkness.json",
           "src/main/java/net/mcreator/bloxysstructures/block/AltarPrinceOfDarknessBlock.java"
         ]
@@ -2191,8 +2191,8 @@
       "registry_name": "adventure_realm_feature_ruins",
       "metadata": {
         "files": [
-          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/adventure_realm_feature_ruins_biome_modifier.json",
           "src/main/resources/data/bloxysstructures/worldgen/placed_feature/adventure_realm_feature_ruins.json",
+          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/adventure_realm_feature_ruins_biome_modifier.json",
           "src/main/resources/data/bloxysstructures/worldgen/configured_feature/adventure_realm_feature_ruins.json"
         ],
         "has_nbt_structure": true
@@ -2207,11 +2207,11 @@
       "registry_name": "blue_mushroom_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bloxysstructures/blockstates/blue_mushroom_block.json",
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/blue_mushroom_block.json",
           "src/main/java/net/mcreator/bloxysstructures/block/BlueMushroomBlockBlock.java",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/blue_mushroom_block.json",
           "src/main/resources/assets/bloxysstructures/models/item/blue_mushroom_block.json",
-          "src/main/resources/assets/bloxysstructures/models/block/blue_mushroom_block.json"
+          "src/main/resources/assets/bloxysstructures/models/block/blue_mushroom_block.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/blue_mushroom_block.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Mushroom/Blocks"
@@ -2224,11 +2224,11 @@
       "registry_name": "green_mushroom_block",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/bloxysstructures/block/GreenMushroomBlockBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/block/green_mushroom_block.json",
           "src/main/resources/data/bloxysstructures/loot_table/blocks/green_mushroom_block.json",
           "src/main/resources/assets/bloxysstructures/blockstates/green_mushroom_block.json",
-          "src/main/resources/assets/bloxysstructures/models/item/green_mushroom_block.json",
-          "src/main/java/net/mcreator/bloxysstructures/block/GreenMushroomBlockBlock.java",
-          "src/main/resources/assets/bloxysstructures/models/block/green_mushroom_block.json"
+          "src/main/resources/assets/bloxysstructures/models/item/green_mushroom_block.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Mushroom/Blocks"
@@ -2260,11 +2260,11 @@
       "registry_name": "yellow_mushroom_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bloxysstructures/models/block/yellow_mushroom_block.json",
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/yellow_mushroom_block.json",
-          "src/main/java/net/mcreator/bloxysstructures/block/YellowMushroomBlockBlock.java",
           "src/main/resources/assets/bloxysstructures/blockstates/yellow_mushroom_block.json",
-          "src/main/resources/assets/bloxysstructures/models/item/yellow_mushroom_block.json"
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/yellow_mushroom_block.json",
+          "src/main/resources/assets/bloxysstructures/models/item/yellow_mushroom_block.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/YellowMushroomBlockBlock.java",
+          "src/main/resources/assets/bloxysstructures/models/block/yellow_mushroom_block.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Mushroom/Blocks"
@@ -2279,9 +2279,9 @@
         "files": [
           "src/main/java/net/mcreator/bloxysstructures/block/PurpleMushroomBlockBlock.java",
           "src/main/resources/data/bloxysstructures/loot_table/blocks/purple_mushroom_block.json",
+          "src/main/resources/assets/bloxysstructures/models/block/purple_mushroom_block.json",
           "src/main/resources/assets/bloxysstructures/models/item/purple_mushroom_block.json",
-          "src/main/resources/assets/bloxysstructures/blockstates/purple_mushroom_block.json",
-          "src/main/resources/assets/bloxysstructures/models/block/purple_mushroom_block.json"
+          "src/main/resources/assets/bloxysstructures/blockstates/purple_mushroom_block.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Mushroom/Blocks"
@@ -2982,9 +2982,9 @@
       "registry_name": "adventure_realm_cave_feature",
       "metadata": {
         "files": [
+          "src/main/resources/data/bloxysstructures/worldgen/placed_feature/adventure_realm_cave_feature.json",
           "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/adventure_realm_cave_feature_biome_modifier.json",
-          "src/main/resources/data/bloxysstructures/worldgen/configured_feature/adventure_realm_cave_feature.json",
-          "src/main/resources/data/bloxysstructures/worldgen/placed_feature/adventure_realm_cave_feature.json"
+          "src/main/resources/data/bloxysstructures/worldgen/configured_feature/adventure_realm_cave_feature.json"
         ]
       },
       "path": "~/Adventure Realm/Biomes/Plains"
@@ -2997,10 +2997,10 @@
       "registry_name": "altar_mushroom_king",
       "metadata": {
         "files": [
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/altar_mushroom_king.json",
-          "src/main/java/net/mcreator/bloxysstructures/block/AltarMushroomKingBlock.java",
-          "src/main/resources/assets/bloxysstructures/blockstates/altar_mushroom_king.json",
           "src/main/resources/assets/bloxysstructures/models/item/altar_mushroom_king.json",
+          "src/main/java/net/mcreator/bloxysstructures/block/AltarMushroomKingBlock.java",
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/altar_mushroom_king.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/altar_mushroom_king.json",
           "src/main/resources/assets/bloxysstructures/models/block/altar_mushroom_king.json"
         ]
       },
@@ -3045,8 +3045,8 @@
       "registry_name": "mushroom_king",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/bloxysstructures/client/renderer/MushroomKingRenderer.java",
           "src/main/java/net/mcreator/bloxysstructures/entity/MushroomKingEntity.java",
+          "src/main/java/net/mcreator/bloxysstructures/client/renderer/MushroomKingRenderer.java",
           "src/main/resources/assets/bloxysstructures/models/item/mushroom_king_spawn_egg.json"
         ]
       },
@@ -3359,9 +3359,9 @@
       "registry_name": "void_walkers",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/bloxysstructures/entity/VoidWalkersEntity.java",
+          "src/main/java/net/mcreator/bloxysstructures/client/renderer/VoidWalkersRenderer.java",
           "src/main/resources/assets/bloxysstructures/models/item/void_walkers_spawn_egg.json",
-          "src/main/java/net/mcreator/bloxysstructures/client/renderer/VoidWalkersRenderer.java"
+          "src/main/java/net/mcreator/bloxysstructures/entity/VoidWalkersEntity.java"
         ]
       },
       "path": "~/Adventure Realm/Entities/Bloxys Army"
@@ -3409,8 +3409,8 @@
       "registry_name": "quantum_guardian",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/bloxysstructures/entity/QuantumGuardianEntity.java",
           "src/main/java/net/mcreator/bloxysstructures/client/renderer/QuantumGuardianRenderer.java",
+          "src/main/java/net/mcreator/bloxysstructures/entity/QuantumGuardianEntity.java",
           "src/main/resources/assets/bloxysstructures/models/item/quantum_guardian_spawn_egg.json"
         ]
       },
@@ -3574,8 +3574,8 @@
       "registry_name": "quantam_magic_orb",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/bloxysstructures/entity/QuantamMagicOrbEntity.java",
-          "src/main/java/net/mcreator/bloxysstructures/client/renderer/QuantamMagicOrbRenderer.java"
+          "src/main/java/net/mcreator/bloxysstructures/client/renderer/QuantamMagicOrbRenderer.java",
+          "src/main/java/net/mcreator/bloxysstructures/entity/QuantamMagicOrbEntity.java"
         ]
       },
       "path": "~/Adventure Realm/Entities/Bloxys Army"
@@ -3692,9 +3692,9 @@
       "registry_name": "bloxy",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/bloxysstructures/entity/BloxyEntity.java",
+          "src/main/java/net/mcreator/bloxysstructures/client/renderer/BloxyRenderer.java",
           "src/main/resources/assets/bloxysstructures/models/item/bloxy_spawn_egg.json",
-          "src/main/java/net/mcreator/bloxysstructures/client/renderer/BloxyRenderer.java"
+          "src/main/java/net/mcreator/bloxysstructures/entity/BloxyEntity.java"
         ]
       },
       "path": "~/Adventure Realm/Bosses/Bloxy"
@@ -3941,8 +3941,8 @@
       "registry_name": "purple_lightning_shockwave",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/bloxysstructures/client/renderer/PurpleLightningShockwaveRenderer.java",
-          "src/main/java/net/mcreator/bloxysstructures/entity/PurpleLightningShockwaveEntity.java"
+          "src/main/java/net/mcreator/bloxysstructures/entity/PurpleLightningShockwaveEntity.java",
+          "src/main/java/net/mcreator/bloxysstructures/client/renderer/PurpleLightningShockwaveRenderer.java"
         ]
       },
       "path": "~/Adventure Realm/Bosses/Bloxy"
@@ -4017,11 +4017,11 @@
       "registry_name": "altar_bloxy",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bloxysstructures/models/block/altar_bloxy.json",
-          "src/main/resources/assets/bloxysstructures/blockstates/altar_bloxy.json",
           "src/main/java/net/mcreator/bloxysstructures/block/AltarBloxyBlock.java",
-          "src/main/resources/assets/bloxysstructures/models/item/altar_bloxy.json",
-          "src/main/resources/data/bloxysstructures/loot_table/blocks/altar_bloxy.json"
+          "src/main/resources/data/bloxysstructures/loot_table/blocks/altar_bloxy.json",
+          "src/main/resources/assets/bloxysstructures/blockstates/altar_bloxy.json",
+          "src/main/resources/assets/bloxysstructures/models/block/altar_bloxy.json",
+          "src/main/resources/assets/bloxysstructures/models/item/altar_bloxy.json"
         ]
       },
       "path": "~/Adventure Realm/Bosses/Altars"
@@ -4065,8 +4065,8 @@
       "registry_name": "bloxys_scythe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bloxysstructures/models/item/bloxys_scythe.json",
-          "src/main/java/net/mcreator/bloxysstructures/item/BloxysScytheItem.java"
+          "src/main/java/net/mcreator/bloxysstructures/item/BloxysScytheItem.java",
+          "src/main/resources/assets/bloxysstructures/models/item/bloxys_scythe.json"
         ]
       },
       "path": "~/Adventure Realm/Bosses/Bloxy"
@@ -4371,8 +4371,8 @@
       "registry_name": "adventure_realm_bushes_feature",
       "metadata": {
         "files": [
-          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/adventure_realm_bushes_feature_biome_modifier.json",
           "src/main/resources/data/bloxysstructures/worldgen/placed_feature/adventure_realm_bushes_feature.json",
+          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/adventure_realm_bushes_feature_biome_modifier.json",
           "src/main/resources/data/bloxysstructures/worldgen/configured_feature/adventure_realm_bushes_feature.json"
         ]
       },
@@ -4388,8 +4388,7 @@
         "files": [
           "src/main/resources/assets/bloxysstructures/models/item/treemoo_spawn_egg.json",
           "src/main/java/net/mcreator/bloxysstructures/client/renderer/TreemooRenderer.java",
-          "src/main/java/net/mcreator/bloxysstructures/entity/TreemooEntity.java",
-          "src/main/resources/data/bloxysstructures/neoforge/biome_modifier/treemoo_biome_modifier.json"
+          "src/main/java/net/mcreator/bloxysstructures/entity/TreemooEntity.java"
         ]
       },
       "path": "~/Adventure Realm/Entities/Treemoo"
@@ -4693,6 +4692,171 @@
         ]
       },
       "path": "~/Adventure Realm/Bosses/Bloxy"
+    },
+    {
+      "name": "WhalkyrOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whalkyr_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/WhalkyrOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Whalkyr"
+    },
+    {
+      "name": "WhalkyrOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whalkyr_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/WhalkyrOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Whalkyr"
+    },
+    {
+      "name": "Whalkyr",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whalkyr",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/entity/WhalkyrEntity.java",
+          "src/main/resources/assets/bloxysstructures/models/item/whalkyr_spawn_egg.json",
+          "src/main/java/net/mcreator/bloxysstructures/client/renderer/WhalkyrRenderer.java"
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Whalkyr"
+    },
+    {
+      "name": "WhalkyrDisplayCondition1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whalkyr_display_condition_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/WhalkyrDisplayCondition1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Whalkyr"
+    },
+    {
+      "name": "WhalkyrDisplayCondition2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whalkyr_display_condition_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/WhalkyrDisplayCondition2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Whalkyr"
+    },
+    {
+      "name": "WhalkyrDisplayCondition3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whalkyr_display_condition_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/WhalkyrDisplayCondition3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Whalkyr"
+    },
+    {
+      "name": "WhalkyrDisplayCondition4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whalkyr_display_condition_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/WhalkyrDisplayCondition4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Whalkyr"
+    },
+    {
+      "name": "WhalkyrDisplayCondition5",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whalkyr_display_condition_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bloxysstructures/procedures/WhalkyrDisplayCondition5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Adventure Realm/Entities/Whalkyr"
     }
   ],
   "variable_elements": [
@@ -4812,7 +4976,6 @@
       "CUSTOM:XizaPlanks",
       "CUSTOM:VerdantPlanks"
     ],
-    "BIOMES:mod:has_structure/battletower": [],
     "DAMAGE_TYPES:minecraft:bypasses_cooldown": [
       "CUSTOM:PurplePoisonDamage",
       "CUSTOM:Darkness"
@@ -4864,11 +5027,6 @@
     ],
     "BIOMES:minecraft:has_structure/mineshaft": [
       "~CUSTOM:AdventureRealmPlains"
-    ],
-    "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~Blocks.STONE#0",
-      "~Blocks.DIRT#0",
-      "~Blocks.GRASS"
     ],
     "BIOMES:dungeons_arise:has_structure/illager_windmill_biomes": [
       "CUSTOM:AdventureRealmPlains"
@@ -4966,6 +5124,7 @@
       "PurpleMushroomBlock",
       "AltarBase",
       "Treemoo",
+      "Whalkyr",
       "AdventureRealmGolem",
       "Cowlin",
       "CowlinBrute",
@@ -4991,96 +5150,104 @@
     "en_us": {
       "block.bloxysstructures.altar_mushroom_king": "Altar (Mushroom King)",
       "entity.bloxysstructures.cowlin_brute": "Cowlin Brute",
-      "entity.bloxysstructures.bloxy": "Bloxy",
       "block.bloxysstructures.mjin_button": "Mjin Button",
-      "block.bloxysstructures.yellow_mushroom_block": "Yellow Mushroom Block",
+      "entity.bloxysstructures.whalkyr": "Whalkyr",
       "block.bloxysstructures.loreo_planks": "Loreo Planks",
-      "block.bloxysstructures.verdant_wood": "Verdant Wood",
       "block.bloxysstructures.verdant_pressure_plate": "Verdant Pressure Plate",
-      "block.bloxysstructures.loreo_leaves": "Loreo Leaves",
-      "death.attack.purple_poison_damage.item": "%1$s was killed by %2$s using Purple Poison",
+      "block.bloxysstructures.verdant_wood": "Verdant Wood",
+      "item.bloxysstructures.whalkyr_spawn_egg": "Whalkyr Spawn Egg",
       "block.bloxysstructures.verdant_fence": "Verdant Fence",
-      "block.bloxysstructures.xiza_stairs": "Xiza Stairs",
-      "block.bloxysstructures.verdant_button": "Verdant Button",
-      "block.bloxysstructures.altar_bloxy": "Altar (Bloxy)",
+      "death.attack.purple_poison_damage.item": "%1$s was killed by %2$s using Purple Poison",
       "block.bloxysstructures.loreo_pressure_plate": "Loreo Pressure Plate",
-      "block.bloxysstructures.purple_mushroom_block": "Purple Mushroom Block",
       "block.bloxysstructures.xiza_planks": "Xiza Planks",
-      "block.bloxysstructures.mjin_log": "Mjin Log",
       "enchantment.bloxysstructures.purple_poison_enchantment": "Purple Poison",
-      "block.bloxysstructures.mjin_slab": "Mjin Slab",
       "block.bloxysstructures.mjin_wood": "Mjin Wood",
-      "block.bloxysstructures.xiza_fence_gate": "Xiza Fence Gate",
-      "item.bloxysstructures.void_walkers_spawn_egg": "Void Walker Spawn Egg",
-      "block.bloxysstructures.verdant_slab": "Verdant Slab",
-      "entity.bloxysstructures.treemoo": "Treemoo",
       "entity.bloxysstructures.adventure_realm_golem": "Adventure Realm Golem",
       "block.bloxysstructures.loreo_slab": "Loreo Slab",
       "death.attack.purple_poison_damage": "%1$s died of Purple Poison",
       "advancements.bloxys_structures_advancement.descr": "Thank you for playing Bloxy\u0027s Structures",
-      "block.bloxysstructures.green_mushroom_block": "Green Mushroom Block",
       "item.bloxysstructures.quantum_mage_spawn_egg": "Quantum Mage Spawn Egg",
-      "item_group.bloxysstructures.bloxys_structures": "Bloxy\u0027s Structures",
-      "biome.bloxysstructures.adventure_realm_plains": "Adventure Realm Plains",
-      "subtitles.cowlinlaser": "Cowlin readying laser",
       "entity.bloxysstructures.giant_wolf": "Giant Wolf",
       "block.bloxysstructures.altar_prince_of_darkness": "Altar (Prince of Darkness)",
-      "entity.bloxysstructures.cowlin": "Cowlin",
       "item.bloxysstructures.bloxy_spawn_egg": "Bloxy Spawn Egg",
-      "block.bloxysstructures.xiza_leaves": "Xiza Leaves",
       "death.attack.darkness": "%1$s was sent to the Shadow Realm",
-      "item.bloxysstructures.bloxys_scythe": "Bloxy\u0027s Scythe",
       "entity.bloxysstructures.void_walkers": "Void Walker",
       "death.attack.darkness.player": "%1$s was sent to the Shadow Realm whilst trying to escape %2$s",
       "block.bloxysstructures.xiza_slab": "Xiza Slab",
-      "block.bloxysstructures.xiza_pressure_plate": "Xiza Pressure Plate",
-      "block.bloxysstructures.loreo_button": "Loreo Button",
       "block.bloxysstructures.loreo_log": "Loreo Log",
-      "block.bloxysstructures.altar_base": "Altar (No Entity)",
-      "key.bloxysstructures.use_item_special": "Use Item Ability (Bloxy\u0027s Structures)",
+      "block.bloxysstructures.loreo_button": "Loreo Button",
+      "item.bloxysstructures.shield_of_inferno.description_0": "- Sets attacking Entities on Fire when blocking",
       "entity.bloxysstructures.quantum_mage": "Quantum Mage",
-      "block.bloxysstructures.loreo_stairs": "Loreo Stairs",
-      "item.bloxysstructures.prince_of_darkness_spawn_egg": "Prince Of Darkness Spawn Egg",
       "item.bloxysstructures.giant_wolf_armor": "Giant Wolf Armor",
       "block.bloxysstructures.mjin_pressure_plate": "Mjin Pressure Plate",
-      "item.bloxysstructures.adventure_realm_golem_spawn_egg": "Adventure Realm Golem Spawn Egg",
       "entity.bloxysstructures.inferno_hydra": "Inferno Hydra",
       "block.bloxysstructures.xiza_button": "Xiza Button",
       "block.bloxysstructures.mjin_leaves": "Mjin Leaves",
       "block.bloxysstructures.mjin_planks": "Mjin Planks",
-      "block.bloxysstructures.mjin_fence_gate": "Mjin Fence Gate",
-      "block.bloxysstructures.verdant_planks": "Verdant Planks",
-      "item.bloxysstructures.shield_of_inferno": "Shield Of Inferno",
-      "entity.bloxysstructures.prince_of_darkness": "Prince Of Darkness",
       "item.bloxysstructures.darkness_arm": "Arm of Shadows",
-      "block.bloxysstructures.xiza_wood": "Xiza Wood",
-      "block.bloxysstructures.mjin_stairs": "Mjin Stairs",
-      "item.bloxysstructures.giant_wolf_spawn_egg": "Giant Wolf Spawn Egg",
       "block.bloxysstructures.verdant_stairs": "Verdant Stairs",
       "item.bloxysstructures.adventure_realm": "Flint and Diamond",
-      "block.bloxysstructures.altar_inferno_hydra": "Altar (Inferno Hydra)",
       "block.bloxysstructures.loreo_fence": "Loreo Fence",
       "block.bloxysstructures.loreo_wood": "Loreo Wood",
       "item.bloxysstructures.inferno_hydra_spawn_egg": "Inferno Hydra Spawn Egg",
       "block.bloxysstructures.verdant_log": "Verdant Log",
+      "death.attack.purple_poison_damage.player": "%1$s died whilst trying to escape Purple Poison",
+      "item.bloxysstructures.quantum_guardian_spawn_egg": "Quantum Guardian Spawn Egg",
+      "block.bloxysstructures.loreo_fence_gate": "Loreo Fence Gate",
+      "item.bloxysstructures.mushroom_king_spawn_egg": "Mushroom King Spawn Egg",
+      "block.bloxysstructures.blue_mushroom_block": "Blue Mushroom Block",
+      "block.bloxysstructures.adventure_realm_portal": "Adventure Realm Portal",
+      "item.bloxysstructures.cowlin_spawn_egg": "Cowlin Spawn Egg",
+      "entity.bloxysstructures.bloxy": "Bloxy",
+      "block.bloxysstructures.yellow_mushroom_block": "Yellow Mushroom Block",
+      "block.bloxysstructures.loreo_leaves": "Loreo Leaves",
+      "block.bloxysstructures.xiza_stairs": "Xiza Stairs",
+      "block.bloxysstructures.verdant_button": "Verdant Button",
+      "block.bloxysstructures.altar_bloxy": "Altar (Bloxy)",
+      "block.bloxysstructures.purple_mushroom_block": "Purple Mushroom Block",
+      "block.bloxysstructures.mjin_log": "Mjin Log",
+      "block.bloxysstructures.mjin_slab": "Mjin Slab",
+      "block.bloxysstructures.xiza_fence_gate": "Xiza Fence Gate",
+      "item.bloxysstructures.void_walkers_spawn_egg": "Void Walker Spawn Egg",
+      "block.bloxysstructures.verdant_slab": "Verdant Slab",
+      "entity.bloxysstructures.treemoo": "Treemoo",
+      "block.bloxysstructures.green_mushroom_block": "Green Mushroom Block",
+      "item_group.bloxysstructures.bloxys_structures": "Bloxy\u0027s Structures",
+      "biome.bloxysstructures.adventure_realm_plains": "Adventure Realm Plains",
+      "subtitles.cowlinlaser": "Cowlin readying laser",
+      "entity.bloxysstructures.cowlin": "Cowlin",
+      "block.bloxysstructures.xiza_leaves": "Xiza Leaves",
+      "item.bloxysstructures.bloxys_scythe": "Bloxy\u0027s Scythe",
+      "block.bloxysstructures.xiza_pressure_plate": "Xiza Pressure Plate",
+      "block.bloxysstructures.altar_base": "Altar (No Entity)",
+      "key.bloxysstructures.use_item_special": "Use Item Ability (Bloxy\u0027s Structures)",
+      "block.bloxysstructures.loreo_stairs": "Loreo Stairs",
+      "item.bloxysstructures.prince_of_darkness_spawn_egg": "Prince Of Darkness Spawn Egg",
+      "item.bloxysstructures.adventure_realm_golem_spawn_egg": "Adventure Realm Golem Spawn Egg",
+      "item.bloxysstructures.bloxys_scythe.description_0": "- Press your Item Special Ability Key to throw Bloxy\u0027s Scythe",
+      "block.bloxysstructures.mjin_fence_gate": "Mjin Fence Gate",
+      "block.bloxysstructures.verdant_planks": "Verdant Planks",
+      "item.bloxysstructures.shield_of_inferno": "Shield Of Inferno",
+      "entity.bloxysstructures.prince_of_darkness": "Prince Of Darkness",
+      "block.bloxysstructures.xiza_wood": "Xiza Wood",
+      "item.bloxysstructures.giant_wolf_armor.description_0": "- Can be Dyed when applied to a Wolf",
+      "block.bloxysstructures.mjin_stairs": "Mjin Stairs",
+      "item.bloxysstructures.giant_wolf_spawn_egg": "Giant Wolf Spawn Egg",
+      "block.bloxysstructures.altar_inferno_hydra": "Altar (Inferno Hydra)",
       "entity.bloxysstructures.purple_lightning_shockwave": "Purple-Lightning-Shockwave",
       "death.attack.darkness.item": "%1$s sent %2$s to the Shadow Realm",
       "block.bloxysstructures.verdant_leaves": "Verdant Leaves",
       "block.bloxysstructures.mjin_fence": "Mjin Fence",
-      "death.attack.purple_poison_damage.player": "%1$s died whilst trying to escape Purple Poison",
-      "item.bloxysstructures.quantum_guardian_spawn_egg": "Quantum Guardian Spawn Egg",
-      "block.bloxysstructures.loreo_fence_gate": "Loreo Fence Gate",
+      "item.bloxysstructures.darkness_arm.description_0": "- Press your Item Special Ability Key to use Shadow Shockwave",
       "item.bloxysstructures.cowlin_brute_spawn_egg": "Cowlin Brute Spawn Egg",
       "block.bloxysstructures.xiza_log": "Xiza Log",
       "entity.bloxysstructures.quantum_guardian": "Quantum Guardian",
       "item.bloxysstructures.treemoo_spawn_egg": "Treemoo Spawn Egg",
       "effect.bloxysstructures.purple_poison": "Purple Poison",
-      "item.bloxysstructures.mushroom_king_spawn_egg": "Mushroom King Spawn Egg",
       "advancements.bloxys_structures_advancement.title": "Bloxy\u0027s Structures",
-      "block.bloxysstructures.blue_mushroom_block": "Blue Mushroom Block",
       "block.bloxysstructures.xiza_fence": "Xiza Fence",
       "entity.bloxysstructures.mushroom_king": "Mushroom King",
-      "item.bloxysstructures.cowlin_spawn_egg": "Cowlin Spawn Egg",
+      "item.bloxysstructures.darkness_arm.description_1": "- Deals 1 half-heart of extra damage for each block fallen before hitting",
       "block.bloxysstructures.verdant_fence_gate": "Verdant Fence Gate",
       "subtitles.shockwave": "Shockwave"
     }
@@ -5180,6 +5347,10 @@
               {
                 "name": "Bloxys Army",
                 "children": []
+              },
+              {
+                "name": "Whalkyr",
+                "children": []
               }
             ]
           },
@@ -5206,7 +5377,7 @@
   "workspaceSettings": {
     "modid": "bloxysstructures",
     "modName": "BloxysStructures",
-    "version": "1.17.0",
+    "version": "1.17.1",
     "description": "Adds more Structures to Minecraft",
     "author": "BloxyMath",
     "websiteURL": "https://mcreator.net",
@@ -5220,5 +5391,5 @@
     "credits": "Created using mod maker MCreator - https://mcreator.net/about - Thank you to (ItsJustKen on PlanetMinecraft) for the permission to use the Cowlin Textures",
     "modElementsPackage": "net.mcreator.bloxysstructures"
   },
-  "mcreatorVersion": 202400342716
+  "mcreatorVersion": 202400452410
 }

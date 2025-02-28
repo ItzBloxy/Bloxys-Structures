@@ -1,5 +1,5 @@
 {
-  "_fv": 69,
+  "_fv": 73,
   "_type": "procedure",
   "definition": {
     "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"40\" y=\"40\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"entity_data_string_set\"><field name=\"customEntity\">CUSTOM:Bloxy</field><field name=\"accessor\">spawncoords</field><value name=\"entity\"><block type=\"entity_from_deps\"/></value><value name=\"value\"><block type=\"text_join\"><mutation items=\"5\"/><value name=\"ADD0\"><block type=\"entity_pos_x\"><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></value><value name=\"ADD1\"><block type=\"text\"><field name=\"TEXT\"> </field></block></value><value name=\"ADD2\"><block type=\"entity_pos_y\"><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></value><value name=\"ADD3\"><block type=\"text\"><field name=\"TEXT\"> </field></block></value><value name=\"ADD4\"><block type=\"entity_pos_z\"><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></value></block></value></block></next></block><block type=\"text\" x=\"646\" y=\"147\"><field name=\"TEXT\">value</field></block></xml>"

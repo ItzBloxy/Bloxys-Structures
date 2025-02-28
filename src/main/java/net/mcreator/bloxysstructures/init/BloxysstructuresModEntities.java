@@ -16,6 +16,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.registries.Registries;
 
+import net.mcreator.bloxysstructures.entity.WhalkyrEntity;
 import net.mcreator.bloxysstructures.entity.VoidWalkersEntity;
 import net.mcreator.bloxysstructures.entity.TreemooEntity;
 import net.mcreator.bloxysstructures.entity.QuantumMageEntity;
@@ -85,6 +86,8 @@ public class BloxysstructuresModEntities {
 			EntityType.Builder.<TreemooEntity>of(TreemooEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.9f, 1.4f));
+	public static final DeferredHolder<EntityType<?>, EntityType<WhalkyrEntity>> WHALKYR = register("whalkyr",
+			EntityType.Builder.<WhalkyrEntity>of(WhalkyrEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune().sized(0.8f, 0.5f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -107,6 +110,7 @@ public class BloxysstructuresModEntities {
 		BloxyEntity.init(event);
 		PurpleLightningShockwaveEntity.init(event);
 		TreemooEntity.init(event);
+		WhalkyrEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -124,5 +128,6 @@ public class BloxysstructuresModEntities {
 		event.put(BLOXY.get(), BloxyEntity.createAttributes().build());
 		event.put(PURPLE_LIGHTNING_SHOCKWAVE.get(), PurpleLightningShockwaveEntity.createAttributes().build());
 		event.put(TREEMOO.get(), TreemooEntity.createAttributes().build());
+		event.put(WHALKYR.get(), WhalkyrEntity.createAttributes().build());
 	}
 }

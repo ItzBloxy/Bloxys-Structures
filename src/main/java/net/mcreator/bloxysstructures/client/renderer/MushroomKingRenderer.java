@@ -12,7 +12,7 @@ import net.mcreator.bloxysstructures.client.model.ModelKingMushroom;
 
 public class MushroomKingRenderer extends MobRenderer<MushroomKingEntity, ModelKingMushroom<MushroomKingEntity>> {
 	public MushroomKingRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelKingMushroom(context.bakeLayer(ModelKingMushroom.LAYER_LOCATION)), 0.5f);
+		super(context, new ModelKingMushroom<MushroomKingEntity>(context.bakeLayer(ModelKingMushroom.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

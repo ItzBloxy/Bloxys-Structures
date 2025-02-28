@@ -14,7 +14,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 
 public class AdventureRealmGolemRenderer extends MobRenderer<AdventureRealmGolemEntity, Modeladventurerealmgolem<AdventureRealmGolemEntity>> {
 	public AdventureRealmGolemRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modeladventurerealmgolem(context.bakeLayer(Modeladventurerealmgolem.LAYER_LOCATION)), 0.5f);
+		super(context, new Modeladventurerealmgolem<AdventureRealmGolemEntity>(context.bakeLayer(Modeladventurerealmgolem.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

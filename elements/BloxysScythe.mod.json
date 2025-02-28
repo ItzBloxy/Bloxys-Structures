@@ -1,5 +1,5 @@
 {
-  "_fv": 69,
+  "_fv": 73,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
@@ -10,7 +10,9 @@
     "blockingModelName": "Normal blocking",
     "name": "Bloxy's Scythe",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "- Press your Item Special Ability Key to throw Bloxy's Scythe"
+      ]
     },
     "creativeTabs": [
       {

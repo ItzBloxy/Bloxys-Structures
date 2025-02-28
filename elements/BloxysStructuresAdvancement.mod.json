@@ -1,5 +1,5 @@
 {
-  "_fv": 69,
+  "_fv": 73,
   "_type": "achievement",
   "definition": {
     "achievementName": "Bloxy's Structures",
@@ -51,7 +51,6 @@
       "VerdantStickRecipe",
       "FlintAndDiamondRecipe"
     ],
-    "rewardFunction": "No function",
     "rewardXP": 0,
     "achievementType": "task",
     "parent": {

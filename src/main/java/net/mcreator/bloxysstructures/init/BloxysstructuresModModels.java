@@ -17,6 +17,7 @@ import net.mcreator.bloxysstructures.client.model.Modelwolf_30;
 import net.mcreator.bloxysstructures.client.model.Modelwolf_20;
 import net.mcreator.bloxysstructures.client.model.Modelwolf_10;
 import net.mcreator.bloxysstructures.client.model.Modelwolf;
+import net.mcreator.bloxysstructures.client.model.Modelwhalkyr;
 import net.mcreator.bloxysstructures.client.model.Modeltreemoo;
 import net.mcreator.bloxysstructures.client.model.Modelthrowablescythe6;
 import net.mcreator.bloxysstructures.client.model.Modelthrowablescythe5;
@@ -69,6 +70,7 @@ public class BloxysstructuresModModels {
 		event.registerLayerDefinition(Modelwolf_30.LAYER_LOCATION, Modelwolf_30::createBodyLayer);
 		event.registerLayerDefinition(Modelbloxy.LAYER_LOCATION, Modelbloxy::createBodyLayer);
 		event.registerLayerDefinition(Modelquantummage.LAYER_LOCATION, Modelquantummage::createBodyLayer);
+		event.registerLayerDefinition(Modelwhalkyr.LAYER_LOCATION, Modelwhalkyr::createBodyLayer);
 		event.registerLayerDefinition(Modelprince_of_darkness.LAYER_LOCATION, Modelprince_of_darkness::createBodyLayer);
 		event.registerLayerDefinition(Modelquantumorb3.LAYER_LOCATION, Modelquantumorb3::createBodyLayer);
 		event.registerLayerDefinition(Modelwolf_40.LAYER_LOCATION, Modelwolf_40::createBodyLayer);

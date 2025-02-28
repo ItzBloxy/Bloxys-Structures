@@ -1,5 +1,5 @@
 {
-  "_fv": 69,
+  "_fv": 73,
   "_type": "livingentity",
   "definition": {
     "mobName": "Treemoo",
@@ -59,6 +59,7 @@
         }
       }
     ],
+    "animations": [],
     "modelWidth": 0.9,
     "modelHeight": 1.4,
     "modelShadowSize": 0.5,
@@ -118,7 +119,6 @@
       "fixedValue": true
     },
     "flyingMob": false,
-    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "disableCollisions": false,
@@ -189,7 +189,7 @@
     "rangedItemType": "Default item",
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
-    "spawnThisMob": true,
+    "spawnThisMob": false,
     "doesDespawnWhenIdle": true,
     "spawningProbability": 22,
     "mobSpawningType": "creature",

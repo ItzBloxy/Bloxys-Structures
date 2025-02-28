@@ -28,7 +28,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 
 public class QuantumMageRenderer extends MobRenderer<QuantumMageEntity, Modelquantummage<QuantumMageEntity>> {
 	public QuantumMageRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelquantummage(context.bakeLayer(Modelquantummage.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelquantummage<QuantumMageEntity>(context.bakeLayer(Modelquantummage.LAYER_LOCATION)), 0.5f);
 		this.addLayer(new RenderLayer<QuantumMageEntity, Modelquantummage<QuantumMageEntity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("bloxysstructures:textures/entities/quantum_mage.png");
 

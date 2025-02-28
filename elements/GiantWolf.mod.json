@@ -1,5 +1,5 @@
 {
-  "_fv": 69,
+  "_fv": 73,
   "_type": "livingentity",
   "definition": {
     "mobName": "Giant Wolf",
@@ -365,6 +365,7 @@
         }
       }
     ],
+    "animations": [],
     "modelWidth": 0.6,
     "modelHeight": 0.85,
     "modelShadowSize": 1.0,
@@ -424,7 +425,6 @@
       "fixedValue": false
     },
     "flyingMob": false,
-    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "disableCollisions": false,

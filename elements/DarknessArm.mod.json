@@ -1,5 +1,5 @@
 {
-  "_fv": 69,
+  "_fv": 73,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
@@ -11,8 +11,8 @@
     "name": "Arm of Shadows",
     "specialInformation": {
       "fixedValue": [
-        "- Right Click to use Shadow Shockwave",
-        "- Deals 1 half-heart of damage for each block fallen"
+        "- Press your Item Special Ability Key to use Shadow Shockwave",
+        "- Deals 1 half-heart of extra damage for each block fallen before hitting"
       ]
     },
     "creativeTabs": [

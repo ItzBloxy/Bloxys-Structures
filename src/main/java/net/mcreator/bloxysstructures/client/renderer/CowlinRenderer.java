@@ -11,7 +11,7 @@ import net.mcreator.bloxysstructures.entity.CowlinEntity;
 
 public class CowlinRenderer extends MobRenderer<CowlinEntity, PiglinModel<CowlinEntity>> {
 	public CowlinRenderer(EntityRendererProvider.Context context) {
-		super(context, new PiglinModel(context.bakeLayer(ModelLayers.PIGLIN)), 0.5f);
+		super(context, new PiglinModel<CowlinEntity>(context.bakeLayer(ModelLayers.PIGLIN)), 0.5f);
 	}
 
 	@Override

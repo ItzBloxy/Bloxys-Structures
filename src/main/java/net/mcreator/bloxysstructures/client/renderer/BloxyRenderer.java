@@ -25,7 +25,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 
 public class BloxyRenderer extends MobRenderer<BloxyEntity, Modelbloxy<BloxyEntity>> {
 	public BloxyRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelbloxy(context.bakeLayer(Modelbloxy.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelbloxy<BloxyEntity>(context.bakeLayer(Modelbloxy.LAYER_LOCATION)), 0.5f);
 		this.addLayer(new RenderLayer<BloxyEntity, Modelbloxy<BloxyEntity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("bloxysstructures:textures/entities/bloxytx.png");
 

@@ -17,7 +17,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 
 public class PurpleLightningShockwaveRenderer extends MobRenderer<PurpleLightningShockwaveEntity, Modelexplosionradius<PurpleLightningShockwaveEntity>> {
 	public PurpleLightningShockwaveRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelexplosionradius(context.bakeLayer(Modelexplosionradius.LAYER_LOCATION)), 0f);
+		super(context, new Modelexplosionradius<PurpleLightningShockwaveEntity>(context.bakeLayer(Modelexplosionradius.LAYER_LOCATION)), 0f);
 		this.addLayer(new RenderLayer<PurpleLightningShockwaveEntity, Modelexplosionradius<PurpleLightningShockwaveEntity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("bloxysstructures:textures/entities/purplelightningshockwavetx.png");
 

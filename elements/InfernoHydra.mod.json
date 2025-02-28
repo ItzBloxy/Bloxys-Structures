@@ -1,5 +1,5 @@
 {
-  "_fv": 69,
+  "_fv": 73,
   "_type": "livingentity",
   "definition": {
     "mobName": "Inferno Hydra",
@@ -29,6 +29,7 @@
         "glow": true
       }
     ],
+    "animations": [],
     "modelWidth": 3.9,
     "modelHeight": 1.9000000000000001,
     "modelShadowSize": 0.5,
@@ -88,7 +89,6 @@
       "fixedValue": false
     },
     "flyingMob": true,
-    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "disableCollisions": true,
